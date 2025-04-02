@@ -9,7 +9,7 @@ function BasicForm(){
     function funSubmit(event){
        event.preventDefault();
        let myobj={userName:name,userEmail:email,userPassword:password};
-       console.log(myObj);
+       console.log(myobj);
 
 
        setEmail("");
