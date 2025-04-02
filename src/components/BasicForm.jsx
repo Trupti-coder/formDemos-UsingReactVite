@@ -12,6 +12,11 @@ function BasicForm(){
        console.log(myObj);
 
 
+       setEmail("");
+       setEmail("");
+       setPassword("");
+
+
     }
 
 
