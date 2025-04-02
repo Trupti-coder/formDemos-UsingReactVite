@@ -8,7 +8,8 @@ function BasicForm(){
 
     function funSubmit(event){
        event.preventDefault();
-       let myobj={}
+       let myobj={userName:name,userEmail:email,userPassword:password};
+       console.log(myObj);
 
 
     }
