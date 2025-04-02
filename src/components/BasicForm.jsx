@@ -1,4 +1,10 @@
+import { useState } from "react";
+
 function BasicForm(){
+    let[name,setName]=useState("");
+    let[email,setEmail]=useState("");
+    let[password,setPassword]=useState("");
+    
     return(
         <>
         <h2>Basic Form In React</h2>
@@ -12,6 +18,7 @@ function BasicForm(){
             <div>
                 Password:<input type="password" placeholder="Enter password" required />           
              </div>
+             <button type="submit">Submit</button>
             
         </form>
         
