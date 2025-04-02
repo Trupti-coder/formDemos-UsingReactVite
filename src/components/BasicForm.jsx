@@ -7,6 +7,9 @@ function BasicForm(){
 
 
     function funSubmit(event){
+       event.preventDefault();
+       let myobj={}
+
 
     }
 
@@ -19,10 +22,10 @@ function BasicForm(){
                 Name:<input type="text" placeholder="Enter Name" onChange={(event)=>setName(event.target.value)} />
             </div>
             <div>
-                Email:<input type="email" placeholder="Enter email" required />
+                Email:<input type="email" placeholder="Enter email" required onChange={(event)=>setEmail(event.target.value)} />
             </div>
             <div>
-                Password:<input type="password" placeholder="Enter password" required />           
+                Password:<input type="password" placeholder="Enter password" required  onChange={(event)=>setPassword(event.target.value)}/>           
              </div>
              <button type="submit">Submit</button>
             
