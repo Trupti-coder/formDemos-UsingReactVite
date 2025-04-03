@@ -11,7 +11,15 @@ function IntermediateForm(){
 
     function handleSubmit(event){
         event.preventDefault();
-        let obj={Name:name,City:city,Gender:gender,Email:email,Password:password}
+
+        let obj={
+            Name:name,
+            City:city,
+            Gender:gender,
+            Email:email,
+            Password:password,
+            AcceptedTerms:acceptedTerms
+        }
         console.log(obj);
 
 
@@ -65,7 +73,7 @@ function IntermediateForm(){
                     Password:<input type="password" name="password" required onChange={(event)=>setPassword(event.target.value)} />
                 </div>
                 <div>
-                    <input type="checkbox" checked={acceptedTerms}  />i accept the terms of service
+                    <input type="checkbox" checked={acceptedTerms}  onChange={(event)=>setAcceptedTerms(event.target.checked)} />i accept the terms of service
                 </div>
 
                 <button type="submit">Register</button>
