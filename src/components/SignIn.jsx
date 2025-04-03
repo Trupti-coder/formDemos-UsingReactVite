@@ -20,8 +20,13 @@ function SignIn(){
             <div>
                 Password:<input type="password" required />
             </div>
+            <div>
+                <input type="checkbox" />Remember
+            </div>
 
             <button type="submit">SignIn</button>
+
+            
         </form>
        
         </>
