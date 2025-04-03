@@ -13,7 +13,13 @@ function SignIn(){
         const hasNumber=/\d/.test(password);
         const hasSpecialChar=/[!@#$%^&*()/":,.?]/.test(password);
 
-        
+        if(password.length<minLength){
+            return "Password must contain  at least 8 character.";
+
+        }
+        if(!hasUppercase){
+            return "Password must contain at least one Uppercase letter. ";
+        }
 
     
 
