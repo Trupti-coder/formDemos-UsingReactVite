@@ -17,6 +17,16 @@ function IntermediateForm(){
         const hasNumber=/\d/.test(password);
         const hasSpecialChar=/[!@#$%^&*(),.?":{}|<>]/.test(password);
 
+        if(password.length<minLength){
+            return "Password must be At Least 8 Character long.";
+        }
+
+        if(!hasUppercase){
+
+            return "Password must contain At Least one Uppercase letter.";
+
+        }
+
     }
 
 
