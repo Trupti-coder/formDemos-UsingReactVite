@@ -20,6 +20,12 @@ function BasicForm(){
         existinguser=[];
        }
 
+       if(!Array.isArray(existinguser)){
+        existinguser=[];
+       }
+
+       existinguser.push(myobj);
+
 
 
 
