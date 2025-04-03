@@ -1,4 +1,14 @@
+import { useState } from "react";
+
 function IntermediateForm(){
+
+    let[name,setName]=useState("");
+    let[city,setCity]=useState("");
+    let[gender,setGender]=useState("");
+    let[email,setEmail]=useState("");
+    let[password,setPassword]=useState("");
+
+
     return(
         <>
         <div>
@@ -23,6 +33,9 @@ function IntermediateForm(){
                 </div>
                 <div>
                     Password:<input type="password" name="password" required />
+                </div>
+                <div>
+                    <input type="checkbox"  />i accept the terms of service
                 </div>
 
                 <button type="submit">Register</button>
