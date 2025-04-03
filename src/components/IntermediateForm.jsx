@@ -34,13 +34,13 @@ function IntermediateForm(){
             <h3>Intermediate Form</h3>
             <form onSubmit={handleSubmit}>
                 <div>
-                    Name:<input type="text" name="name" required />
+                    Name:<input type="text" name="name" required  onChange={(event)=>setName(event.target.value)}/>
                 </div>
                 <div>
-                    City:<input type="text" name="city" />
+                    City:<input type="text" name="city" onChange={(event)=>setCity(event.target.value)} />
                 </div>
                 <div>
-                   Gender:<input type="radio" name="gender" value="male"/>male
+                   Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)}/>male
                    <input type="radio" name="gender" value="female" />female
                    <input type="radio" name="gender" value="other" />other
                 </div>
