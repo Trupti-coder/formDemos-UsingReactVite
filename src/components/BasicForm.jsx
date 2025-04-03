@@ -54,6 +54,7 @@ function BasicForm(){
             <div>
                 Password:<input type="password"  name="password" required  onChange={(event)=>setPassword(event.target.value)}/>           
              </div>
+             
              <button type="submit">Submit</button>
             
         </form>
