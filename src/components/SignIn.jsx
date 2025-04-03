@@ -21,6 +21,14 @@ function SignIn(){
             return "Password must contain at least one Uppercase letter. ";
         }
 
+        if(!hasNumber){
+            return "Password must contain at least one Number.";
+        }
+
+        if(!hasSpecialChar){
+            return "Password must contain at least one Special character.";
+        }
+
     
 
 
