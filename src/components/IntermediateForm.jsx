@@ -8,6 +8,7 @@ function IntermediateForm(){
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
     let[acceptedTerms,setAcceptedTerms]=useState(false);
+    let[passwordError,setPasswordError]=useState("");
 
     function handleSubmit(event){
         event.preventDefault();
@@ -34,7 +35,7 @@ function IntermediateForm(){
         let existinguser;
 
         if(localStorage.getItem("formdata")){
-            existinguser=JSON.parse(localStorage.getItem("formdata"));
+            existinguser=JSON.parse(localStorage.getItem("formdata")) || [];
         }
 
 
@@ -45,6 +46,7 @@ function IntermediateForm(){
         existinguser.push(obj);
 
         localStorage.setItem("formdata",JSON.stringify(existinguser));
+        alert("Registration Successful !")
 
 
 
@@ -61,16 +63,17 @@ function IntermediateForm(){
                 <div>
                     City:<input type="text" name="city" onChange={(event)=>setCity(event.target.value)} />
                 </div>
-                <div>
-                   Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)}/>male
-                   <input type="radio" name="gender" value="female" onChange={(event)=>setGender(event.target.value)} />female
-                   <input type="radio" name="gender" value="other" onChange={(event)=>setGender(event.target.value)} />other
-                </div>
+              
                 <div>
                     Email:<input type="email" name="email" required onChange={(event)=>setEmail(event.target.value)} />
                 </div>
                 <div>
-                    Password:<input type="password" name="password" required onChange={(event)=>setPassword(event.target.value)} />
+                    Password:<input type="password" name="password" required />
+                </div>
+                <div>
+                   Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)}/>male
+                   <input type="radio" name="gender" value="female" onChange={(event)=>setGender(event.target.value)} />female
+                   <input type="radio" name="gender" value="other" onChange={(event)=>setGender(event.target.value)} />other
                 </div>
                 <div>
                     <input type="checkbox" checked={acceptedTerms}  onChange={(event)=>setAcceptedTerms(event.target.checked)} />i accept the terms of service
