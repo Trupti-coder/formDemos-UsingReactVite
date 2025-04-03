@@ -23,7 +23,20 @@ function IntermediateForm(){
 
         }
 
+        let existinguser;
+
+        if(localStorage.getItem("formdata")){
+            existinguser=JSON.parse(localStorage.getItem("formdata"));
+        }
+
+
+        if(!Array.isArray(existinguser)){
+            existinguser=[];
+        }
+
         
+
+
 
     }
 
