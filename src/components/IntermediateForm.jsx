@@ -82,8 +82,6 @@ function IntermediateForm(){
         localStorage.setItem("formdata",JSON.stringify(existinguser));
         alert("Registration Successful !")
 
-
-
     }
 
     return(
@@ -103,6 +101,7 @@ function IntermediateForm(){
                 </div>
                 <div>
                     Password:<input type="password" name="password" required onChange={handlePasswordChange}/>
+                    {passwordError && <p style={{color:"red"}}>{passwordError}</p>}
                 </div>
                 <div>
                    Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)}/>male
