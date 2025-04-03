@@ -13,6 +13,14 @@ function BasicForm(){
         const hasNumber=/\d/.test(password);
         const hasSpecialChar=/[!@#$%^&*(),.<>?]/.test(password);
 
+        if(password.length<minLength){
+            return "Password must be at least 8 chracter.";
+        }
+
+        if(!hasUppercase){
+            return"Password contain  must be At least one Uppercase letter. ";
+        }
+
     }
 
     function handlePasswordChange(event){
