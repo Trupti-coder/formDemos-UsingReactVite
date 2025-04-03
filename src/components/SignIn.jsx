@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function SignIn(){
-    let[email,setemail]=useState("");
+    let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
     let[passwordError,setPasswordError]=useState("");
 
@@ -50,7 +50,7 @@ function SignIn(){
         <>
         <form onSubmit={handleSubmit}>
             <div>
-                Email:<input type="email" required />
+                Email:<input type="email" required onChange={(event)=>setEmail(event.target.value)} />
             </div>
             <div>
                 Password:<input type="password" required onChange={handlePassword} />
@@ -61,6 +61,8 @@ function SignIn(){
             </div>
 
             <button type="submit">SignIn</button>
+
+            <p>Or Signin with</p>
 
 
         </form>
