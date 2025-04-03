@@ -35,8 +35,8 @@ function SignIn(){
     }
 
     function handlePassword(event){
-        event.preventDefault();
         setPassword(event.target.value);
+        setPasswordError(validPassword(event.target.value));
 
     }
 
@@ -54,6 +54,7 @@ function SignIn(){
             </div>
             <div>
                 Password:<input type="password" required onChange={handlePassword} />
+                {passwordError && <p style={{color:"red"}}>{passwordError}</p>}
             </div>
             <div>
                 <input type="checkbox" />Remember
