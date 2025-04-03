@@ -9,12 +9,30 @@ function IntermediateForm(){
     let[password,setPassword]=useState("");
     let[acceptedTerms,setAcceptedTerms]=useState(false);
 
+    function handleSubmit(){
+
+
+
+
+
+
+
+
+        if(!acceptedTerms){
+
+            alert("You must accept the terms of service to proceed.");
+             return;
+
+        }
+
+    }
+
 
     return(
         <>
         <div>
             <h3>Intermediate Form</h3>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div>
                     Name:<input type="text" name="name" required />
                 </div>
@@ -33,7 +51,7 @@ function IntermediateForm(){
                     Password:<input type="password" name="password" required />
                 </div>
                 <div>
-                    <input type="checkbox"  />i accept the terms of service
+                    <input type="checkbox" checked={acceptedTerms}  />i accept the terms of service
                 </div>
 
                 <button type="submit">Register</button>
