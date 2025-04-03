@@ -10,9 +10,18 @@ function IntermediateForm(){
     let[acceptedTerms,setAcceptedTerms]=useState(false);
     let[passwordError,setPasswordError]=useState("");
 
-    
+    function validPassword(password){
 
-    function handlePasswordChange(password){
+        const minLength=8;
+        const hasUppercase=/[A-Z]/.test(password);
+        const hasNumber=/\d/.test(password);
+        const hasSpecialChar=/[!@#$%^&*(),.?":{}|<>]/.test(password);
+
+    }
+
+
+
+    function handlePasswordChange(event){
 
     }
 
