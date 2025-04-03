@@ -26,6 +26,13 @@ function IntermediateForm(){
             return "Password must contain At Least one Uppercase letter.";
 
         }
+        if(!hasNumber){
+            return "Password must contain At Least one Number.";
+        }
+
+        if(!hasSpecialChar){
+            return "Password must contain At Least one Special character.";
+        }
 
     }
 
