@@ -22,7 +22,11 @@ function BasicForm(){
         }
 
         if(!hasNumber){
-            return "Password  must contain At least one Number "
+            return "Password  must contain At least one Number. ";
+        }
+
+        if(!hasSpecialChar){
+            return "Password must contain At least one Special Character.";
         }
 
     }
