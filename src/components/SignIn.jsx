@@ -5,6 +5,18 @@ function SignIn(){
     let[password,setPassword]=useState("");
     let[passwordError,setPasswordError]=useState("");
 
+
+    function validPassword(password){
+
+        
+    }
+
+    function handlePassword(event){
+        event.preventDefault();
+        setPassword(event.target.value);
+
+    }
+
     function handleSubmit(event){
         event.preventDefault();
 
@@ -18,7 +30,7 @@ function SignIn(){
                 Email:<input type="email" required />
             </div>
             <div>
-                Password:<input type="password" required />
+                Password:<input type="password" required onChange={handlePassword} />
             </div>
             <div>
                 <input type="checkbox" />Remember
@@ -26,7 +38,7 @@ function SignIn(){
 
             <button type="submit">SignIn</button>
 
-            
+
         </form>
        
         </>
