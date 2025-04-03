@@ -10,6 +10,12 @@ function IntermediateForm(){
     let[acceptedTerms,setAcceptedTerms]=useState(false);
     let[passwordError,setPasswordError]=useState("");
 
+    
+
+    function handlePasswordChange(password){
+
+    }
+
     function handleSubmit(event){
         event.preventDefault();
 
@@ -68,7 +74,7 @@ function IntermediateForm(){
                     Email:<input type="email" name="email" required onChange={(event)=>setEmail(event.target.value)} />
                 </div>
                 <div>
-                    Password:<input type="password" name="password" required />
+                    Password:<input type="password" name="password" required onChange={handlePasswordChange}/>
                 </div>
                 <div>
                    Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)}/>male
