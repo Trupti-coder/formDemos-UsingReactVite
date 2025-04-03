@@ -1,6 +1,9 @@
 function IntermediateForm(){
     return(
         <>
+        <div>
+            
+        </div>
         </>
     );
 }
