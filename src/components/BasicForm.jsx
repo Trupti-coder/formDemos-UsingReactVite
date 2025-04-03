@@ -31,13 +31,12 @@ function BasicForm(){
 
 
 
-
-       setEmail("");
-       setEmail("");
-       setPassword("");
-
-
     }
+
+    setName("");
+    setEmail("");
+    setPassword("");
+
 
 
     return(
