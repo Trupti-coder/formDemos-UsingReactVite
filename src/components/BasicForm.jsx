@@ -4,6 +4,16 @@ function BasicForm(){
     let[name,setName]=useState("");
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
+    let[passwordError,setPasswordError]=useState("");
+
+    function validPassword(password){
+
+    }
+
+    function handlePasswordChange(event){
+        setPassword(event.target.value);
+
+    }
 
 
     function funSubmit(event){
@@ -52,7 +62,7 @@ function BasicForm(){
                 Email:<input type="email" name="email" required onChange={(event)=>setEmail(event.target.value)} />
             </div>
             <div>
-                Password:<input type="password"  name="password" required  onChange={(event)=>setPassword(event.target.value)}/>           
+                Password:<input type="password"  name="password" required onChange={handlePasswordChange}/>           
              </div>
              
              <button type="submit">Submit</button>
