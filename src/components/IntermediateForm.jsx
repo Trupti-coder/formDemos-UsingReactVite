@@ -7,6 +7,7 @@ function IntermediateForm(){
     let[gender,setGender]=useState("");
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
+    let[acceptedTerms,setAcceptedTerms]=useState(false);
 
 
     return(
@@ -21,12 +22,9 @@ function IntermediateForm(){
                     City:<input type="text" name="city" />
                 </div>
                 <div>
-                    Gender:<select name="gender">
-                        <option value=""></option>
-                        <option value="male">Male</option>
-                        <option value="Female">Female</option>
-                        <option value="other">other</option>
-                    </select>
+                   Gender:<input type="radio" name="gender" value="male"/>male
+                   <input type="radio" name="gender" value="female" />female
+                   <input type="radio" name="gender" value="other" />other
                 </div>
                 <div>
                     Email:<input type="email" name="email" required />
