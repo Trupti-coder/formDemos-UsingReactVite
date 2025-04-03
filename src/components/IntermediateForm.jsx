@@ -22,6 +22,8 @@ function IntermediateForm(){
 
 
     function handlePasswordChange(event){
+        setPassword(event.target.value);
+        setPasswordError(validPassword(event.target.value));
 
     }
 
