@@ -5,9 +5,18 @@ function SignIn(){
     let[password,setPassword]=useState("");
     let[passwordError,setPasswordError]=useState("");
 
-    
+
     return(
         <>
+        <form>
+            <div>
+                Email:<input type="email" required />
+            </div>
+            <div>
+                Password:<input type="password" required />
+            </div>
+        </form>
+       
         </>
     );
 }
