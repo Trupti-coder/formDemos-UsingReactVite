@@ -8,13 +8,15 @@ function SignIn(){
 
     return(
         <>
-        <form>
+        <form onSubmit={handleSubmit}>
             <div>
                 Email:<input type="email" required />
             </div>
             <div>
                 Password:<input type="password" required />
             </div>
+
+            <button type="submit">SignIn</button>
         </form>
        
         </>
