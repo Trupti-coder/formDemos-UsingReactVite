@@ -34,7 +34,9 @@ function IntermediateForm(){
             existinguser=[];
         }
 
-        
+        existinguser.push(obj);
+
+        localStorage.setItem("formdata",JSON.stringify(existinguser));
 
 
 
