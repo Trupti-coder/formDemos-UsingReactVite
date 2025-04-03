@@ -9,12 +9,10 @@ function IntermediateForm(){
     let[password,setPassword]=useState("");
     let[acceptedTerms,setAcceptedTerms]=useState(false);
 
-    function handleSubmit(){
-
-
-
-
-
+    function handleSubmit(event){
+        event.preventDefault();
+        let obj={Name:name,City:city,Gender:gender,Email:email,Password:password}
+        console.log(obj);
 
 
 
@@ -25,8 +23,9 @@ function IntermediateForm(){
 
         }
 
-    }
+        
 
+    }
 
     return(
         <>
