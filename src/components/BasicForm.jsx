@@ -11,6 +11,17 @@ function BasicForm(){
        let myobj={userName:name,userEmail:email,userPassword:password};
        console.log(myobj);
 
+       let existinguser;
+
+       if(localStorage.getItem("form")){
+        existinguser=JSON.parse(localStorage.getItem("form"))
+       }
+       else{
+        existinguser=[];
+       }
+
+
+
 
        setEmail("");
        setEmail("");
