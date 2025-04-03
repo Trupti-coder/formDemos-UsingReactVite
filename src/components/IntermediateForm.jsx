@@ -41,14 +41,14 @@ function IntermediateForm(){
                 </div>
                 <div>
                    Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)}/>male
-                   <input type="radio" name="gender" value="female" />female
-                   <input type="radio" name="gender" value="other" />other
+                   <input type="radio" name="gender" value="female" onChange={(event)=>setGender(event.target.value)} />female
+                   <input type="radio" name="gender" value="other" onChange={(event)=>setGender(event.target.value)} />other
                 </div>
                 <div>
-                    Email:<input type="email" name="email" required />
+                    Email:<input type="email" name="email" required onChange={(event)=>setEmail(event.target.value)} />
                 </div>
                 <div>
-                    Password:<input type="password" name="password" required />
+                    Password:<input type="password" name="password" required onChange={(event)=>setPassword(event.target.value)} />
                 </div>
                 <div>
                     <input type="checkbox" checked={acceptedTerms}  />i accept the terms of service
