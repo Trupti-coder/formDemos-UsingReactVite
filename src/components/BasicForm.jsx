@@ -26,6 +26,9 @@ function BasicForm(){
 
        existinguser.push(myobj);
 
+       localStorage.setItem("form",JSON.stringify(existinguser));
+       alert("Data saved successfully to localstorage...");
+
 
 
 
