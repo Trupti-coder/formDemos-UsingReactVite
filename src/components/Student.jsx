@@ -1,10 +1,12 @@
 import { useState } from "react";
 
 function Student(){
+
     let[firstName,setFirstName]=useState("");
     let[lastName,setLastName]=useState("");
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
+    let[passwordError,setPasswordError]=useState("");
     let[contact,setContact]=useState("");
     let[gender,setGender]=useState("");
 
@@ -24,7 +26,7 @@ function Student(){
                 Email:<input type="email" name="email" required />            
             </div>
             <div>
-                Password:<input type="text" name="password" required />
+                Password:<input type="password" name="password" required />
             </div>
             <div>
                 Contact:<input type="tel" name="contact" required />
@@ -36,28 +38,26 @@ function Student(){
              </div>
              <div>
                Your Best Subject:
-               <input type="checkbox"  value="English" />Mathematics
-               <input type="checkbox" value="Physic" />Physics
-               <input type="checkbox" value="Chemistry" />Chemistry
+               <input type="checkbox" name="subject"  value="English" />Mathematics
+               <input type="checkbox" name="subject" value="Physic" />Physics
+               <input type="checkbox" name="subject" value="Chemistry" />Chemistry
                 
              </div>
-             {/* <div>
-            <label for="github-url">GitHub-Url <span style="color: red;">*</span>:</label>
+             <div>
+            <label for="github-url">GitHub-Url <span style={{color: "red"}}>*</span>:</label>
             <input type="url" id="github-url" name="website" pattern="https?://.*" placeholder="Enter a valid URL" required />
-            </div> */}
+            </div> 
             <div>
                 Select Your Choise:
-                <select>
-                    <option>MERN Developer</option>
-                    <option>MEAN Developer</option>
-                    <option>JAVA Developer</option>
-                    <option>IOS Developer</option>
+                <select name="role">
+                    <option value="mern">MERN Developer</option>
+                    <option value="mean">MEAN Developer</option>
+                    <option value="java">JAVA Developer</option>
+                    <option value="ios">IOS Developer</option>
                     
                 </select>
             </div>
-            <div>
-                About:<input type="textarea" name="textarea" required />
-            </div>
+           
             <div>
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button>
