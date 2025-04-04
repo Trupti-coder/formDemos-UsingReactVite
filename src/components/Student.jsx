@@ -17,6 +17,10 @@ function Student(){
         const hasNumber=/\d/.test(password);
         const hasSpecialChar=/[!@#$%^&*():"?]/.test(password);
 
+        if(password.length<minLength){
+            return "Password must be At Least 8 Character long.";
+        }
+
     }
 
     function handlePasswordChange(event){
