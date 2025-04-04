@@ -67,10 +67,10 @@ function Student(){
                 Password:<input type="password" name="password" required />
             </div>
             <div>
-                Contact:<input type="tel" name="contact" required />
+                Contact:<input type="tel" name="contact" required  onChange={(event)=>setContact(event.target.value)}/>
             </div>
             <div>
-                Gender:<input type="radio" name="gender" value="male" />Male
+                Gender:<input type="radio" name="gender" value="male"  />Male
                 <input type="radio" name="gender" value="female" />Female
                 <input type="radio" name="gender" value="other" />Other
              </div>
