@@ -28,10 +28,11 @@ function SignIn(){
         }
 
         if(!hasSpecialChar){
+            
             return "Password must contain at least one Special character.";
+
         }
 
-    
 
     }
 
@@ -52,7 +53,13 @@ function SignIn(){
             existinguser=JSON.parse(localStorage.getItem("userform")) || [];
         }
 
-        
+        if(!Array.isArray(existinguser)){
+            existinguser=[];
+        }
+
+        existinguser.push(obj);
+        localStorage.setItem("userform",JSON.stringify(existinguser));
+        alert("SignIn Successful..!")
 
     }
 
