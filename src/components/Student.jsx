@@ -54,6 +54,14 @@ function Student(){
                     
                 </select>
             </div>
+            <div>
+                About:<input type="textarea" name="textarea" required />
+            </div>
+            <div>
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+            </div>
+
         </form>
         </>
     );
