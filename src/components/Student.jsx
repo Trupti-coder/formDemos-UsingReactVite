@@ -51,7 +51,7 @@ function Student(){
     }
 
     
-    
+
     return(
         <>
         <h3>Advance Form In React</h3>
@@ -78,9 +78,9 @@ function Student(){
              </div>
              <div>
                Your Best Subject:
-               <input type="checkbox" name="subject"  value="English" />Mathematics
-               <input type="checkbox" name="subject" value="Physic" />Physics
-               <input type="checkbox" name="subject" value="Chemistry" />Chemistry
+               <input type="checkbox" name="subject"  value="English" onChange={handleSubjectChange} />Mathematics
+               <input type="checkbox" name="subject" value="Physic" onChange={handleSubjectChange} />Physics
+               <input type="checkbox" name="subject" value="Chemistry" onChange={handleSubjectChange} />Chemistry
                 
              </div>
              <div>
