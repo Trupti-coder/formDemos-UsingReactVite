@@ -37,11 +37,17 @@ function Student(){
          
     }
 
+
+
     function handlePasswordChange(event){
 
         setPassword(event.target.value);
         setPasswordError(validPassword(event.target.value));
 
+    }
+
+    function handleSubjectChange(event){
+        const value=event.target.value;
     }
 
 
