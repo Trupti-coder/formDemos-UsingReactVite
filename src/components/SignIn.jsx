@@ -33,7 +33,6 @@ function SignIn(){
 
     
 
-
     }
 
     function handlePassword(event){
@@ -44,6 +43,8 @@ function SignIn(){
 
     function handleSubmit(event){
         event.preventDefault();
+        let obj={userEmail:email,userPassword:password,userRemember:remember}
+        console.log(obj);
 
     }
 
