@@ -40,6 +40,10 @@ function Student(){
                <input type="checkbox" value="Chemistry" />Chemistry
                 
              </div>
+             <div>
+            <label for="github-url">GitHub-Url <span style="color: red;">*</span>:</label>
+            <input type="url" id="github-url" name="website" pattern="https?://.*" placeholder="Enter a valid URL" required />
+            </div>
         </form>
         </>
     );
