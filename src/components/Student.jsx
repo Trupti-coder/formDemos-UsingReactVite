@@ -10,9 +10,21 @@ function Student(){
     let[contact,setContact]=useState("");
     let[gender,setGender]=useState("");
 
+    function validPassword(password){
+
+    }
+
+    function handlePasswordChange(event){
+
+        setPassword(event.target.value);
+        setPasswordError(validPassword(event.target.value));
+
+    }
+
 
     function handleSubmit(event){
         event.preventDefault();
+
     }
 
     
