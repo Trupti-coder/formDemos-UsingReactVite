@@ -70,9 +70,9 @@ function Student(){
                 Contact:<input type="tel" name="contact" required  onChange={(event)=>setContact(event.target.value)}/>
             </div>
             <div>
-                Gender:<input type="radio" name="gender" value="male"  />Male
-                <input type="radio" name="gender" value="female" />Female
-                <input type="radio" name="gender" value="other" />Other
+                Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)} />Male
+                <input type="radio" name="gender" value="female" onChange={(event)=>setGender(event.target.value)} />Female
+                <input type="radio" name="gender" value="other" onChange={(event)=>setGender(event.target.value)} />Other
              </div>
              <div>
                Your Best Subject:
