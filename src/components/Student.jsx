@@ -10,12 +10,17 @@ function Student(){
     let[contact,setContact]=useState("");
     let[gender,setGender]=useState("");
 
+
+    function handleSubmit(event){
+        event.preventDefault();
+    }
+
     
 
     return(
         <>
         <h3>Advance Form In React</h3>
-        <form>
+        <form onSubmit={handleSubmit}>
             <div>
                 FirstName:<input type="text" name="firstname" required />
             </div>
