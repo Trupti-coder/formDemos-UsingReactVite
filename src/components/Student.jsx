@@ -5,6 +5,10 @@ function Student(){
     let[lastName,setLastName]=useState("");
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
+    let[contact,setContact]=useState("");
+    let[gender,setGender]=useState("");
+
+    
 
     return(
         <>
@@ -21,6 +25,14 @@ function Student(){
             <div>
                 Password:<input type="text" name="password" required />
             </div>
+            <div>
+                Contact:<input type="tel" name="contact" required />
+            </div>
+            <div>
+                Gender:<input type="radio" name="gender" value="male" />Male
+                <input type="radio" name="gender" value="female" />Female
+                <input type="radio" name="gender" value="other" />Other
+             </div>
         </form>
         </>
     );
