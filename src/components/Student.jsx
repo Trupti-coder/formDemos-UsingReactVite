@@ -12,6 +12,7 @@ function Student(){
 
     return(
         <>
+        <h3>Advance Form In React</h3>
         <form>
             <div>
                 FirstName:<input type="text" name="firstname" required />
@@ -40,10 +41,10 @@ function Student(){
                <input type="checkbox" value="Chemistry" />Chemistry
                 
              </div>
-             <div>
+             {/* <div>
             <label for="github-url">GitHub-Url <span style="color: red;">*</span>:</label>
             <input type="url" id="github-url" name="website" pattern="https?://.*" placeholder="Enter a valid URL" required />
-            </div>
+            </div> */}
             <div>
                 Select Your Choise:
                 <select>
