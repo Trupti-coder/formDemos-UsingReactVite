@@ -4,6 +4,8 @@ function SignIn(){
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
     let[passwordError,setPasswordError]=useState("");
+    let[remember,setRemember]=useState("");
+    
 
 
     function validPassword(password){
@@ -57,12 +59,12 @@ function SignIn(){
                 {passwordError && <p style={{color:"red"}}>{passwordError}</p>}
             </div>
             <div>
-                <input type="checkbox" />Remember
+                <input type="checkbox" checked={remember} onChange={(event)=>setRemember(event.target.value)} />Remember
             </div>
 
             <button type="submit">SignIn</button>
 
-            <p>Or Signin with</p>
+           
 
 
         </form>
