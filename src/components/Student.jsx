@@ -21,6 +21,15 @@ function Student(){
             return "Password must be At Least 8 Character long.";
         }
 
+        if(!hasUppercase){
+            return "Password contain must at least one Uppercase letter.";
+        }
+
+        if(!hasNumber){
+            return "Password contain must at least one Number.";
+        }
+
+       
     }
 
     function handlePasswordChange(event){
