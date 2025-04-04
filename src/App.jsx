@@ -2,6 +2,7 @@ import './App.css'
 import BasicForm from './components/BasicForm.jsx'
 import First from './components/First.jsx'
 import IntermediateForm from './components/IntermediateForm.jsx'
+import Student from './components/Student.jsx'
 
 function App() {
   
@@ -13,6 +14,8 @@ function App() {
     <BasicForm />
     <br></br>
     <IntermediateForm />
+    <br></br>
+    <Student />
       
     </>
   )
