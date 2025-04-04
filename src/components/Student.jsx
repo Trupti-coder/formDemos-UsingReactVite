@@ -33,6 +33,13 @@ function Student(){
                 <input type="radio" name="gender" value="female" />Female
                 <input type="radio" name="gender" value="other" />Other
              </div>
+             <div>
+               Your Best Subject:
+               <input type="checkbox"  value="English" />Mathematics
+               <input type="checkbox" value="Physic" />Physics
+               <input type="checkbox" value="Chemistry" />Chemistry
+                
+             </div>
         </form>
         </>
     );
