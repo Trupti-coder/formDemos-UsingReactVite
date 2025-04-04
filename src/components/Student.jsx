@@ -44,6 +44,16 @@ function Student(){
             <label for="github-url">GitHub-Url <span style="color: red;">*</span>:</label>
             <input type="url" id="github-url" name="website" pattern="https?://.*" placeholder="Enter a valid URL" required />
             </div>
+            <div>
+                Select Your Choise:
+                <select>
+                    <option>MERN Developer</option>
+                    <option>MEAN Developer</option>
+                    <option>JAVA Developer</option>
+                    <option>IOS Developer</option>
+                    
+                </select>
+            </div>
         </form>
         </>
     );
