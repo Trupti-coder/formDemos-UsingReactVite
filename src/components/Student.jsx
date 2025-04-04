@@ -89,7 +89,7 @@ function Student(){
             </div> 
             <div>
                 Select Your Choise:
-                <select name="role">
+                <select name="role" required onChange={(event)=>setRole(event.target.value)}>
                     <option value="mern">MERN Developer</option>
                     <option value="mean">MEAN Developer</option>
                     <option value="java">JAVA Developer</option>
