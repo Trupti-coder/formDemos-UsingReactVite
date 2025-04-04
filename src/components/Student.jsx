@@ -32,7 +32,7 @@ function Student(){
         if(!hasSpecialChar){
             return "Password contain must at least one Special Character.";
         }
-        
+         
     }
 
     function handlePasswordChange(event){
@@ -55,13 +55,13 @@ function Student(){
         <h3>Advance Form In React</h3>
         <form onSubmit={handleSubmit}>
             <div>
-                FirstName:<input type="text" name="firstname" required />
+                FirstName:<input type="text" name="firstname" required onChange={(event)=>setFirstName(event.target.value)} />
             </div>
             <div>
-               LastName:<input type="text" name="lastname" required />
+               LastName:<input type="text" name="lastname" required onChange={(event)=>setLastName(event.target.value)} />
             </div>
             <div>
-                Email:<input type="email" name="email" required />            
+                Email:<input type="email" name="email" required  onChange={(event)=>setEmail(event.target.value)}/>            
             </div>
             <div>
                 Password:<input type="password" name="password" required />
