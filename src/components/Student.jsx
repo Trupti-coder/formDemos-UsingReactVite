@@ -12,6 +12,11 @@ function Student(){
 
     function validPassword(password){
 
+        const minLength=8;
+        const hasUppercase=/[A-Z]/.test(password);
+        const hasNumber=/\d/.test(password);
+        const hasSpecialChar=/[!@#$%^&*():"?]/.test(password);
+
     }
 
     function handlePasswordChange(event){
