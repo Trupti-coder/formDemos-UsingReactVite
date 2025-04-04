@@ -9,6 +9,8 @@ function Student(){
     let[passwordError,setPasswordError]=useState("");
     let[contact,setContact]=useState("");
     let[gender,setGender]=useState("");
+    let[role,setRole]=useState("");
+    let[subject,setSubject]=useState("");
 
     function validPassword(password){
 
@@ -64,7 +66,7 @@ function Student(){
                 Email:<input type="email" name="email" required  onChange={(event)=>setEmail(event.target.value)}/>            
             </div>
             <div>
-                Password:<input type="password" name="password" required />
+                Password:<input type="password" name="password" required onChange={handlePasswordChange} />
             </div>
             <div>
                 Contact:<input type="tel" name="contact" required  onChange={(event)=>setContact(event.target.value)}/>
