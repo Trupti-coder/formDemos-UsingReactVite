@@ -46,6 +46,14 @@ function SignIn(){
         let obj={userEmail:email,userPassword:password,userRemember:remember}
         console.log(obj);
 
+        let existinguser;
+
+        if(localStorage.getItem("userform")){
+            existinguser=JSON.parse(localStorage.getItem("userform")) || [];
+        }
+
+        
+
     }
 
 
