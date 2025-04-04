@@ -29,7 +29,10 @@ function Student(){
             return "Password contain must at least one Number.";
         }
 
-       
+        if(!hasSpecialChar){
+            return "Password contain must at least one Special Character.";
+        }
+        
     }
 
     function handlePasswordChange(event){
