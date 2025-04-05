@@ -41,7 +41,8 @@ function Student(){
 
     function handlePasswordChange(event){
 
-        setPassword(event.target.value);
+        const newPassword=event.target.value;
+        setPassword(newPassword);
         setPasswordError(validPassword(event.target.value));
 
     }
