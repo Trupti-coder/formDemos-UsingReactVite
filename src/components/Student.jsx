@@ -67,10 +67,13 @@ function Student(){
             Password:password,
             Contact:contact,
             Gender:gender,
-            Role:role
+            Role:role,
+            StudSubjects:subjects
         }
 
         console.log(studentData);
+
+        
 
     }
 
