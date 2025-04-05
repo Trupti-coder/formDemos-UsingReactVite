@@ -26,3 +26,13 @@
     cursor: pointer;
     width: 100%;
 }
+
+.submitButton:hover {
+    background-color: #45a049;
+}
+
+.errorText {
+    color: red;
+    font-size: 14px;
+}
+
