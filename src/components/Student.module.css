@@ -52,3 +52,15 @@ select {
   align-items: center;
   gap: 5px;
 }
+
+button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    background-color: #2980b9;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
