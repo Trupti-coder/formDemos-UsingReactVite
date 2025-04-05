@@ -109,15 +109,15 @@ function Student(){
             <div className={styles.formGroup}>
                 Password:<input type="password" name="password" required onChange={handlePasswordChange} />
             </div>
-            <div>
+            <div className={styles.formGroup}>
                 Contact:<input type="tel" name="contact" required  onChange={(event)=>setContact(event.target.value)}/>
             </div>
-            <div>
+            <div className={styles.formGroup}>
                 Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)} />Male
                 <input type="radio" name="gender" value="female" onChange={(event)=>setGender(event.target.value)} />Female
                 <input type="radio" name="gender" value="other" onChange={(event)=>setGender(event.target.value)} />Other
              </div>
-             <div>
+             <div className={styles.formGroup}>
                Your Best Subject:
                <input type="checkbox" name="subject"  value="English" onChange={handleSubjectChange} />Mathematics
                <input type="checkbox" name="subject" value="Physic" onChange={handleSubjectChange} />Physics
@@ -128,7 +128,7 @@ function Student(){
             <label for="github-url">GitHub-Url <span style={{color: "red"}}>*</span>:</label>
             <input type="url" id="github-url" name="website" pattern="https?://.*" placeholder="Enter a valid URL" required />
             </div> 
-            <div>
+            <div className={styles.formGroup}>
                 Select Your Choise:
                 <select name="role" required onChange={(event)=>setRole(event.target.value)}>
                     <option value="mern">MERN Developer</option>
@@ -140,7 +140,7 @@ function Student(){
 
             </div>
            
-            <div>
+            <div className={styles.formGroup}>
                 <button type="submit">Submit</button>
                 <button type="reset">Reset</button>
             </div>
