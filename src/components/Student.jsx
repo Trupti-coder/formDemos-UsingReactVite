@@ -85,6 +85,9 @@ function Student(){
 
         existingUser.push(studentData);
 
+        localStorage.setItem("studData",JSON.parse(existingUser));
+        alert("Registration Successful !")
+
     }
 
     
