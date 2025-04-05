@@ -73,7 +73,10 @@ function Student(){
 
         console.log(studentData);
 
-        
+        let existingUser;
+        if(localStorage.getItem("studData")){
+            existingUser=JSON.parse(localStorage.getItem("studData"))|| [];
+        }
 
     }
 
