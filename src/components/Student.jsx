@@ -10,7 +10,7 @@ function Student(){
     let[contact,setContact]=useState("");
     let[gender,setGender]=useState("");
     let[role,setRole]=useState("");
-    let[subject,setSubject]=useState("");
+    let[subject,setSubject]=useState([]);
 
     function validPassword(password){
 
@@ -49,6 +49,7 @@ function Student(){
 
     function handleSubjectChange(event){
         const value=event.target.value;
+        
     }
 
 
