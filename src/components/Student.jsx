@@ -94,18 +94,19 @@ function Student(){
 
     return(
         <>
-        <h3>Advance Form In React</h3>
+        <div className={styles.container}>
+        <h3 className={styles.title}>Advance Form In React</h3>
         <form onSubmit={handleSubmit}>
-            <div>
+            <div className={styles.formGroup}>
                 FirstName:<input type="text" name="firstname" required onChange={(event)=>setFirstName(event.target.value)} />
             </div>
-            <div>
+            <div className={styles.formGroup}>
                LastName:<input type="text" name="lastname" required onChange={(event)=>setLastName(event.target.value)} />
             </div>
-            <div>
+            <div className={styles.formGroup}>
                 Email:<input type="email" name="email" required  onChange={(event)=>setEmail(event.target.value)}/>            
             </div>
-            <div>
+            <div className={styles.formGroup}>
                 Password:<input type="password" name="password" required onChange={handlePasswordChange} />
             </div>
             <div>
@@ -145,6 +146,7 @@ function Student(){
             </div>
 
         </form>
+        </div>
         </>
     );
 }
