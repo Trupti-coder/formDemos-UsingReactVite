@@ -10,7 +10,7 @@ function Student(){
     let[contact,setContact]=useState("");
     let[gender,setGender]=useState("");
     let[role,setRole]=useState("");
-    let[subject,setSubject]=useState([]);
+    let[subjects,setSubjects]=useState([]);
 
     function validPassword(password){
 
@@ -48,8 +48,11 @@ function Student(){
     }
 
     function handleSubjectChange(event){
-        const value=event.target.value;
-        
+       
+        const { value, checked } = event.target;
+        setSubjects(prevSubjects =>
+            checked ? [...prevSubjects, value] : prevSubjects.filter(subject => subject !== value)
+        );
     }
 
 
