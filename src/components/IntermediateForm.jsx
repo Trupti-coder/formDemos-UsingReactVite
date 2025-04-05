@@ -88,27 +88,34 @@ function IntermediateForm(){
     return(
         <>
         <div className={styles.container}>
+
             <h3 className={styles.title}>Intermediate Form</h3>
+            
             <form onSubmit={handleSubmit}>
+
                 <div className="styles.fromGroup">
                     Name:<input type="text" name="name" required  onChange={(event)=>setName(event.target.value)}/>
                 </div>
-                <div>
+
+                <div className={styles.formGroup}>
                     City:<input type="text" name="city" onChange={(event)=>setCity(event.target.value)} />
                 </div>
               
-                <div>
+                <div className={styles.formGroup}>
                     Email:<input type="email" name="email" required onChange={(event)=>setEmail(event.target.value)} />
                 </div>
+
                 <div>
                     Password:<input type="password" name="password" required onChange={handlePasswordChange}/>
                     {passwordError && <p style={{color:"red"}}>{passwordError}</p>}
                 </div>
-                <div>
+
+                <div className={styles.formGroup}>
                    Gender:<input type="radio" name="gender" value="male" onChange={(event)=>setGender(event.target.value)}/>male
                    <input type="radio" name="gender" value="female" onChange={(event)=>setGender(event.target.value)} />female
                    <input type="radio" name="gender" value="other" onChange={(event)=>setGender(event.target.value)} />other
                 </div>
+
                 <div>
                     <input type="checkbox" checked={acceptedTerms}  onChange={(event)=>setAcceptedTerms(event.target.checked)} />i accept the terms of service
                 </div>
