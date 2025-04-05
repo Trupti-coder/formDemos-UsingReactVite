@@ -64,3 +64,13 @@ button {
     font-weight: bold;
     transition: background-color 0.3s ease;
   }
+
+  button:hover {
+    background-color: #1c5980;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+  }
