@@ -78,6 +78,13 @@ function Student(){
             existingUser=JSON.parse(localStorage.getItem("studData"))|| [];
         }
 
+        if(!Array.isArray(existingUser)){
+            existingUser=[];
+
+        }
+
+        existingUser.push(studentData);
+
     }
 
     
