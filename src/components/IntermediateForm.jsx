@@ -90,7 +90,7 @@ function IntermediateForm(){
         <div className={styles.container}>
 
             <h3 className={styles.title}>Intermediate Form</h3>
-            
+
             <form onSubmit={handleSubmit}>
 
                 <div className="styles.fromGroup">
@@ -116,7 +116,7 @@ function IntermediateForm(){
                    <input type="radio" name="gender" value="other" onChange={(event)=>setGender(event.target.value)} />other
                 </div>
 
-                <div>
+                <div className={styles.checkboxGroup}>
                     <input type="checkbox" checked={acceptedTerms}  onChange={(event)=>setAcceptedTerms(event.target.checked)} />i accept the terms of service
                 </div>
 
