@@ -20,9 +20,11 @@
     margin-bottom: 15px;
   }
 
-  .formGroup label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #444;
+  .formGroup input[type="text"],
+  .formGroup input[type="email"],
+  .formGroup input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 8px;
   }
