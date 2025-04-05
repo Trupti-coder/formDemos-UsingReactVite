@@ -60,8 +60,17 @@ function Student(){
         event.preventDefault();
 
         const studentData={
-            FirstName:firstName,LastName:lastName,Email:email,Password:password,Contact:contact,Gender:gender,Role:role
+
+            FirstName:firstName,
+            LastName:lastName,
+            Email:email,
+            Password:password,
+            Contact:contact,
+            Gender:gender,
+            Role:role
         }
+
+        console.log(studentData);
 
     }
 
