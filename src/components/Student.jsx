@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from './IntermediateForm.module.css';
+import styles from './Student.module.css';
 
 function Student(){
 
