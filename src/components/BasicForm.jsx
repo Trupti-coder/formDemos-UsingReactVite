@@ -75,22 +75,24 @@ function BasicForm(){
 
     return(
         <>
+        <div className={styles.formContainer}>
         <h2>Basic Form In React</h2>
         <form onSubmit={funSubmit}>
             <div>
-                Name:<input type="text" name="name" onChange={(event)=>setName(event.target.value)} />
+                Name:<input type="text" name="name" onChange={(event)=>setName(event.target.value)} className={styles.inputField} />
             </div>
             <div>
-                Email:<input type="email" name="email" required onChange={(event)=>setEmail(event.target.value)} />
+                Email:<input type="email" name="email" required onChange={(event)=>setEmail(event.target.value)} className={styles.inputField} />
             </div>
             <div>
-                Password:<input type="password"  name="password" required onChange={handlePasswordChange}/>
+                Password:<input type="password"  name="password" required onChange={handlePasswordChange} className={styles.inputField} />
                 {passwordError && <p style={{color:"red"}}>{passwordError}</p>}           
              </div>
              
-             <button type="submit">Submit</button>
+             <button type="submit" className={submitButton}>Submit</button>
             
         </form>
+        </div>
         
         </>
     );
