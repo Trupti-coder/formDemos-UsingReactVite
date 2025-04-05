@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from './IntermediateForm.module.css'; 
 
 function IntermediateForm(){
 
@@ -86,10 +87,10 @@ function IntermediateForm(){
 
     return(
         <>
-        <div>
-            <h3>Intermediate Form</h3>
+        <div className={styles.container}>
+            <h3 className={styles.title}>Intermediate Form</h3>
             <form onSubmit={handleSubmit}>
-                <div>
+                <div className="styles.fromGroup">
                     Name:<input type="text" name="name" required  onChange={(event)=>setName(event.target.value)}/>
                 </div>
                 <div>
