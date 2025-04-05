@@ -38,3 +38,10 @@ select {
   border-radius: 8px;
   box-sizing: border-box;
 }
+
+.radioGroup,
+.checkboxGroup {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
