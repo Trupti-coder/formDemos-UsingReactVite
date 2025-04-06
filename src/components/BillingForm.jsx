@@ -1,8 +1,12 @@
 function BillingForm(){
+
+    function handleSubmit(){
+        
+    }
     return(
         <>
         <div>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div>
                     FirstName:<input type="text" name="firstname" required />
                 </div>
