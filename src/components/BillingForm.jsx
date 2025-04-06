@@ -9,10 +9,15 @@ function BillingForm(){
         userName:"",
         email:"",
         address:"",
-        country:"",state:"",zip:"",shippingAdd:"",info:"",paymentMethod:"",cardName:"",expDate:"",cvv:""
-
-
-
+        country:"",
+        state:"",
+        zip:"",
+        shippingAdd:"",
+        info:"",
+        paymentMethod:"",
+        cardName:"",
+        expDate:"",
+        cvv:""
 
 
 
