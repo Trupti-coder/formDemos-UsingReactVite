@@ -48,6 +48,13 @@ function BillingForm(){
                 <div>
                     <input type="checkbox" name="info" required />Save this information for next time
                 </div>
+                <hr></hr>
+                <h3>Payment</h3>
+                <div>
+                    <input type="checkbox" required />Credit card
+                    <input type="checkbox" required />Debit card
+                    <input type="checkbox" required />PayPal
+                </div>
             </form>
 
         </div>
