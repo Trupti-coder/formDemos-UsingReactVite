@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from "./BillingForm.module.css"
 
 function BillingForm(){
 
@@ -77,7 +78,7 @@ function BillingForm(){
     }
     return(
         <>
-        <div>
+        <div className={styles.container }>
             <form onSubmit={handleSubmit}>
                 <div>
                     FirstName:<input type="text" name="firstName" required  value={formData.firstName} onChange={handleChange}/>
