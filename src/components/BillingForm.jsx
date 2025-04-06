@@ -41,7 +41,11 @@ function BillingForm(){
             existingUser=[];
         }
 
-        
+        existingUser.push(formData);
+
+        localStorage.setItem("billingData",JSON.stringify(existingUser));
+
+        alert("Billing info saved to localStorage..");
 
 
     }
