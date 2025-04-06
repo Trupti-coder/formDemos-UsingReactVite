@@ -29,6 +29,16 @@ function BillingForm(){
                     <option>Shrilanka</option>
                  </select>
                 </div>
+                <div>
+                 State:<select>
+                    <option>Maharastra</option>
+                    <option>Gujrat</option>
+                    <option>Rajasthan</option>
+                    <option>Tamilnadu</option>
+                    <option>Karnataka</option>
+                    <option>Asam</option>
+                 </select>
+                </div>
             </form>
 
         </div>
