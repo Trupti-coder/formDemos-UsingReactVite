@@ -59,6 +59,12 @@ function BillingForm(){
                  Name on Card:<input type="text" />
                  Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} />
                 </div>
+                <div>
+                    Expiration:<input type="month" name="exp-date" required></input>
+                </div>
+                <div>
+                    CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} />
+                </div>
             </form>
 
         </div>
