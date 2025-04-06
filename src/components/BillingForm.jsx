@@ -39,6 +39,9 @@ function BillingForm(){
                     <option>Asam</option>
                  </select>
                 </div>
+                <div>
+                    Zip-Code:<input type="text" name="zip" pattern="[0-9]{5}" maxLength={5} required />
+                </div>
             </form>
 
         </div>
