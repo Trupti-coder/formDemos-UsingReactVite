@@ -60,6 +60,14 @@ function BillingForm(){
             lastName:"",
             userName:"",
             email:"",
+            address:"",
+            country:"",
+            state:"",
+            zip:"",
+            shippingAdd:"",
+            info:"",
+            paymentMethod:"",
+            cardName:"",
         })
 
 
