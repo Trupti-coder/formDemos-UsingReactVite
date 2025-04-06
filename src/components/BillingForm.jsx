@@ -96,6 +96,7 @@ function BillingForm(){
                 </div>
                 <div>
                  Country:<select name="country" value={formData.country} onChange={handleChange}>
+                    <option value="">Select Country</option>
                     <option>India</option>
                     <option>Pakistan</option>
                     <option>America</option>
@@ -106,7 +107,8 @@ function BillingForm(){
                  </select>
                 </div>
                 <div>
-                 State:<select name="state" onChange={handleChange}>
+                 State:<select name="state" value={formData.state} onChange={handleChange}>
+                    <option value="">Select State</option>
                     <option>Maharastra</option>
                     <option>Gujrat</option>
                     <option>Rajasthan</option>
@@ -116,20 +118,20 @@ function BillingForm(){
                  </select>
                 </div>
                 <div>
-                    Zip-Code:<input type="text" name="zip" pattern="[0-9]{5}" maxLength={5} required onChange={handleChange} />
+                    Zip-Code:<input type="text" name="zip" pattern="[0-9]{5}" maxLength={5} required value={formData.zip} onChange={handleChange} />
                 </div>
                 <div>
-                    <input type="checkbox" name="shippingAdd" />Shipping address is same as my Billing Address 
+                    <input type="checkbox" name="shippingAdd" checked={formData.shippingAdd} />Shipping address is same as my Billing Address 
                 </div>
                 <div>
-                    <input type="checkbox" name="info" required />Save this information for next time
+                    <input type="checkbox" name="info" required checked={formData.info} onChange={handleChange} />Save this information for next time
                 </div>
                 <hr></hr>
                 <h3>Payment</h3>
                 <div>
-                    <input type="checkbox" required name="paymentMethod" onChange={handleChange} />Credit card
-                    <input type="checkbox" required name="paymentMethod" onChange={handleChange}/>Debit card
-                    <input type="checkbox" required name="paymentMethod" onChange={handleChange}/>PayPal
+                    <input type="checkbox" required name="paymentMethod" checked={formData.paymentMethod==="Credit card"}  onChange={handleChange} />Credit card
+                    <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="Credit card"} />Debit card
+                    <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="Credit card"} />PayPal
                 </div>
                 <div>
                  Name on Card:<input type="text" name="cardName"  onChange={handleChange}/>
