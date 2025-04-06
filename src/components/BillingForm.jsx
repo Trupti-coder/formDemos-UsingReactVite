@@ -68,7 +68,10 @@ function BillingForm(){
             info:"",
             paymentMethod:"",
             cardName:"",
-        })
+            cardNumber:"",
+            expDate:"",
+            cvv:""
+        });
 
 
     }
