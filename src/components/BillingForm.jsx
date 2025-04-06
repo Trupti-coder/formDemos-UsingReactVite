@@ -24,12 +24,18 @@ function BillingForm(){
     });
 
     function handleChange(event){
+        const {name,value,type,checked}=event.target;
+        setFormData((prev)=>({
+            ...prev,
+            [name]:type==="checkbox" ? checked:value
+        }));
 
 
     }
 
     function handleSubmit(event){
         event.preventdefault();
+
 
         let existingUser;
 
