@@ -46,7 +46,7 @@ function BillingForm(){
                    Address:<input type="text" name="address" required onChange={handleChange} />
                 </div>
                 <div>
-                 Country:<select name="country">
+                 Country:<select name="country" onChange={handleChange}>
                     <option>India</option>
                     <option>Pakistan</option>
                     <option>America</option>
@@ -57,7 +57,7 @@ function BillingForm(){
                  </select>
                 </div>
                 <div>
-                 State:<select name="state">
+                 State:<select name="state" onChange={handleChange}>
                     <option>Maharastra</option>
                     <option>Gujrat</option>
                     <option>Rajasthan</option>
@@ -67,7 +67,7 @@ function BillingForm(){
                  </select>
                 </div>
                 <div>
-                    Zip-Code:<input type="text" name="zip" pattern="[0-9]{5}" maxLength={5} required />
+                    Zip-Code:<input type="text" name="zip" pattern="[0-9]{5}" maxLength={5} required onChange={handleChange} />
                 </div>
                 <div>
                     <input type="checkbox" name="shippingAdd" />Shipping address is same as my Billing Address 
@@ -78,9 +78,9 @@ function BillingForm(){
                 <hr></hr>
                 <h3>Payment</h3>
                 <div>
-                    <input type="checkbox" required name="paymentMethod" />Credit card
-                    <input type="checkbox" required name="paymentMethod" />Debit card
-                    <input type="checkbox" required name="paymentMethod" />PayPal
+                    <input type="checkbox" required name="paymentMethod" onChange={handleChange} />Credit card
+                    <input type="checkbox" required name="paymentMethod" onChange={handleChange}/>Debit card
+                    <input type="checkbox" required name="paymentMethod" onChange={handleChange}/>PayPal
                 </div>
                 <div>
                  Name on Card:<input type="text" name="cardName" />
