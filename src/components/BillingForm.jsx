@@ -89,13 +89,13 @@ function BillingForm(){
                     UserName:<input type="text" name="userName" required value={formData.userName} onChange={handleChange} />
                 </div>
                 <div>
-                    Email:<input type="email" name="email" required onChange={handleChange} />
+                    Email:<input type="email" name="email" required value={formData.email} onChange={handleChange} />
                 </div>
                 <div>
-                   Address:<input type="text" name="address" required onChange={handleChange} />
+                   Address:<input type="text" name="address" required  value={formData.address} onChange={handleChange} />
                 </div>
                 <div>
-                 Country:<select name="country" onChange={handleChange}>
+                 Country:<select name="country" value={formData.country} onChange={handleChange}>
                     <option>India</option>
                     <option>Pakistan</option>
                     <option>America</option>
