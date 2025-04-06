@@ -55,6 +55,10 @@ function BillingForm(){
                     <input type="checkbox" required />Debit card
                     <input type="checkbox" required />PayPal
                 </div>
+                <div>
+                 Name on Card:<input type="text" />
+                 Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} />
+                </div>
             </form>
 
         </div>
