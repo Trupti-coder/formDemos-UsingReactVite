@@ -42,6 +42,12 @@ function BillingForm(){
                 <div>
                     Zip-Code:<input type="text" name="zip" pattern="[0-9]{5}" maxLength={5} required />
                 </div>
+                <div>
+                    <input type="checkbox" name="shippingAdd" />Shipping address is same as my Billing Address 
+                </div>
+                <div>
+                    <input type="checkbox" name="info" required />Save this information for next time
+                </div>
             </form>
 
         </div>
