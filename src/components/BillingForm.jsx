@@ -53,6 +53,15 @@ function BillingForm(){
 
         alert("Billing info saved to localStorage..");
 
+        //Optional:Reset form
+
+        setFormData({
+            firstName:"",
+            lastName:"",
+            userName:"",
+            email:"",
+        })
+
 
     }
     return(
