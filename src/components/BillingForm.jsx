@@ -23,7 +23,22 @@ function BillingForm(){
 
     });
 
-    function handleSubmit(){
+    function handleChange(event){
+
+
+    }
+
+    function handleSubmit(event){
+        event.preventdefault();
+
+        let existingUser;
+
+        if(localStorage.getItem("billingData")){
+            existingUser=JSON.parse(localStorage.getItem("billingData"))||[];
+        }
+
+        
+
 
     }
     return(
