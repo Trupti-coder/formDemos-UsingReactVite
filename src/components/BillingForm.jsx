@@ -5,7 +5,7 @@ function BillingForm(){
     let[formData,setFormData]=useState({
 
 
-        
+
     });
 
     function handleSubmit(){
@@ -16,13 +16,13 @@ function BillingForm(){
         <div>
             <form onSubmit={handleSubmit}>
                 <div>
-                    FirstName:<input type="text" name="firstname" required />
+                    FirstName:<input type="text" name="firstName" required />
                 </div>
                 <div>
-                    LastName:<input type="text" name="lastname" required />                
+                    LastName:<input type="text" name="lastName" required />                
                 </div>
                 <div>
-                    UserName:<input type="text" name="username" required />
+                    UserName:<input type="text" name="userName" required />
                 </div>
                 <div>
                     Email:<input type="email" name="email" required />
@@ -31,7 +31,7 @@ function BillingForm(){
                    Address:<input type="text" name="address" required />
                 </div>
                 <div>
-                 Country:<select>
+                 Country:<select name="country">
                     <option>India</option>
                     <option>Pakistan</option>
                     <option>America</option>
@@ -42,7 +42,7 @@ function BillingForm(){
                  </select>
                 </div>
                 <div>
-                 State:<select>
+                 State:<select name="state">
                     <option>Maharastra</option>
                     <option>Gujrat</option>
                     <option>Rajasthan</option>
@@ -63,9 +63,9 @@ function BillingForm(){
                 <hr></hr>
                 <h3>Payment</h3>
                 <div>
-                    <input type="checkbox" required />Credit card
-                    <input type="checkbox" required />Debit card
-                    <input type="checkbox" required />PayPal
+                    <input type="checkbox" required name="paymentMethod" />Credit card
+                    <input type="checkbox" required name="paymentMethod" />Debit card
+                    <input type="checkbox" required name="paymentMethod" />PayPal
                 </div>
                 <div>
                  Name on Card:<input type="text" />
