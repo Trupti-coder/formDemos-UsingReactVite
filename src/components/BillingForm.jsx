@@ -37,6 +37,10 @@ function BillingForm(){
             existingUser=JSON.parse(localStorage.getItem("billingData"))||[];
         }
 
+        if(!Array.isArray(existingUser)){
+            existingUser=[];
+        }
+
         
 
 
