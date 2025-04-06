@@ -90,7 +90,7 @@ function BasicForm(){
                 {passwordError && <p style={{color:"red"}}>{passwordError}</p>}           
              </div>
              
-             <button type="submit" className={submitButton}>Submit</button>
+             <button type="submit" className={styles.submitButton}>Submit</button>
             
         </form>
         </div>
