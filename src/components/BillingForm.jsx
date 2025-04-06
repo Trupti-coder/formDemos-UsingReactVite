@@ -130,8 +130,8 @@ function BillingForm(){
                 <h3>Payment</h3>
                 <div>
                     <input type="checkbox" required name="paymentMethod" checked={formData.paymentMethod==="Credit card"}  onChange={handleChange} />Credit card
-                    <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="Credit card"} />Debit card
-                    <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="Credit card"} />PayPal
+                    <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="Debit card"}  />Debit card
+                    <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="PayPal"} />PayPal
                 </div>
                 <div>
                  Name on Card:<input type="text" name="cardName"  onChange={handleChange}/>
