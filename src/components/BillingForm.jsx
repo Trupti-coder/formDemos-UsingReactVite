@@ -15,6 +15,20 @@ function BillingForm(){
                 <div>
                     Email:<input type="email" name="email" required />
                 </div>
+                <div>
+                   Address:<input type="text" name="address" required />
+                </div>
+                <div>
+                 Country:<select>
+                    <option>India</option>
+                    <option>Pakistan</option>
+                    <option>America</option>
+                    <option>Newzaland</option>
+                    <option>Canada</option>
+                    <option>Bangladesh</option>
+                    <option>Shrilanka</option>
+                 </select>
+                </div>
             </form>
 
         </div>
