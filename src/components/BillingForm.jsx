@@ -65,6 +65,9 @@ function BillingForm(){
                 <div>
                     CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} />
                 </div>
+                <div>
+                    <button type="submit">Continue to checkout</button>
+                </div>
             </form>
 
         </div>
