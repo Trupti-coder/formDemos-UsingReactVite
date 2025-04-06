@@ -5,7 +5,11 @@ function BillingForm(){
     let[formData,setFormData]=useState({
 
         firstName:"",
-        lastName:"",userName:"",email:"",address:"",country:"",state:"",zip:"",shippingAdd:"",info:"",paymentMethod:"",cardName:"",expDate:"",cvv:""
+        lastName:"",
+        userName:"",
+        email:"",
+        address:"",
+        country:"",state:"",zip:"",shippingAdd:"",info:"",paymentMethod:"",cardName:"",expDate:"",cvv:""
 
 
 
