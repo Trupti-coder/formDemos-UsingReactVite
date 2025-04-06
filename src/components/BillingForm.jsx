@@ -31,19 +31,19 @@ function BillingForm(){
         <div>
             <form onSubmit={handleSubmit}>
                 <div>
-                    FirstName:<input type="text" name="firstName" required />
+                    FirstName:<input type="text" name="firstName" required  onChange={handleChange}/>
                 </div>
                 <div>
-                    LastName:<input type="text" name="lastName" required />                
+                    LastName:<input type="text" name="lastName" required onChange={handleChange} />                
                 </div>
                 <div>
-                    UserName:<input type="text" name="userName" required />
+                    UserName:<input type="text" name="userName" required onChange={handleChange} />
                 </div>
                 <div>
-                    Email:<input type="email" name="email" required />
+                    Email:<input type="email" name="email" required onChange={handleChange} />
                 </div>
                 <div>
-                   Address:<input type="text" name="address" required />
+                   Address:<input type="text" name="address" required onChange={handleChange} />
                 </div>
                 <div>
                  Country:<select name="country">
