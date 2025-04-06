@@ -1,5 +1,5 @@
 import { useState } from "react";
-import styles from "./BillingForm.module.css"
+import styles from "./BillingForm.module.css";
 
 function BillingForm(){
 
