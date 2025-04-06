@@ -1,7 +1,15 @@
+import { useState } from "react";
+
 function BillingForm(){
 
-    function handleSubmit(){
+    let[formData,setFormData]=useState({
+
+
         
+    });
+
+    function handleSubmit(){
+
     }
     return(
         <>
