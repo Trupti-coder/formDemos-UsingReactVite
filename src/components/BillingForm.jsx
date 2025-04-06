@@ -9,6 +9,12 @@ function BillingForm(){
                 <div>
                     LastName:<input type="text" name="lastname" required />                
                 </div>
+                <div>
+                    UserName:<input type="text" name="username" required />
+                </div>
+                <div>
+                    Email:<input type="email" name="email" required />
+                </div>
             </form>
 
         </div>
