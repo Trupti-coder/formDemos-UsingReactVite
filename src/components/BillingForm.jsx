@@ -83,14 +83,14 @@ function BillingForm(){
                     <input type="checkbox" required name="paymentMethod" onChange={handleChange}/>PayPal
                 </div>
                 <div>
-                 Name on Card:<input type="text" name="cardName" />
-                 Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} />
+                 Name on Card:<input type="text" name="cardName"  onChange={handleChange}/>
+                 Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} onChange={handleChange} />
                 </div>
                 <div>
-                    Expiration:<input type="month" name="expDate" required></input>
+                    Expiration:<input type="month" name="expDate" required onChange={handleChange} />
                 </div>
                 <div>
-                    CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} />
+                    CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} onChange={handleChange} />
                 </div>
                 <div>
                     <button type="submit">Continue to checkout</button>
