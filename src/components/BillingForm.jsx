@@ -80,13 +80,13 @@ function BillingForm(){
         <div>
             <form onSubmit={handleSubmit}>
                 <div>
-                    FirstName:<input type="text" name="firstName" required  onChange={handleChange}/>
+                    FirstName:<input type="text" name="firstName" required  value={formData.firstName} onChange={handleChange}/>
                 </div>
                 <div>
-                    LastName:<input type="text" name="lastName" required onChange={handleChange} />                
+                    LastName:<input type="text" name="lastName" required  value={formData.lastName} onChange={handleChange} />                
                 </div>
                 <div>
-                    UserName:<input type="text" name="userName" required onChange={handleChange} />
+                    UserName:<input type="text" name="userName" required value={formData.userName} onChange={handleChange} />
                 </div>
                 <div>
                     Email:<input type="email" name="email" required onChange={handleChange} />
