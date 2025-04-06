@@ -4,6 +4,12 @@ function BillingForm(){
 
     let[formData,setFormData]=useState({
 
+        firstName:"",
+        lastName:"",userName:"",email:"",address:"",country:"",state:"",zip:""
+
+
+
+
 
 
     });
