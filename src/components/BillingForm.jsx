@@ -5,7 +5,7 @@ function BillingForm(){
     let[formData,setFormData]=useState({
 
         firstName:"",
-        lastName:"",userName:"",email:"",address:"",country:"",state:"",zip:""
+        lastName:"",userName:"",email:"",address:"",country:"",state:"",zip:"",shippingAdd:"",info:"",paymentMethod:"",cardName:"",expDate:"",cvv:""
 
 
 
@@ -74,11 +74,11 @@ function BillingForm(){
                     <input type="checkbox" required name="paymentMethod" />PayPal
                 </div>
                 <div>
-                 Name on Card:<input type="text" />
+                 Name on Card:<input type="text" name="cardName" />
                  Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} />
                 </div>
                 <div>
-                    Expiration:<input type="month" name="exp-date" required></input>
+                    Expiration:<input type="month" name="expDate" required></input>
                 </div>
                 <div>
                     CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} />
