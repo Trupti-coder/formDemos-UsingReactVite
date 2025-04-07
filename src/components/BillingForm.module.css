@@ -30,3 +30,14 @@ select {
   margin-top: 5px;
   transition: border-color 0.3s;
 }
+
+input:focus,
+select:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
