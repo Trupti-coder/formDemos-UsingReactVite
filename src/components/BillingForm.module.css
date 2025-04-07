@@ -20,3 +20,13 @@
     color: #333;
   }
   
+
+  input,
+select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+  margin-top: 5px;
+  transition: border-color 0.3s;
+}
