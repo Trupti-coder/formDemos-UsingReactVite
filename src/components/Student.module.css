@@ -53,7 +53,7 @@ select {
   gap: 5px;
 }
 
-buttons {
+button {
     padding: 10px 20px;
     margin-right: 10px;
     background-color: #2980b9;
