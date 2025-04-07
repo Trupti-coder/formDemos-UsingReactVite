@@ -79,15 +79,15 @@ function BillingForm(){
     return(
         <>
         <div className={styles.container }>
-            <form onSubmit={handleSubmit}>
+            <form onSubmit={handleSubmit} className={styles.form}>
                 <div>
-                    FirstName:<input type="text" name="firstName" required  value={formData.firstName} onChange={handleChange}/>
+                    FirstName:<input type="text" name="firstName" required  value={formData.firstName} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
-                    LastName:<input type="text" name="lastName" required  value={formData.lastName} onChange={handleChange} />                
+                    LastName:<input type="text" name="lastName" required  value={formData.lastName} onChange={handleChange} className={styles.input} />                
                 </div>
                 <div>
-                    UserName:<input type="text" name="userName" required value={formData.userName} onChange={handleChange} />
+                    UserName:<input type="text" name="userName" required value={formData.userName} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
                     Email:<input type="email" name="email" required value={formData.email} onChange={handleChange} />
