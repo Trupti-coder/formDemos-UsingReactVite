@@ -90,7 +90,7 @@ function BillingForm(){
                     UserName:<input type="text" name="userName" required value={formData.userName} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
-                    Email:<input type="email" name="email" required value={formData.email} onChange={handleChange} />
+                    Email:<input type="email" name="email" required value={formData.email} onChange={handleChange}  />
                 </div>
                 <div>
                    Address:<input type="text" name="address" required  value={formData.address} onChange={handleChange} />
@@ -129,20 +129,20 @@ function BillingForm(){
                 </div>
                 <hr></hr>
                 <h3>Payment</h3>
-                <div>
+                <div className={styles.checkboxWrapper} >
                     <input type="checkbox" required name="paymentMethod" checked={formData.paymentMethod==="Credit card"}  onChange={handleChange} />Credit card
                     <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="Debit card"}  />Debit card
                     <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="PayPal"} />PayPal
                 </div>
                 <div>
                  Name on Card:<input type="text" name="cardName"  onChange={handleChange}/>
-                 Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} onChange={handleChange} />
+                 Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
-                    Expiration:<input type="month" name="expDate" required onChange={handleChange} />
+                    Expiration:<input type="month" name="expDate" required onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
-                    CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} onChange={handleChange} />
+                    CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
                     <button type="submit">Continue to checkout</button>
