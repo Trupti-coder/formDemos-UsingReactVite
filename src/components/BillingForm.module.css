@@ -70,3 +70,14 @@ hr {
     margin-right: 8px;
   }
   
+
+  .checkboxWrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .error {
+    color: red;
+    font-size: 13px;
+    margin-top: 4px;
+  }
