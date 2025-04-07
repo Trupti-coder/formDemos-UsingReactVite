@@ -90,10 +90,10 @@ function BillingForm(){
                     UserName:<input type="text" name="userName" required value={formData.userName} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
-                    Email:<input type="email" name="email" required value={formData.email} onChange={handleChange}  />
+                    Email:<input type="email" name="email" required value={formData.email} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
-                   Address:<input type="text" name="address" required  value={formData.address} onChange={handleChange} />
+                   Address:<input type="text" name="address" required  value={formData.address} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
                  Country:<select name="country" value={formData.country} onChange={handleChange}>
