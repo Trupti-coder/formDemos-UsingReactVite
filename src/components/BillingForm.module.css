@@ -60,4 +60,13 @@ hr {
     transition: background-color 0.3s ease;
     margin-top: 20px;
   }
+
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  input[type="checkbox"] {
+    width: auto;
+    margin-right: 8px;
+  }
   
