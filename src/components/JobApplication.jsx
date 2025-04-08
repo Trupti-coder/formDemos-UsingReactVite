@@ -55,13 +55,13 @@ function JobApplication(){
                 </div>
                 <div>
                     What is your current employee status ? 
-                    <input type="radio" name="employee" />
-                    <input type="radio" name="selfemployed" />
-                    <input type="radio" name="unemployed" />
-                    <input type="radio" name="student" />
+                    <input type="radio" value="employee" />
+                    <input type="radio" value="selfemployed" />
+                    <input type="radio" value="unemployed" />
+                    <input type="radio" value="student" />
                 </div>
                 <div>
-                    Please provide your resume link:<input type="url" name="resume" onChange={handleChange} />
+                    Please provide your resume link:<input type="url"="resume" onChange={handleChange} />
 
                 </div>
                 <div>
