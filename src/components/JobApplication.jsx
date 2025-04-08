@@ -101,7 +101,7 @@ function JobApplication(){
                     <input type="text" name="lastname" value={formData.lastname} onChange={handleChange} placeholder="LastName" />
                 </div>
                 <div>
-                    References email<input type="email" name="refemail" value={formData.refemail} onChange={handleChange} required  />
+                    References email<input type="email" name="refemail" value={formData.refemail} onChange={handleChange}   />
                 </div>
                 <div>
                     <button type="reset">Reset</button>
