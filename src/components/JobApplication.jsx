@@ -16,7 +16,18 @@ function JobApplication(){
         lastname:"",
         refemail:"",
 
-    })
+    });
+
+    function handleChange(event){
+
+        const { name, value, type, files } = e.target;
+
+        setFormData((prev) => ({
+          ...prev,
+          [name]: type === "file" ? files[0] : value,
+        }));
+
+    }
 
     function handleSubmit(event){
         event.preventDefault();
