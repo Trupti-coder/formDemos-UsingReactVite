@@ -31,16 +31,16 @@ function JobApplication(){
             <form onSubmit={handleSubmit} className={styles.form}>
                 <div>
                   <p>Name
-                    <input type="text" name="first" placeholder="First" required onChange={handleChange} />
-                    <input type="text" name="last"  placeholder="Last" required onChange={handleChange} />                
+                    <input type="text" name="first" placeholder="First" required value={formData.first} onChange={handleChange} />
+                    <input type="text" name="last"  placeholder="Last" required value={formData.last} onChange={handleChange} />                
                   </p>
                   
                 </div>
                 <div>
-                    Email<input type="email" name="email" placeholder="Enter email"  required onChange={handleChange} />
+                    Email<input type="email" name="email" placeholder="Enter email" value={formData.email}  required onChange={handleChange} />
                 </div>
                 <div>
-                    What position are you applying for ? <select name="position" onChange={handleChange}>
+                    What position are you applying for ? <select name="position" value={formData.position} onChange={handleChange}>
                         <option>-Select-</option>
                         <option>MERN Developer</option>
                         <option>MEAN Developer</option>
