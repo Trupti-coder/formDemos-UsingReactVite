@@ -14,7 +14,13 @@ function AdmissionForm(){
                 Father Name:<input type="text" name="fatherName" />
             </div>
             <div>
-                Mother Name:<input type="text" />
+                Mother Name:<input type="text" name="motherName" />
+            </div>
+            <div>
+                Birth Date:<input type="date" name="date" />
+            </div>
+            <div>
+                Gender:
             </div>
 
 
