@@ -28,6 +28,12 @@ function AdmissionForm(){
 
             </div>
             <div>
+                <fieldset>
+                    <legend>Present Address</legend>
+                    Division:<input type="text" name="division" />
+                    District:<input type="text" name="district" />
+                    Address:<input type="text" name="address" />
+                </fieldset>
                 
             </div>
            </form>
