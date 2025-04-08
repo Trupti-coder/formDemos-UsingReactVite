@@ -3,6 +3,7 @@ import styles from "./JobApplication.module.css";
 function JobApplication(){
 
     let[formData,setFormData]=useState({
+
         first:"",
         last:"",
         email:"",
@@ -55,10 +56,10 @@ function JobApplication(){
                 </div>
                 <div>
                     What is your current employee status ? 
-                    <input type="radio" name="employeestatus" value="employee" /> Employee
-                    <input type="radio" name="employeestatus" value="selfemployed" /> Self-Employee
-                    <input type="radio" name="employeestatus" value="unemployed" />UnEmployee
-                    <input type="radio" name="employeestatus" value="student" />Student
+                    <input type="radio" name="employeestatus" onChange={handleChange} value="employee" /> Employee
+                    <input type="radio" name="employeestatus" onChange={handleChange} value="selfemployed" /> Self-Employee
+                    <input type="radio" name="employeestatus" onChange={handleChange} value="unemployed" />UnEmployee
+                    <input type="radio" name="employeestatus" onChange={handleChange} value="student" />Student
                 </div>
                 <div>
                     Please provide your resume link:<input type="url" name="resume" onChange={handleChange} />
