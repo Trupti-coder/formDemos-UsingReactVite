@@ -38,6 +38,10 @@ function JobApplication(){
                     <input type="radio" name="unemployed" />
                     <input type="radio" name="student" />
                 </div>
+                <div>
+                    Please provide your resume link:<input type="url" name="resume" />
+
+                </div>
 
             </form>
         </div>
