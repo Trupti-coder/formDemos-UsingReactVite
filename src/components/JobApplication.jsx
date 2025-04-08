@@ -10,6 +10,9 @@ function JobApplication(){
         date:"",
         resume:"",
         myresume:"",
+        firstname:"",
+        lastname:"",
+        refemail:"",
 
     })
 
@@ -66,9 +69,10 @@ function JobApplication(){
                 </div>
                 <div>
                     Do you havve referances ? (optional)<input type="text" name="firstname" />
+                    <input type="text" name="lastname" />
                 </div>
                 <div>
-                    References email<input type="email" required />
+                    References email<input type="email" name="refemail" required />
                 </div>
                 <div>
                     <button type="reset">Reset</button>
