@@ -28,6 +28,9 @@ function JobApplication(){
 
                     </select>
                 </div>
+                <div>
+                    Available Date:<input type="date" name="date"   placeholder="MM/DD/YYYY" />
+                </div>
 
             </form>
         </div>
