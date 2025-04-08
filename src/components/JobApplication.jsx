@@ -3,6 +3,13 @@ import styles from "./JobApplication.module.css";
 function JobApplication(){
 
     let[formData,setFormData]=useState({
+        first:"",
+        last:"",
+        email:"",
+        position:"",
+        date:"",
+        resume:"",
+        myresume:"",
 
     })
 
