@@ -6,6 +6,11 @@ function JobApplication(){
 
     })
 
+    function handleSubmit(event){
+        event.preventDefault();
+
+    }
+
     return(
         <>
         <div className={styles.container}>
