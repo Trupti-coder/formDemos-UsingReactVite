@@ -39,6 +39,15 @@ function JobApplication(){
             existinguser=JSON.parse(localStorage.getItem("formapp")) || [] ;
         }
 
+        if(!Array.isArray(existinguser)){
+            existinguser=[];
+        }
+
+        existinguser.push(formData);
+
+       localStorage.setItem("formapp",JSON.parse(existinguser));
+       alert("data successfully saved to localstorage..!");
+
     }
 
     return(
