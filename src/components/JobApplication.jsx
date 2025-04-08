@@ -31,6 +31,13 @@ function JobApplication(){
                 <div>
                     Available Date:<input type="date" name="date"   placeholder="MM/DD/YYYY" />
                 </div>
+                <div>
+                    What is your current employee status ? 
+                    <input type="radio" name="employee" />
+                    <input type="radio" name="selfemployed" />
+                    <input type="radio" name="unemployed" />
+                    <input type="radio" name="student" />
+                </div>
 
             </form>
         </div>
