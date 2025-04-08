@@ -45,8 +45,8 @@ function JobApplication(){
 
         existinguser.push(formData);
 
-       localStorage.setItem("formapp",JSON.parse(existinguser));
-       alert("data successfully saved to localstorage..!");
+       localStorage.setItem("formapp",JSON.stringify(existinguser));
+       alert("data successfully saved to localstorage..!"); 
 
     }
 
@@ -97,8 +97,8 @@ function JobApplication(){
                 <input type="file" name="myresume" accept=".pdf,.doc,.docx" onChange={handleChange} value={formData.myresume} />
                 </div>
                 <div>
-                    Do you havve referances ? (optional)<input type="text" name="firstname" value={formData.firstname} />
-                    <input type="text" name="lastname" />
+                    Do you have referances ? (optional)<input type="text" name="firstname" value={formData.firstname} onChange={handleChange} />
+                    <input type="text" name="lastname" value={formData.lastname} onChange={handleChange} />
                 </div>
                 <div>
                     References email<input type="email" name="refemail" value={formData.refemail} required />
