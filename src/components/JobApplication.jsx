@@ -59,8 +59,8 @@ function JobApplication(){
                     What is your current employee status ? 
                     <input type="radio" name="employeestatus" onChange={handleChange} value="employee"  checked={formData.employeestatus === "employee"} /> Employee
                     <input type="radio" name="employeestatus" onChange={handleChange} value="selfemployed"  checked={formData.employeestatus === "selfemployed"} /> Self-Employee
-                    <input type="radio" name="employeestatus" onChange={handleChange} value="unemployed"  />UnEmployee
-                    <input type="radio" name="employeestatus" onChange={handleChange} value="student" />Student
+                    <input type="radio" name="employeestatus" onChange={handleChange} value="unemployed"  checked={formData.employeestatus === "unemployed"} />UnEmployee
+                    <input type="radio" name="employeestatus" onChange={handleChange} value="student"  checked={formData.employeestatus === "student"} />Student
                 </div>
                 <div>
                     Please provide your resume link:<input type="url" name="resume" onChange={handleChange} value={formData.resume} />
