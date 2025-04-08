@@ -29,8 +29,15 @@ function JobApplication(){
 
     }
 
+
     function handleSubmit(event){
         event.preventDefault();
+
+        let existinguser;
+
+        if(localStorage.getItem("formapp")){
+            existinguser=JSON.parse(localStorage.getItem("formapp")) || [] ;
+        }
 
     }
 
