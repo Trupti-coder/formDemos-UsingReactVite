@@ -16,6 +16,18 @@ function JobApplication(){
                 <div>
                     Email<input type="email" name="email" placeholder="Enter email"  required/>
                 </div>
+                <div>
+                    What position are you applying for ? <select name="position">
+                        <option>-Select-</option>
+                        <option>MERN Developer</option>
+                        <option>MEAN Developer</option>
+                        <option>JAVA Developer</option>
+                        <option>Python Developer</option>
+                        <option>IOS Developer</option>
+                        <option>Android Developer</option>
+
+                    </select>
+                </div>
 
             </form>
         </div>
