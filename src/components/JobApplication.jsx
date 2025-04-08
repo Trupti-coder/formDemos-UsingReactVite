@@ -1,5 +1,10 @@
+import { useState } from "react";
 import styles from "./JobApplication.module.css";
 function JobApplication(){
+
+    let[formData,setFormData]=useState({
+        
+    })
 
     return(
         <>
