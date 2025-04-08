@@ -26,10 +26,10 @@ function JobApplication(){
                   
                 </div>
                 <div>
-                    Email<input type="email" name="email" placeholder="Enter email"  required/>
+                    Email<input type="email" name="email" placeholder="Enter email"  required onChange={handleChange} />
                 </div>
                 <div>
-                    What position are you applying for ? <select name="position">
+                    What position are you applying for ? <select name="position" onChange={handleChange}>
                         <option>-Select-</option>
                         <option>MERN Developer</option>
                         <option>MEAN Developer</option>
@@ -41,7 +41,7 @@ function JobApplication(){
                     </select>
                 </div>
                 <div>
-                    Available Date:<input type="date" name="date"   placeholder="MM/DD/YYYY" />
+                    Available Date:<input type="date" name="date"   placeholder="MM/DD/YYYY" onChange={handleChange} />
                 </div>
                 <div>
                     What is your current employee status ? 
@@ -51,11 +51,11 @@ function JobApplication(){
                     <input type="radio" name="student" />
                 </div>
                 <div>
-                    Please provide your resume link:<input type="url" name="resume" />
+                    Please provide your resume link:<input type="url" name="resume" onChange={handleChange} />
 
                 </div>
                 <div>
-                <input type="file" name="myresume" accept=".pdf,.doc,.docx" />
+                <input type="file" name="myresume" accept=".pdf,.doc,.docx" onChange={handleChange} />
                 </div>
                 <div>
                     Do you havve referances ? (optional)<input type="text" name="firstname" />
