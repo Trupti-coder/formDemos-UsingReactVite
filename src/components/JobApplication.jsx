@@ -42,6 +42,19 @@ function JobApplication(){
                     Please provide your resume link:<input type="url" name="resume" />
 
                 </div>
+                <div>
+                <input type="file" name="myresume" accept=".pdf,.doc,.docx" />
+                </div>
+                <div>
+                    Do you havve referances ? (optional)<input type="text" name="firstname" />
+                </div>
+                <div>
+                    References email<input type="email" required />
+                </div>
+                <div>
+                    <button type="reset">Reset</button>
+                    <button type="submit">Apply</button>
+                </div>
 
             </form>
         </div>
