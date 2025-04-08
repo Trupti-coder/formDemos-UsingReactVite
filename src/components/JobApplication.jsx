@@ -20,7 +20,7 @@ function JobApplication(){
 
     function handleChange(event){
 
-        const { name, value, type, files } = e.target;
+        const { name, value, type, files } = event.target;
 
         setFormData((prev) => ({
           ...prev,
@@ -94,14 +94,14 @@ function JobApplication(){
 
                 </div>
                 <div>
-                <input type="file" name="myresume" accept=".pdf,.doc,.docx" onChange={handleChange} value={formData.myresume} />
+                <input type="file" name="myresume" accept=".pdf,.doc,.docx" onChange={handleChange}  />
                 </div>
                 <div>
                     Do you have referances ? (optional)<input type="text" name="firstname" value={formData.firstname} onChange={handleChange} />
                     <input type="text" name="lastname" value={formData.lastname} onChange={handleChange} />
                 </div>
                 <div>
-                    References email<input type="email" name="refemail" value={formData.refemail} required />
+                    References email<input type="email" name="refemail" value={formData.refemail} onChange={handleChange} required />
                 </div>
                 <div>
                     <button type="reset">Reset</button>
