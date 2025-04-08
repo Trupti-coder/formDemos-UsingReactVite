@@ -36,6 +36,16 @@ function AdmissionForm(){
                 </fieldset>
                 
             </div>
+            <div>
+                <fieldset>
+                    <legend>
+                        Permanent Address
+                    </legend>
+                    Division:<input type="text"  />
+                    District:<input type="text" />
+                    Address:<input type="text" />
+                </fieldset>
+            </div>
            </form>
 
 
