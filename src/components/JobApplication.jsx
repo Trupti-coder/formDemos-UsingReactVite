@@ -52,7 +52,7 @@ function JobApplication(){
                     </select>
                 </div>
                 <div>
-                    Available Date:<input type="date" name="date"   placeholder="MM/DD/YYYY" onChange={handleChange} />
+                    Available Date:<input type="date" name="date"   placeholder="MM/DD/YYYY" onChange={handleChange} value={formData.date} />
                 </div>
                 <div>
                     What is your current employee status ? 
@@ -62,18 +62,18 @@ function JobApplication(){
                     <input type="radio" name="employeestatus" onChange={handleChange} value="student" />Student
                 </div>
                 <div>
-                    Please provide your resume link:<input type="url" name="resume" onChange={handleChange} />
+                    Please provide your resume link:<input type="url" name="resume" onChange={handleChange} value={formData.resume} />
 
                 </div>
                 <div>
-                <input type="file" name="myresume" accept=".pdf,.doc,.docx" onChange={handleChange} />
+                <input type="file" name="myresume" accept=".pdf,.doc,.docx" onChange={handleChange} value={formData.myresume} />
                 </div>
                 <div>
-                    Do you havve referances ? (optional)<input type="text" name="firstname" />
+                    Do you havve referances ? (optional)<input type="text" name="firstname" value={formData.firstname} />
                     <input type="text" name="lastname" />
                 </div>
                 <div>
-                    References email<input type="email" name="refemail" required />
+                    References email<input type="email" name="refemail" value={formData.refemail} required />
                 </div>
                 <div>
                     <button type="reset">Reset</button>
