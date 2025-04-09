@@ -72,7 +72,12 @@ function AdmissionForm(){
                 <input type="text" name="status" />Married
             </div>
             <div>
-                
+                Course Name:<input type="text" name="courseName" />
+            </div>
+            <div>
+                <h3>Declaration</h3>
+                <input type="checkbox" name="declaration" />I hereby declairing that i will obey all the rules and regulation of the institution and be
+                and fully responsible for violating the rules.
             </div>
            </form>
 
