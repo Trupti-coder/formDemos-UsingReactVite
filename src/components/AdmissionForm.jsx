@@ -24,7 +24,13 @@ function AdmissionForm(){
         declaration:""
 
 
-    })
+    });
+
+    function handleChange(){
+        
+    }
+
+
 
     function handleSubmit(event){
 
@@ -101,14 +107,14 @@ function AdmissionForm(){
             </div>
             <div>
                 Status:<input type="radio" name="status" onChange={handleChange}/>Single
-                <input type="text" name="status" />Married
+                <input type="text" name="status" onChange={handleChange} />Married
             </div>
             <div>
-                Course Name:<input type="text" name="courseName" />
+                Course Name:<input type="text" name="courseName" onChange={handleChange} />
             </div>
             <div>
                 <h3>Declaration</h3>
-                <input type="checkbox" name="declaration" />I hereby declairing that i will obey all the rules and regulation of the institution and be
+                <input type="checkbox" name="declaration" onChange={handleChange}/>I hereby declairing that i will obey all the rules and regulation of the institution and be
                 and fully responsible for violating the rules.
             </div>
             <div>
