@@ -63,13 +63,13 @@ function AdmissionForm(){
             <h4><b>ADMISSION FORM</b></h4>
 
             <div>
-                Student's Name:<input type="text" name="name" onChange={handleChange}  />
+                Student's Name:<input type="text" name="name" value={formdata.name} onChange={handleChange}  />
             </div>
             <div>
-                Father Name:<input type="text" name="fatherName" onChange={handleChange} />
+                Father Name:<input type="text" name="fatherName" value={formdata.fatherName} onChange={handleChange} />
             </div>
             <div>
-                Mother Name:<input type="text" name="motherName" onChange={handleChange} />
+                Mother Name:<input type="text" name="motherName" value={formdata.motherName} onChange={handleChange} />
             </div>  
             <div>
                 Birth Date:<input type="date" name="date" onChange={handleChange} />
