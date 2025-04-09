@@ -26,7 +26,18 @@ function AdmissionForm(){
 
     });
 
-    function handleChange(){
+
+
+    function handleChange(event){
+
+        const {name,value,type}=event.target;
+
+        setFormData((prev)=>({
+            ...prev,
+        
+        }))
+
+
         
     }
 
