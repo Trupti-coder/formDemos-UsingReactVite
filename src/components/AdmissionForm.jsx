@@ -9,7 +9,10 @@ function AdmissionForm(){
         motherName:"",
         date:"",
         gender:"",
-        
+        division:"",
+        district:"",
+        address:"",
+        religion:"",
 
     })
 
