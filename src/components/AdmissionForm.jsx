@@ -94,13 +94,13 @@ function AdmissionForm(){
                 NID Number:<input type="number" name="nidNumber" onChange={handleChange} />
             </div>
             <div>
-                Blood Group:<input type="text" name="bloodGroup" />
+                Blood Group:<input type="text" name="bloodGroup" onChange={handleChange} />
             </div>
             <div>
-                Occupation:<input type="text" name="occupation" />
+                Occupation:<input type="text" name="occupation" onChange={handleChange} />
             </div>
             <div>
-                Status:<input type="radio" name="status" />Single
+                Status:<input type="radio" name="status" onChange={handleChange}/>Single
                 <input type="text" name="status" />Married
             </div>
             <div>
