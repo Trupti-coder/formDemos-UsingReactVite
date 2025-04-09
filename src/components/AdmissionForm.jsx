@@ -115,13 +115,13 @@ function AdmissionForm(){
                 NID Number:<input type="number" name="nidNumber" value={formdata.nidNumber} onChange={handleChange} />
             </div>
             <div>
-                Blood Group:<input type="text" name="bloodGroup" value={} onChange={handleChange} />
+                Blood Group:<input type="text" name="bloodGroup" value={formdata.bloodGroup} onChange={handleChange} />
             </div>
             <div>
-                Occupation:<input type="text" name="occupation" onChange={handleChange} />
+                Occupation:<input type="text" name="occupation" value={formdata.occupation} onChange={handleChange} />
             </div>
             <div>
-                Status:<input type="radio" name="status" onChange={handleChange}/>Single
+                Status:<input type="radio" name="status" checked={} onChange={handleChange}/>Single
                 <input type="text" name="status" onChange={handleChange} />Married
             </div>
             <div>
