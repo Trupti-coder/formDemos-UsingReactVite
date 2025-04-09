@@ -79,19 +79,19 @@ function AdmissionForm(){
                 </fieldset>
             </div>
             <div>
-                Religion:<input type="text" name="religion" />
+                Religion:<input type="text" name="religion" onChange={handleChange} />
             </div>
             <div>
-                Nationality:<input type="text" name="nationality" />
+                Nationality:<input type="text" name="nationality" onChange={handleChange} />
             </div>
             <div>
-                Phone Number:<input type="tel" name="phone" />
+                Phone Number:<input type="tel" name="phone" onChange={handleChange} />
             </div>
             <div>
-                Email Address:<input type="text" name="email" />
+                Email Address:<input type="text" name="email"onChange={handleChange} />
             </div>
             <div>
-                NID Number:<input type="number" name="nidNumber" />
+                NID Number:<input type="number" name="nidNumber" onChange={handleChange} />
             </div>
             <div>
                 Blood Group:<input type="text" name="bloodGroup" />
