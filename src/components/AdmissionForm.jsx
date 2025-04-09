@@ -49,7 +49,7 @@ function AdmissionForm(){
             </div>
             <div>
                 Mother Name:<input type="text" name="motherName" onChange={handleChange} />
-            </div>
+            </div>  
             <div>
                 Birth Date:<input type="date" name="date" onChange={handleChange} />
             </div>
@@ -62,9 +62,9 @@ function AdmissionForm(){
             <div>
                 <fieldset>
                     <legend>Present Address</legend>
-                    Division:<input type="text" name="division" />
-                    District:<input type="text" name="district" />
-                    Address:<input type="text" name="address" />
+                    Division:<input type="text" name="division" onChange={handleChange} />
+                    District:<input type="text" name="district" onChange={handleChange} />
+                    Address:<input type="text" name="address" onChange={handleChange} />
                 </fieldset>
                 
             </div>
@@ -73,8 +73,8 @@ function AdmissionForm(){
                     <legend>
                         Permanent Address
                     </legend>
-                    Division:<input type="text"  />
-                    District:<input type="text" />
+                    Division:<input type="text" onChange={handleChange}  />
+                    District:<input type="text" onChange={handleChange}/>
                     Address:<input type="text" />
                 </fieldset>
             </div>
