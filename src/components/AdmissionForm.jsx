@@ -46,6 +46,15 @@ function AdmissionForm(){
                     Address:<input type="text" />
                 </fieldset>
             </div>
+            <div>
+                Religion:<input type="text" name="religion" />
+            </div>
+            <div>
+                Nationality:<input type="text" name="nationality" />
+            </div>
+            <div>
+                Phone Number:<input type="tel" name="phone" />
+            </div>
            </form>
 
 
