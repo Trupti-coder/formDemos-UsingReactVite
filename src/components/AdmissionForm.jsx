@@ -13,6 +13,16 @@ function AdmissionForm(){
         district:"",
         address:"",
         religion:"",
+        nationality:"",
+        phone:"",
+        email:"",
+        nidNumber:"",
+        bloodGroup:"",
+        occupation:"",
+        status:"",
+        courseName:"",
+        declaration:""
+
 
     })
 
