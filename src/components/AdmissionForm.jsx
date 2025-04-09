@@ -1,9 +1,15 @@
 function AdmissionForm(){
+
+    function handleSubmit(event){
+
+        event.preventDefault();
+
+    }
     return(
         <>
       
        <div>
-           <form>
+           <form onSubmit={handleSubmit}>
            <h1>COMPLEX ACADEMY</h1>
             <p>Another way to Education</p>
             <h3>EDUCATIONAL & IT TRAINING ACADEMY</h3>
@@ -78,6 +84,9 @@ function AdmissionForm(){
                 <h3>Declaration</h3>
                 <input type="checkbox" name="declaration" />I hereby declairing that i will obey all the rules and regulation of the institution and be
                 and fully responsible for violating the rules.
+            </div>
+            <div>
+                <button type="Submit">Submit</button>
             </div>
            </form>
 
