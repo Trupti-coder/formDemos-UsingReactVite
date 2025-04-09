@@ -61,6 +61,19 @@ function AdmissionForm(){
             <div>
                 NID Number:<input type="number" name="nidNumber" />
             </div>
+            <div>
+                Blood Group:<input type="text" name="bloodGroup" />
+            </div>
+            <div>
+                Occupation:<input type="text" name="occupation" />
+            </div>
+            <div>
+                Status:<input type="radio" name="status" />Single
+                <input type="text" name="status" />Married
+            </div>
+            <div>
+                
+            </div>
            </form>
 
 
