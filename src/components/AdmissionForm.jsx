@@ -122,7 +122,7 @@ function AdmissionForm(){
             </div>
             <div>
                 Status:<input type="radio" name="status" value="Single" checked={formdata.status==="Single"} onChange={handleChange}/>Single
-                <input type="text" name="status" value="Married" onChange={handleChange} />Married
+                <input type="text" name="status" value="Married" checked={formdata.status==="Married"} onChange={handleChange} />Married
             </div>
             <div>
                 Course Name:<input type="text" name="courseName" onChange={handleChange} />
