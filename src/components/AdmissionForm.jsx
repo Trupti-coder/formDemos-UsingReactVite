@@ -75,7 +75,7 @@ function AdmissionForm(){
                     </legend>
                     Division:<input type="text" onChange={handleChange}  />
                     District:<input type="text" onChange={handleChange}/>
-                    Address:<input type="text" />
+                    Address:<input type="text" onChange={handleChange} />
                 </fieldset>
             </div>
             <div>
