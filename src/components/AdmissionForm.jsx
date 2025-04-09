@@ -1,4 +1,17 @@
+import { useState } from "react";
+
 function AdmissionForm(){
+
+    let[formdata,setFormData]=useState({
+
+        name:"",
+        fatherName:"",
+        motherName:"",
+        date:"",
+        gender:"",
+        
+
+    })
 
     function handleSubmit(event){
 
@@ -16,7 +29,7 @@ function AdmissionForm(){
             <h4><b>ADMISSION FORM</b></h4>
 
             <div>
-                Student's Name:<input type="text" name="name" />
+                Student's Name:<input type="text" name="name"  />
             </div>
             <div>
                 Father Name:<input type="text" name="fatherName" />
