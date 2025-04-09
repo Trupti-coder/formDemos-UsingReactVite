@@ -55,6 +55,12 @@ function AdmissionForm(){
             <div>
                 Phone Number:<input type="tel" name="phone" />
             </div>
+            <div>
+                Email Address:<input type="text" name="email" />
+            </div>
+            <div>
+                NID Number:<input type="number" name="nidNumber" />
+            </div>
            </form>
 
 
