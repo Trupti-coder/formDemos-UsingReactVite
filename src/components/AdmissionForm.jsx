@@ -100,13 +100,13 @@ function AdmissionForm(){
                 </fieldset>
             </div>
             <div>
-                Religion:<input type="text" name="religion" onChange={handleChange} />
+                Religion:<input type="text" name="religion" value={formdata.religion} onChange={handleChange} />
             </div>
             <div>
-                Nationality:<input type="text" name="nationality" onChange={handleChange} />
+                Nationality:<input type="text" name="nationality" value={formdata.nationality} onChange={handleChange} />
             </div>
             <div>
-                Phone Number:<input type="tel" name="phone" onChange={handleChange} />
+                Phone Number:<input type="tel" name="phone" value={formdata.phone} onChange={handleChange} />
             </div>
             <div>
                 Email Address:<input type="text" name="email"onChange={handleChange} />
