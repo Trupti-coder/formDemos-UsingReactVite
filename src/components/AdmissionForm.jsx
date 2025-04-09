@@ -51,12 +51,12 @@ function AdmissionForm(){
                 Mother Name:<input type="text" name="motherName" onChange={handleChange} />
             </div>
             <div>
-                Birth Date:<input type="date" name="date" />
+                Birth Date:<input type="date" name="date" onChange={handleChange} />
             </div>
             <div>
-                Gender:<input type="radio" name="gender" />Male
-                <input type="radio" name="gender" />Female
-                <input type="radio" name="gender" />Other
+                Gender:<input type="radio" name="gender" onChange={handleChange} />Male
+                <input type="radio" name="gender" onChange={handleChange} />Female
+                <input type="radio" name="gender" onChange={handleChange} />Other
 
             </div>
             <div>
