@@ -91,9 +91,9 @@ function AdmissionForm(){
                     <legend>
                         Permanent Address
                     </legend>
-                    Division:<input type="text" onChange={handleChange}  />
-                    District:<input type="text" onChange={handleChange}/>
-                    Address:<input type="text" onChange={handleChange} />
+                    Division:<input type="text" name="permanentDivision" onChange={handleChange}  />
+                    District:<input type="text" name="permanentDistrict" onChange={handleChange}/>
+                    Address:<input type="text" name="permanentAddress" onChange={handleChange} />
                 </fieldset>
             </div>
             <div>
