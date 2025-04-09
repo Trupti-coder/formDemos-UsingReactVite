@@ -72,7 +72,7 @@ function AdmissionForm(){
                 Mother Name:<input type="text" name="motherName" value={formdata.motherName} onChange={handleChange} />
             </div>  
             <div>
-                Birth Date:<input type="date" name="date" onChange={handleChange} />
+                Birth Date:<input type="date" name="date" value={formdata.date} onChange={handleChange} />
             </div>
             <div>
                 Gender:<input type="radio" name="gender" value="Male" checked={formdata.gender==="Male"} onChange={handleChange} />Male
@@ -83,7 +83,7 @@ function AdmissionForm(){
             <div>
                 <fieldset>
                     <legend>Present Address</legend>
-                    Division:<input type="text" name="division" onChange={handleChange} />
+                    Division:<input type="text" name="division" value={formdata.division} onChange={handleChange} />
                     District:<input type="text" name="district" onChange={handleChange} />
                     Address:<input type="text" name="address" onChange={handleChange} />
                 </fieldset>
