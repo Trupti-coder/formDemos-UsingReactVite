@@ -122,14 +122,14 @@ function AdmissionForm(){
             </div>
             <div>
                 Status:<input type="radio" name="status" value="Single" checked={formdata.status==="Single"} onChange={handleChange}/>Single
-                <input type="text" name="status" value="Married" checked={formdata.status==="Married"} onChange={handleChange} />Married
+                <input type="radio" name="status" value="Married" checked={formdata.status==="Married"} onChange={handleChange} />Married
             </div>
             <div>
                 Course Name:<input type="text" name="courseName" value={formdata.courseName} onChange={handleChange} />
             </div>
             <div>
                 <h3>Declaration</h3>
-                <input type="checkbox" name="declaration" value={formdata.declaration} onChange={handleChange}/>I hereby declairing that i will obey all the rules and regulation of the institution and be
+                <input type="checkbox" name="declaration" checked={formdata.declaration} onChange={handleChange}/>I hereby declairing that i will obey all the rules and regulation of the institution and be
                 and fully responsible for violating the rules.
             </div>
             <div>
