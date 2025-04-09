@@ -109,13 +109,13 @@ function AdmissionForm(){
                 Phone Number:<input type="tel" name="phone" value={formdata.phone} onChange={handleChange} />
             </div>
             <div>
-                Email Address:<input type="text" name="email"onChange={handleChange} />
+                Email Address:<input type="text" name="email"value={formdata.email} onChange={handleChange} />
             </div>
             <div>
-                NID Number:<input type="number" name="nidNumber" onChange={handleChange} />
+                NID Number:<input type="number" name="nidNumber" value={formdata.nidNumber} onChange={handleChange} />
             </div>
             <div>
-                Blood Group:<input type="text" name="bloodGroup" onChange={handleChange} />
+                Blood Group:<input type="text" name="bloodGroup" value={} onChange={handleChange} />
             </div>
             <div>
                 Occupation:<input type="text" name="occupation" onChange={handleChange} />
