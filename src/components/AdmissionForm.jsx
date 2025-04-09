@@ -95,8 +95,8 @@ function AdmissionForm(){
                         Permanent Address
                     </legend>
                     Division:<input type="text" name="permanentDivision" value={formdata.permanentDivision} onChange={handleChange}  />
-                    District:<input type="text" name="permanentDistrict" onChange={handleChange}/>
-                    Address:<input type="text" name="permanentAddress" onChange={handleChange} />
+                    District:<input type="text" name="permanentDistrict" value={formdata.permanentDistrict} onChange={handleChange}/>
+                    Address:<input type="text" name="permanentAddress" value={formdata.permanentAddress} onChange={handleChange} />
                 </fieldset>
             </div>
             <div>
