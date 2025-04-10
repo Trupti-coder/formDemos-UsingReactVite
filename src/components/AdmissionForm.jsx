@@ -62,7 +62,9 @@ function AdmissionForm(){
         }
 
 
-        
+        existingUser.push(formdata);
+        localStorage.setItem("studForm",JSON.stringify(existingUser));
+        alert("Form Submited successfully to localstorage..!");
 
 
 
