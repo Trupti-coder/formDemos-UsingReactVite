@@ -5,10 +5,8 @@ const AboutUs = () => {
   return (
     <div className={styles.container}>
       <div className={styles.hero}>
-        <div className={styles.overlay}>
-          <h1 className={styles.heroText}>Welcome to Our Bookstore</h1>
-          <p className={styles.subText}>Discover stories that inspire, comfort, and captivate.</p>
-        </div>
+        <h1 className={styles.heroText}>Welcome to Our Bookstore</h1>
+        <p className={styles.subText}>Discover stories that inspire, comfort, and captivate.</p>
       </div>
       <div className={styles.contentSection}>
         <h1 className={styles.heading}>About Us</h1>
