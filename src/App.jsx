@@ -1,4 +1,5 @@
 import './App.css'
+import AboutUs from './components/AboutUs.jsx'
 import BasicForm from './components/BasicForm.jsx'
 import BillingForm from './components/BillingForm.jsx'
 import First from './components/First.jsx'
@@ -22,6 +23,8 @@ function App() {
     <BillingForm />
    <hr></hr>
    <JobApplication />
+   <hr></hr>
+   <AboutUs />
       
     </>
   )
