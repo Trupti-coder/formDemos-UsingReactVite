@@ -1,4 +1,5 @@
 import { useState } from "react";
+import styles from './AmissionForm.module.css';
 
 function AdmissionForm(){
 
@@ -97,7 +98,7 @@ function AdmissionForm(){
     return(
         <>
       
-       <div>
+       <div className={styles.container}>
            <form onSubmit={handleSubmit}>
            <h1>COMPLEX ACADEMY</h1>
             <p>Another way to Education</p>
