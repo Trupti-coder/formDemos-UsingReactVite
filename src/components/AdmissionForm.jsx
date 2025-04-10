@@ -51,6 +51,16 @@ function AdmissionForm(){
 
         event.preventDefault();
 
+        let existingUser;
+
+        if(localStorage.getItem("StudForm")){
+            existingUser=JSON.parse(localStorage.getItem("StudForm")) ||[]
+        }
+
+        
+
+
+
     }
     return(
         <>
