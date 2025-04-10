@@ -38,3 +38,10 @@ input[type="number"] {
   font-size: 14px;
   margin-top: 4px;
 }
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
