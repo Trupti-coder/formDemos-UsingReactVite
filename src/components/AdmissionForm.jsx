@@ -57,6 +57,11 @@ function AdmissionForm(){
             existingUser=JSON.parse(localStorage.getItem("StudForm")) ||[]
         }
 
+        if(!Array.isArray(existingUser)){
+            existingUser=[];
+        }
+
+
         
 
 
