@@ -67,6 +67,23 @@ function AdmissionForm(){
         alert("Form Submited successfully to localstorage..!");
 
 
+        setFormData({
+
+        name:"",
+        fatherName:"",
+        motherName:"",
+        date:"",
+        gender:"",
+        division:"",
+
+
+
+        })
+
+
+    
+
+
 
     }
     return(
