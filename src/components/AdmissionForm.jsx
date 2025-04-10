@@ -126,7 +126,7 @@ function AdmissionForm(){
             <div>
                 Gender:<input type="radio" name="gender" value="Male" checked={formdata.gender==="Male"} onChange={handleChange} />Male
                 <input type="radio" name="gender" value="Female" checked={formdata.gender==="Female"} onChange={handleChange} />Female
-                <input type="radio" name="gender" value="Other" checked={formdata.gender==="other"} onChange={handleChange} />Other
+                <input type="radio" name="gender" value="Other" checked={formdata.gender==="Other"} onChange={handleChange} />Other
 
             </div>
             <div>
