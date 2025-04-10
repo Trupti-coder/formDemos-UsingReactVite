@@ -91,14 +91,7 @@ function AdmissionForm(){
         courseName:"",
         declaration:""
 
-
-
         })
-
-
-    
-
-
 
     }
     return(
