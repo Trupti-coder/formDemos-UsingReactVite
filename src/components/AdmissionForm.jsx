@@ -80,6 +80,11 @@ function AdmissionForm(){
         permanentDivision:"",
         permanentDistrict:"",
         permanentAddress:"",
+        religion:"",
+        nationality:"",
+        phone:"",
+        email:"",
+        nidNumber:"",
 
 
 
