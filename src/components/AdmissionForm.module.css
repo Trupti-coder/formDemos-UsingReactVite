@@ -13,3 +13,14 @@
     text-align: center;
     color: #333;
   }
+
+  p {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #666;
+  }
+  
+  form div {
+    margin-bottom: 15px;
+  }
