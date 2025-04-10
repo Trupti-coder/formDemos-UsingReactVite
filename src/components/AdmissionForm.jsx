@@ -75,6 +75,11 @@ function AdmissionForm(){
         date:"",
         gender:"",
         division:"",
+        district:"",
+        address:"",
+        permanentDivision:"",
+        permanentDistrict:"",
+        permanentAddress:"",
 
 
 
