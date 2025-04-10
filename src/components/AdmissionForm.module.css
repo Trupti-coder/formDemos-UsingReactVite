@@ -45,3 +45,10 @@ fieldset {
     border-radius: 8px;
     margin-top: 10px;
   }
+
+  
+legend {
+    padding: 0 10px;
+    font-weight: bold;
+    color: #444;
+  }
