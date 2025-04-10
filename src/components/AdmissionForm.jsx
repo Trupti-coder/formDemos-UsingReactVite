@@ -85,6 +85,11 @@ function AdmissionForm(){
         phone:"",
         email:"",
         nidNumber:"",
+        bloodGroup:"",
+        occupation:"",
+        status:"",
+        courseName:"",
+        declaration:""
 
 
 
