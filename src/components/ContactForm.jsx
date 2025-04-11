@@ -19,6 +19,12 @@ function ContactForm(){
             <div>
                 Repeat Password:<input type="password" />
             </div>
+            <div>
+                <input type="checkbox" />Check to indicate that you aggree to the Terms of Services and Privacy Policy
+            </div>
+            <div>
+                <button type="submit">Sign Up</button>
+            </div>
         </form>
        </div>
         </>
