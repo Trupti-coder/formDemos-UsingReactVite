@@ -11,7 +11,13 @@ function ContactForm(){
                Your  Name:<input type="text" name="name" />
             </div>
             <div>
-
+               Email Address:<input type="email" name="email" />
+            </div>
+            <div>
+                Password:<input type="password" />
+            </div>
+            <div>
+                Repeat Password:<input type="password" />
             </div>
         </form>
        </div>
