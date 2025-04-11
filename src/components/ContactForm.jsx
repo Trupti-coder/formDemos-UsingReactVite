@@ -1,12 +1,17 @@
 import { Link } from "react-router-dom";
 
 function ContactForm(){
+
+    function handleSubmit(event){
+        event.preventDefault();
+
+    }
     return(
         <>
        <div>
         <h1>Hey,it takes less that 60s</h1>
         <p>Already have an account ? <Link>Log in</Link></p>
-        <form>
+        <form onSubmit={handleSubmit}>
             <div>
                Your  Name:<input type="text" name="name" />
             </div>
