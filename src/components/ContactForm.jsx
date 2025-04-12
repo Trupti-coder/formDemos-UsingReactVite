@@ -20,6 +20,15 @@ function ContactForm(){
         const newErrors = {};
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+
+        if (!formData.email || !emailRegex.test(formData.email)) {
+            newErrors.email = "Please enter a valid email address.";
+          }
+      
+          if (formData.password.length < 6) {
+            newErrors.password = "Password must be at least 6 characters.";
+          }
+
     }
 
 
