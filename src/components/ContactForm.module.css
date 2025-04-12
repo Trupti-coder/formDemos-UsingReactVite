@@ -41,3 +41,13 @@
   font-size: 14px;
   transition: 0.3s;
 }
+
+.formGroup input:focus {
+    border-color: #007bff;
+  }
+  
+  .error {
+    color: red;
+    font-size: 12px;
+    margin-top: 4px;
+  }
