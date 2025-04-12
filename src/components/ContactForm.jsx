@@ -93,11 +93,11 @@ function ContactForm(){
             <p style={{ color: "red" }}>{errors.resetPassword}</p>
           )}
             </div>
-            <div>
+            <div className={styles.checkbox}>
                 <input type="checkbox" />Check to indicate that you aggree to the Terms of Services and Privacy Policy
             </div>
             <div>
-                <button type="submit">Sign Up</button>
+                <button type="submit" className={styles.submitBtn}>Sign Up</button>
             </div>
         </form>
        </div>
