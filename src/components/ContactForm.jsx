@@ -15,6 +15,13 @@ function ContactForm(){
 
     let[errors,setErrors]=useState({});
 
+    function validate(){
+
+        const newErrors = {};
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+    }
+
 
     function handleChange(event){
         const {name,value}=event.target;
