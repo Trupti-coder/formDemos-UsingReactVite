@@ -77,16 +77,16 @@ function ContactForm(){
         <h1 className={styles.title}>Hey,it takes less that 60s</h1>
         <p className={styles.subtitle}>Already have an account ? <Link>Log in</Link></p>
         <form onSubmit={handleSubmit}>
-            <div>
+            <div className={styles.formGroup}>
                Your  Name:<input type="text" name="name" value={formData.name} onChange={handleChange} />
             </div>
-            <div>
+            <div className={styles.formGroup}>
                Email Address:<input type="email" name="email" value={formData.email} onChange={handleChange} />
             </div>
-            <div>
+            <div className={styles.formGroup}>
                 Password:<input type="password" value={formData.password} onChange={handleChange} />
             </div>
-            <div>
+            <div className={styles.formGroup}>
                 Repeat Password:<input type="password" value={formData.resetPassword} onChange={handleChange} />
 
                 {errors.resetPassword && (
