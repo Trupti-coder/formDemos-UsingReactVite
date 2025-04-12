@@ -45,6 +45,8 @@ function ContactForm(){
             [name]:value,
         }));
 
+
+
     }
 
     function handleSubmit(event){
@@ -55,6 +57,12 @@ function ContactForm(){
         alert("Passwords do not match!");
         return;
       }
+
+
+      const validationErrors = validate();
+      if (Object.keys(validationErrors).length > 0) {
+        setErrors(validationErrors);
+      } 
 
     }
     return(
