@@ -88,6 +88,10 @@ function ContactForm(){
             </div>
             <div>
                 Repeat Password:<input type="password" value={formData.resetPassword} onChange={handleChange} />
+
+                {errors.resetPassword && (
+            <p style={{ color: "red" }}>{errors.resetPassword}</p>
+          )}
             </div>
             <div>
                 <input type="checkbox" />Check to indicate that you aggree to the Terms of Services and Privacy Policy
