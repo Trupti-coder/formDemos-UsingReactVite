@@ -4,7 +4,12 @@ import { Link } from "react-router-dom";
 function ContactForm(){
 
     let[formData,setFormData]=useState({
+
+        name:"",
+        email:"",
+        password:"",
         
+
     })
 
     function handleSubmit(event){
