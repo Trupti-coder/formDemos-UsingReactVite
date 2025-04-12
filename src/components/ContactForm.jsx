@@ -1,6 +1,11 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 function ContactForm(){
+
+    let[formData,setFormData]=useState({
+        
+    })
 
     function handleSubmit(event){
         event.preventDefault();
