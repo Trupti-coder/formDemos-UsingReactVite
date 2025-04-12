@@ -13,8 +13,15 @@ function ContactForm(){
 
     })
 
+    let[errors,setErrors]=useState({});
 
-    function handleChange(){
+
+    function handleChange(event){
+        const {name,value}=event.target;
+        setFormData((prev)=>({
+            ...prev,
+            [name]:value,
+        }));
 
     }
 
