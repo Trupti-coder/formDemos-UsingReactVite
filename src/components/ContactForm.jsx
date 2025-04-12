@@ -29,16 +29,16 @@ function ContactForm(){
         <p>Already have an account ? <Link>Log in</Link></p>
         <form onSubmit={handleSubmit}>
             <div>
-               Your  Name:<input type="text" name="name" value="name" onChange={handleChange} />
+               Your  Name:<input type="text" name="name" value={} onChange={handleChange} />
             </div>
             <div>
-               Email Address:<input type="email" name="email" value="email" onChange={handleChange} />
+               Email Address:<input type="email" name="email" value={} onChange={handleChange} />
             </div>
             <div>
-                Password:<input type="password" value="password" onChange={handleChange} />
+                Password:<input type="password" value={} onChange={handleChange} />
             </div>
             <div>
-                Repeat Password:<input type="password" value="resetPassword" onChange={handleChange} />
+                Repeat Password:<input type="password" value={} onChange={handleChange} />
             </div>
             <div>
                 <input type="checkbox" />Check to indicate that you aggree to the Terms of Services and Privacy Policy
