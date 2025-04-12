@@ -28,6 +28,12 @@ function ContactForm(){
     function handleSubmit(event){
         event.preventDefault();
 
+         // Simple validation example
+    if (formData.password !== formData.resetPassword) {
+        alert("Passwords do not match!");
+        return;
+      }
+
     }
     return(
         <>
