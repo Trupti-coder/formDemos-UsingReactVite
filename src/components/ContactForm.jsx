@@ -63,6 +63,12 @@ function ContactForm(){
       if (Object.keys(validationErrors).length > 0) {
         setErrors(validationErrors);
       } 
+      else {
+        setErrors({});
+        console.log("Submitted Data:", formData);
+        alert("Form submitted successfully!");
+        // You could also reset the form here
+      }
 
     }
     return(
