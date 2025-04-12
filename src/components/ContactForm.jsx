@@ -29,10 +29,10 @@ function ContactForm(){
         <p>Already have an account ? <Link>Log in</Link></p>
         <form onSubmit={handleSubmit}>
             <div>
-               Your  Name:<input type="text" name="name" value={} onChange={handleChange} />
+               Your  Name:<input type="text" name="name" value={formData.name} onChange={handleChange} />
             </div>
             <div>
-               Email Address:<input type="email" name="email" value={} onChange={handleChange} />
+               Email Address:<input type="email" name="email" value={formData.email} onChange={handleChange} />
             </div>
             <div>
                 Password:<input type="password" value={} onChange={handleChange} />
