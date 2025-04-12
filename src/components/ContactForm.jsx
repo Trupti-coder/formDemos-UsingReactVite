@@ -8,12 +8,15 @@ function ContactForm(){
         name:"",
         email:"",
         password:"",
+        resetPassword:""
 
 
     })
 
 
-    
+    function handleChange(){
+
+    }
 
     function handleSubmit(event){
         event.preventDefault();
@@ -32,10 +35,10 @@ function ContactForm(){
                Email Address:<input type="email" name="email" value="email" onChange={handleChange} />
             </div>
             <div>
-                Password:<input type="password" value="password" />
+                Password:<input type="password" value="password" onChange={handleChange} />
             </div>
             <div>
-                Repeat Password:<input type="password" />
+                Repeat Password:<input type="password" value="resetPassword" onChange={handleChange} />
             </div>
             <div>
                 <input type="checkbox" />Check to indicate that you aggree to the Terms of Services and Privacy Policy
