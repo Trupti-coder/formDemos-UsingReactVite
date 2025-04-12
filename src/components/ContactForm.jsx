@@ -12,6 +12,9 @@ function ContactForm(){
 
     })
 
+
+    
+
     function handleSubmit(event){
         event.preventDefault();
 
@@ -23,10 +26,10 @@ function ContactForm(){
         <p>Already have an account ? <Link>Log in</Link></p>
         <form onSubmit={handleSubmit}>
             <div>
-               Your  Name:<input type="text" name="name" value="name" />
+               Your  Name:<input type="text" name="name" value="name" onChange={handleChange} />
             </div>
             <div>
-               Email Address:<input type="email" name="email" value="email" />
+               Email Address:<input type="email" name="email" value="email" onChange={handleChange} />
             </div>
             <div>
                 Password:<input type="password" value="password" />
