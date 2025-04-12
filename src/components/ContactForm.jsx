@@ -73,9 +73,9 @@ function ContactForm(){
     }
     return(
         <>
-       <div>
-        <h1>Hey,it takes less that 60s</h1>
-        <p>Already have an account ? <Link>Log in</Link></p>
+       <div className={styles.container}>
+        <h1 className={styles.title}>Hey,it takes less that 60s</h1>
+        <p className={styles.subtitle}>Already have an account ? <Link>Log in</Link></p>
         <form onSubmit={handleSubmit}>
             <div>
                Your  Name:<input type="text" name="name" value={formData.name} onChange={handleChange} />
