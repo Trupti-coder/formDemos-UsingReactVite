@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useLayoutEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
 function ContactForm(){
@@ -8,7 +8,7 @@ function ContactForm(){
         name:"",
         email:"",
         password:"",
-        
+
 
     })
 
@@ -23,13 +23,13 @@ function ContactForm(){
         <p>Already have an account ? <Link>Log in</Link></p>
         <form onSubmit={handleSubmit}>
             <div>
-               Your  Name:<input type="text" name="name" />
+               Your  Name:<input type="text" name="name" value="name" />
             </div>
             <div>
-               Email Address:<input type="email" name="email" />
+               Email Address:<input type="email" name="email" value="email" />
             </div>
             <div>
-                Password:<input type="password" />
+                Password:<input type="password" value="password" />
             </div>
             <div>
                 Repeat Password:<input type="password" />
