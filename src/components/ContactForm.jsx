@@ -29,6 +29,12 @@ function ContactForm(){
             newErrors.password = "Password must be at least 6 characters.";
           }
 
+          if (formData.password !== formData.resetPassword) {
+            newErrors.resetPassword = "Passwords do not match.";
+          }
+      
+          return newErrors;
+
     }
 
 
