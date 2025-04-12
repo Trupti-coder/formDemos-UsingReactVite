@@ -35,10 +35,10 @@ function ContactForm(){
                Email Address:<input type="email" name="email" value={formData.email} onChange={handleChange} />
             </div>
             <div>
-                Password:<input type="password" value={} onChange={handleChange} />
+                Password:<input type="password" value={formData.password} onChange={handleChange} />
             </div>
             <div>
-                Repeat Password:<input type="password" value={} onChange={handleChange} />
+                Repeat Password:<input type="password" value={formData.resetPassword} onChange={handleChange} />
             </div>
             <div>
                 <input type="checkbox" />Check to indicate that you aggree to the Terms of Services and Privacy Policy
