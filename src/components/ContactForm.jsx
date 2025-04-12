@@ -1,5 +1,6 @@
 import { useLayoutEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import styles from "./ContactForm.module.css";
 
 function ContactForm(){
 
