@@ -24,3 +24,9 @@
     margin-bottom: 25px;
     color: #666;
   }
+
+  .formGroup {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+  }
