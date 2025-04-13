@@ -1,4 +1,10 @@
+import { useState } from "react";
+
 function ComunityForm(){
+
+    let[data,setData]=useState({
+        
+    })
     return(
         <>
         <div>
