@@ -54,4 +54,12 @@
     color: #777;
     margin-bottom: 10px;
   }
+
+  .checkboxGroup {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin: 10px 0 20px 0;
+  }
+  
   
