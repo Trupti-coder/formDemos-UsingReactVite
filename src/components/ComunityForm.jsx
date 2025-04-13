@@ -93,9 +93,11 @@ function ComunityForm(){
                 <div>
                     UserName:<input type="text" name="userName" placeholder="Enter Your UserName" value={data.userName} onChange={handleChange} />
                 </div>
-                <h1>Set Your Password</h1>
-                <div>
+                <h1 className={styles.passwordHeader}>Set Your Password</h1>
+                <div  className={styles.formGroup}>
                     Password:<input type="Password" name="password" placeholder="Enter Your Password" value={data.password} onChange={handleChange} />
+
+                    {errors.password && <span className={styles.error}>{errors.password}</span>}
                 </div>
                 <div>
                     Confirm Password:<input type="password" name="confirmPassword" placeholder="Confirm your password" value={data.confirmPassword} onChange={handleChange} />
