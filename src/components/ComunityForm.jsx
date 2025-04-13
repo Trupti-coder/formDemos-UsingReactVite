@@ -17,6 +17,19 @@ function ComunityForm(){
                 <div>
                     Phone Number:<input type="tel" />
                 </div>
+                <div>
+                    UserName:<input type="text" />
+                </div>
+                <h1>Set Your Password</h1>
+                <div>
+                    Password:<input type="Password" />
+                </div>
+                <div>
+                    Confirm Password:<input type="password" />
+                </div>
+                <p>Your password must be at least 8 characters long,
+                    contain a mix of upper and lower case letters,
+                     a number,and a special character.</p>
             </form>
         </div>
         </>
