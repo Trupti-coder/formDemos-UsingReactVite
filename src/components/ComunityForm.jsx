@@ -51,13 +51,13 @@ function ComunityForm(){
                     Password:<input type="Password" name="password" placeholder="Enter Your Password" onChange={handleChange} />
                 </div>
                 <div>
-                    Confirm Password:<input type="password" name="confirmPassword" placeholder="Confirm your password" />
+                    Confirm Password:<input type="password" name="confirmPassword" placeholder="Confirm your password" onChange={handleChange} />
                 </div>
                 <p>Your password must be at least 8 characters long,
                     contain a mix of upper and lower case letters,
                      a number,and a special character.</p>
                      <div>
-                        <input type="checkbox" />I agree to the Terms of Service and Privacy Policy
+                        <input type="checkbox" onChange={handleChange} />I agree to the Terms of Service and Privacy Policy
                      </div>
                      <button type="submit">Create Account</button>
             </form>
