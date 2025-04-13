@@ -15,7 +15,7 @@ function ComunityForm(){
 
     function handleSubmit(event){
         event.preventDefault();
-        
+
 
     }
 
@@ -35,10 +35,10 @@ function ComunityForm(){
                  First Name:<input type="text" name="firstName" placeholder="Enter your first Name" onChange={handleChange} />
                 </div>
                 <div>
-                    Last Name:<input type="text" name="lastName" placeholder="Enter your Last Name" />
+                    Last Name:<input type="text" name="lastName" placeholder="Enter your Last Name" onChange={handleChange} />
                 </div>
                 <div>
-                    Email Address:<input type="email" name="email" placeholder="Enter your email address" />
+                    Email Address:<input type="email" name="email" placeholder="Enter your email address" onChange={handleChange} />
                 </div>
                 <div>
                     Phone Number:<input type="tel" name="phoneNo" placeholder="Enter your Phone Number" />
