@@ -24,6 +24,9 @@ function ComunityForm(){
         const strongPasswordRegex =
       /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
 
+      if (!data.firstName) newErrors.firstName = "First name is required.";
+      if (!data.lastName) newErrors.lastName = "Last name is required.";
+
     }
 
     function handleSubmit(event){
