@@ -25,10 +25,10 @@ function ComunityForm(){
                     Last Name:<input type="text" placeholder="Enter your Last Name" />
                 </div>
                 <div>
-                    Email Address:<input type="email" />
+                    Email Address:<input type="email" placeholder="Enter your email address" />
                 </div>
                 <div>
-                    Phone Number:<input type="tel" />
+                    Phone Number:<input type="tel" placeholder="Enter your Phone Number" />
                 </div>
                 <div>
                     UserName:<input type="text" />
