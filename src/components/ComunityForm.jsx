@@ -32,10 +32,10 @@ function ComunityForm(){
             <p>Join our community</p>
             <form onSubmit={handleSubmit}>
                 <div>
-                 First Name:<input type="text" name="firstName" placeholder="Enter your first Name" onChange={handleChange} />
+                 First Name:<input type="text" name="firstName" placeholder="Enter your first Name" value={data.firstName} onChange={handleChange} />
                 </div>
                 <div>
-                    Last Name:<input type="text" name="lastName" placeholder="Enter your Last Name" onChange={handleChange} />
+                    Last Name:<input type="text" name="lastName" placeholder="Enter your Last Name" value={data.lastName} onChange={handleChange} />
                 </div>
                 <div>
                     Email Address:<input type="email" name="email" placeholder="Enter your email address" onChange={handleChange} />
