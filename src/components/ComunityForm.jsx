@@ -48,10 +48,10 @@ function ComunityForm(){
                 </div>
                 <h1>Set Your Password</h1>
                 <div>
-                    Password:<input type="Password" name="password" placeholder="Enter Your Password" onChange={handleChange} />
+                    Password:<input type="Password" name="password" placeholder="Enter Your Password" value={data.password} onChange={handleChange} />
                 </div>
                 <div>
-                    Confirm Password:<input type="password" name="confirmPassword" placeholder="Confirm your password" onChange={handleChange} />
+                    Confirm Password:<input type="password" name="confirmPassword" placeholder="Confirm your password" value={data.confirmPassword} onChange={handleChange} />
                 </div>
                 <p>Your password must be at least 8 characters long,
                     contain a mix of upper and lower case letters,
