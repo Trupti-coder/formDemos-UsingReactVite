@@ -7,3 +7,9 @@
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     font-family: "Segoe UI", sans-serif;
   }
+
+  .title {
+    text-align: center;
+    font-size: 28px;
+    color: #333;
+  }
