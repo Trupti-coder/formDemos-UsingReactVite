@@ -19,10 +19,10 @@ function ComunityForm(){
             <p>Join our community</p>
             <form>
                 <div>
-                 First Name:<input type="text" placeholder="Enter your first Name" />
+                 First Name:<input type="text" name="firstName" placeholder="Enter your first Name" />
                 </div>
                 <div>
-                    Last Name:<input type="text" placeholder="Enter your Last Name" />
+                    Last Name:<input type="text" name="lastName" placeholder="Enter your Last Name" />
                 </div>
                 <div>
                     Email Address:<input type="email" placeholder="Enter your email address" />
