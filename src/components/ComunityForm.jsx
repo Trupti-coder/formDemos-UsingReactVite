@@ -6,10 +6,10 @@ function ComunityForm(){
             <p>Join our community</p>
             <form>
                 <div>
-                 First Name:<input type="text" />
+                 First Name:<input type="text" placeholder="Enter your first Name" />
                 </div>
                 <div>
-                    Last Name:<input type="text" />
+                    Last Name:<input type="text" placeholder="Enter your Last Name" />
                 </div>
             </form>
         </div>
