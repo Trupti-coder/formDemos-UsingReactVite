@@ -37,4 +37,15 @@
     border: 1px solid #ccc;
     transition: 0.3s;
   }
+
+  .formGroup input:focus {
+    border-color: #007bff;
+  }
+  
+  .passwordHeader {
+    font-size: 18px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    color: #444;
+  }
   
