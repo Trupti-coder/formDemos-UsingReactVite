@@ -13,9 +13,17 @@ function ComunityForm(){
 
     });
 
-    function handleSubmit(){
+    function handleSubmit(event){
+        event.preventDefault();
         
+
     }
+
+    function handleChange(){
+
+    }
+
+    
 
     return(
         <>
@@ -24,7 +32,7 @@ function ComunityForm(){
             <p>Join our community</p>
             <form onSubmit={handleSubmit}>
                 <div>
-                 First Name:<input type="text" name="firstName" placeholder="Enter your first Name" />
+                 First Name:<input type="text" name="firstName" placeholder="Enter your first Name" onChange={handleChange} />
                 </div>
                 <div>
                     Last Name:<input type="text" name="lastName" placeholder="Enter your Last Name" />
