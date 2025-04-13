@@ -110,7 +110,8 @@ function ComunityForm(){
                     contain a mix of upper and lower case letters,
                      a number,and a special character.</p>
                      <div>
-                        <input type="checkbox" onChange={handleChange} />I agree to the Terms of Service and Privacy Policy
+                        <input type="checkbox" onChange={handleChange} name="agreed" checked={data.agreed} />I agree to the Terms of Service and Privacy Policy
+                        {errors.agreed && <span className={styles.error}>{errors.agreed}</span>}
                      </div>
                      <button type="submit">Create Account</button>
             </form>
