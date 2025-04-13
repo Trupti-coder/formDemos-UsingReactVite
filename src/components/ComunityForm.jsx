@@ -38,7 +38,7 @@ function ComunityForm(){
                     Password:<input type="Password" name="password" placeholder="Enter Your Password" />
                 </div>
                 <div>
-                    Confirm Password:<input type="password" placeholder="Confirm your password" />
+                    Confirm Password:<input type="password" name="confirmPassword" placeholder="Confirm your password" />
                 </div>
                 <p>Your password must be at least 8 characters long,
                     contain a mix of upper and lower case letters,
