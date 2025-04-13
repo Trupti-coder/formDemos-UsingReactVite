@@ -30,6 +30,11 @@ function ComunityForm(){
       if (!emailRegex.test(data.email)) newErrors.email = "Invalid email address.";
     if (!data.phoneNo) newErrors.phoneNo = "Phone number is required.";
 
+    if (!data.userName) newErrors.userName = "Username is required.";
+    if (!strongPasswordRegex.test(data.password))
+
+
+
     }
 
     function handleSubmit(event){
