@@ -38,13 +38,13 @@ function ComunityForm(){
                     Last Name:<input type="text" name="lastName" placeholder="Enter your Last Name" value={data.lastName} onChange={handleChange} />
                 </div>
                 <div>
-                    Email Address:<input type="email" name="email" placeholder="Enter your email address" onChange={handleChange} />
+                    Email Address:<input type="email" name="email" placeholder="Enter your email address" value={data.email} onChange={handleChange} />
                 </div>
                 <div>
-                    Phone Number:<input type="tel" name="phoneNo" placeholder="Enter your Phone Number" onChange={handleChange} />
+                    Phone Number:<input type="tel" name="phoneNo" placeholder="Enter your Phone Number" value={data.phoneNo} onChange={handleChange} />
                 </div>
                 <div>
-                    UserName:<input type="text" name="userName" placeholder="Enter Your UserName" onChange={handleChange} />
+                    UserName:<input type="text" name="userName" placeholder="Enter Your UserName" value={data.userName} onChange={handleChange} />
                 </div>
                 <h1>Set Your Password</h1>
                 <div>
