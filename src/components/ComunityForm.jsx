@@ -99,8 +99,12 @@ function ComunityForm(){
 
                     {errors.password && <span className={styles.error}>{errors.password}</span>}
                 </div>
-                <div>
+                <div  className={styles.formGroup}>
                     Confirm Password:<input type="password" name="confirmPassword" placeholder="Confirm your password" value={data.confirmPassword} onChange={handleChange} />
+
+                    {errors.confirmPassword && (
+            <span className={styles.error}>{errors.confirmPassword}</span>
+          )}
                 </div>
                 <p>Your password must be at least 8 characters long,
                     contain a mix of upper and lower case letters,
