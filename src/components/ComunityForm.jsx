@@ -27,6 +27,9 @@ function ComunityForm(){
       if (!data.firstName) newErrors.firstName = "First name is required.";
       if (!data.lastName) newErrors.lastName = "Last name is required.";
 
+      if (!emailRegex.test(data.email)) newErrors.email = "Invalid email address.";
+    if (!data.phoneNo) newErrors.phoneNo = "Phone number is required.";
+
     }
 
     function handleSubmit(event){
