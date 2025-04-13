@@ -7,6 +7,7 @@ import IntermediateForm from './components/IntermediateForm.jsx';
 import JobApplication from './components/JobApplication.jsx';
 import Student from './components/Student.jsx';
 import SignIn from './components/SignIn.jsx';
+import ComunityForm from './components/ComunityForm.jsx';
 
 function App() {
   
@@ -28,6 +29,8 @@ function App() {
    <AboutUs />
    <hr></hr>
   <SignIn />
+  <hr></hr>
+  <ComunityForm />
       
     </>
   )
