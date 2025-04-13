@@ -75,9 +75,9 @@ function ComunityForm(){
     return(
         <>
         <div className={styles.container }>
-            <h1>Sign Up</h1>
-            <p>Join our community</p>
-            <form onSubmit={handleSubmit}>
+            <h1 className={styles.title}>Sign Up</h1>
+            <p className={styles.subtitle}>Join our community</p>
+            <form onSubmit={handleSubmit} className={styles.form}>
                 <div>
                  First Name:<input type="text" name="firstName" placeholder="Enter your first Name" value={data.firstName} onChange={handleChange} />
                 </div>
