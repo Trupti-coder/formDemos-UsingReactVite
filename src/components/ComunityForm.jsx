@@ -25,17 +25,17 @@ function ComunityForm(){
                     Last Name:<input type="text" name="lastName" placeholder="Enter your Last Name" />
                 </div>
                 <div>
-                    Email Address:<input type="email" placeholder="Enter your email address" />
+                    Email Address:<input type="email" name="email" placeholder="Enter your email address" />
                 </div>
                 <div>
-                    Phone Number:<input type="tel" placeholder="Enter your Phone Number" />
+                    Phone Number:<input type="tel" name="phoneNo" placeholder="Enter your Phone Number" />
                 </div>
                 <div>
-                    UserName:<input type="text" placeholder="Enter Your UserName" />
+                    UserName:<input type="text" name="userName" placeholder="Enter Your UserName" />
                 </div>
                 <h1>Set Your Password</h1>
                 <div>
-                    Password:<input type="Password" placeholder="Enter Your Password" />
+                    Password:<input type="Password" name="password" placeholder="Enter Your Password" />
                 </div>
                 <div>
                     Confirm Password:<input type="password" placeholder="Confirm your password" />
