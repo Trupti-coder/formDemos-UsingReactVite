@@ -11,13 +11,18 @@ function ComunityForm(){
         password:"",
         confirmPassword:"",
 
-    })
+    });
+
+    function handleSubmit(){
+        
+    }
+
     return(
         <>
         <div>
             <h1>Sign Up</h1>
             <p>Join our community</p>
-            <form>
+            <form onSubmit={handleSubmit}>
                 <div>
                  First Name:<input type="text" name="firstName" placeholder="Enter your first Name" />
                 </div>
