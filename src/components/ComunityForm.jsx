@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import styles from './ComunityForm.module.css';
+
 function ComunityForm(){
 
     let[data,setData]=useState({
@@ -72,7 +74,7 @@ function ComunityForm(){
 
     return(
         <>
-        <div>
+        <div className={styles.container }>
             <h1>Sign Up</h1>
             <p>Join our community</p>
             <form onSubmit={handleSubmit}>
