@@ -1,11 +1,12 @@
 import './App.css'
-import AboutUs from './components/AboutUs.jsx'
-import BasicForm from './components/BasicForm.jsx'
-import BillingForm from './components/BillingForm.jsx'
-import First from './components/First.jsx'
-import IntermediateForm from './components/IntermediateForm.jsx'
-import JobApplication from './components/JobApplication.jsx'
-import Student from './components/Student.jsx'
+import AboutUs from './components/AboutUs.jsx';
+import BasicForm from './components/BasicForm.jsx';
+import BillingForm from './components/BillingForm.jsx';
+import First from './components/First.jsx';
+import IntermediateForm from './components/IntermediateForm.jsx';
+import JobApplication from './components/JobApplication.jsx';
+import Student from './components/Student.jsx';
+import SignIn from './components/SignIn.jsx';
 
 function App() {
   
@@ -25,6 +26,8 @@ function App() {
    <JobApplication />
    <hr></hr>
    <AboutUs />
+   <hr></hr>
+  <SignIn />
       
     </>
   )
