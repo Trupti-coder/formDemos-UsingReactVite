@@ -36,6 +36,10 @@ function ComunityForm(){
         newErrors.password = "Password is too weak.";
         if (data.password !== data.confirmPassword)
 
+            if (!data.agreed) newErrors.agreed = "You must accept the terms.";
+
+            return newErrors;  
+
 
 
     }
