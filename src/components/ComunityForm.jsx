@@ -10,6 +10,7 @@ function ComunityForm(){
         userName:"",
         password:"",
         confirmPassword:"",
+        agreed:false
 
     });
 
@@ -17,11 +18,13 @@ function ComunityForm(){
         event.preventDefault();
 
         
-         // Simple validation example
-    if (data.password !== data.confirmPassword) {
-        alert("Passwords do not match!");
-        return;
-      }
+        const validationErrors = validate();
+        if (Object.keys(validationErrors).length > 0) {
+          setErrors(validationErrors);
+        } else {
+          setErrors({});
+          alert("Form submitted successfully!");
+        }
 
 
     }
