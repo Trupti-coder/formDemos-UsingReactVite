@@ -41,14 +41,14 @@ function ComunityForm(){
                     Email Address:<input type="email" name="email" placeholder="Enter your email address" onChange={handleChange} />
                 </div>
                 <div>
-                    Phone Number:<input type="tel" name="phoneNo" placeholder="Enter your Phone Number" />
+                    Phone Number:<input type="tel" name="phoneNo" placeholder="Enter your Phone Number" onChange={handleChange} />
                 </div>
                 <div>
-                    UserName:<input type="text" name="userName" placeholder="Enter Your UserName" />
+                    UserName:<input type="text" name="userName" placeholder="Enter Your UserName" onChange={handleChange} />
                 </div>
                 <h1>Set Your Password</h1>
                 <div>
-                    Password:<input type="Password" name="password" placeholder="Enter Your Password" />
+                    Password:<input type="Password" name="password" placeholder="Enter Your Password" onChange={handleChange} />
                 </div>
                 <div>
                     Confirm Password:<input type="password" name="confirmPassword" placeholder="Confirm your password" />
