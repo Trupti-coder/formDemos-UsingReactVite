@@ -7,6 +7,9 @@ function ComunityForm(){
         lastName:"",
         email:"",
         phoneNo:"",
+        userName:"",
+        password:"",
+        confirmPassword:"",
 
     })
     return(
