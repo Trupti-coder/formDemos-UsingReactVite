@@ -11,6 +11,12 @@ function ComunityForm(){
                 <div>
                     Last Name:<input type="text" placeholder="Enter your Last Name" />
                 </div>
+                <div>
+                    Email Address:<input type="email" />
+                </div>
+                <div>
+                    Phone Number:<input type="tel" />
+                </div>
             </form>
         </div>
         </>
