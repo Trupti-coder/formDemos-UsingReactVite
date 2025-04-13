@@ -3,7 +3,11 @@ import { useState } from "react";
 function ComunityForm(){
 
     let[data,setData]=useState({
-        
+        firstName:"",
+        lastName:"",
+        email:"",
+        phoneNo:"",
+
     })
     return(
         <>
