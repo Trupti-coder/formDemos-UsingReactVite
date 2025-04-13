@@ -16,6 +16,13 @@ function ComunityForm(){
     function handleSubmit(event){
         event.preventDefault();
 
+        
+         // Simple validation example
+    if (data.password !== data.confirmPassword) {
+        alert("Passwords do not match!");
+        return;
+      }
+
 
     }
 
