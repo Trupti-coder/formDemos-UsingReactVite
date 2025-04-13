@@ -30,6 +30,10 @@ function ComunityForm(){
                 <p>Your password must be at least 8 characters long,
                     contain a mix of upper and lower case letters,
                      a number,and a special character.</p>
+                     <div>
+                        <input type="checkbox" />I agree to the Terms of Service and Privacy Policy
+                     </div>
+                     <button type="submit">Create Account</button>
             </form>
         </div>
         </>
