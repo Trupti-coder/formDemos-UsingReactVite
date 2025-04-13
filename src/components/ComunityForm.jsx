@@ -31,14 +31,14 @@ function ComunityForm(){
                     Phone Number:<input type="tel" placeholder="Enter your Phone Number" />
                 </div>
                 <div>
-                    UserName:<input type="text" />
+                    UserName:<input type="text" placeholder="Enter Your UserName" />
                 </div>
                 <h1>Set Your Password</h1>
                 <div>
-                    Password:<input type="Password" />
+                    Password:<input type="Password" placeholder="Enter Your Password" />
                 </div>
                 <div>
-                    Confirm Password:<input type="password" />
+                    Confirm Password:<input type="password" placeholder="Confirm your password" />
                 </div>
                 <p>Your password must be at least 8 characters long,
                     contain a mix of upper and lower case letters,
