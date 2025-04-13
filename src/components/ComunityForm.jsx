@@ -10,9 +10,21 @@ function ComunityForm(){
         userName:"",
         password:"",
         confirmPassword:"",
-        agreed:false
+        agreed:false,
 
     });
+
+    const [errors, setErrors] = useState({});
+
+    function Validate(){
+
+        const newErrors = {};
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+        const strongPasswordRegex =
+      /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[\W_]).{8,}$/;
+
+    }
 
     function handleSubmit(event){
         event.preventDefault();
