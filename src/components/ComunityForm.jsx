@@ -33,6 +33,9 @@ function ComunityForm(){
     if (!data.userName) newErrors.userName = "Username is required.";
     if (!strongPasswordRegex.test(data.password))
 
+        newErrors.password = "Password is too weak.";
+        if (data.password !== data.confirmPassword)
+
 
 
     }
