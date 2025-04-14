@@ -43,13 +43,13 @@ function LoginForm(){
                 City:<input type="text" name="city" placeholder="Enter City" required  onChange={(event)=>setCity(event.target.value)} className={styles.formlable} />
             </div>
             <div>
-                Age:<input type="number" name="age" placeholder="Enter Age" required onChange={(event)=>setAge(event.target.value)} />
+                Age:<input type="number" name="age" placeholder="Enter Age" required onChange={(event)=>setAge(event.target.value)} className={styles.formlable} />
             </div>
             <div>
-                Email:<input type="email"  name="email" placeholder="Enter Email" required onChange={(event)=>setEmail(event.target.value)}  />
+                Email:<input type="email"  name="email" placeholder="Enter Email" required onChange={(event)=>setEmail(event.target.value)}  className={styles.formlable} />
             </div>
             <div>
-                Password:<input type="password" name="password" placeholder="Enter Password" required onChange={handlePassword} />
+                Password:<input type="password" name="password" placeholder="Enter Password" required onChange={handlePassword} className={styles.formlable} />
             </div>
             <button type="submit">Submit</button>
            </form>
