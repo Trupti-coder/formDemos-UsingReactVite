@@ -73,9 +73,19 @@ function ContactForm(){
 
       let existinguser;
 
-      if(localStorage.getItem("newUser")){
-        existinguser=JSON.parse(localStorage.getItem("newUser")) || []
+      if(localStorage.getItem("formData")){
+        existinguser=JSON.parse(localStorage.getItem("formData")) || []
       }
+
+      if(!Array.isArray(existinguser)){
+        existinguser=[];
+
+      }
+
+      existinguser.push(formData);
+
+      localStorage.setItem("formData",JSON.stringify(existinguser))
+      alert("data saved successfully to localstorage");
 
     }
     return(
