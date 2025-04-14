@@ -1,10 +1,19 @@
+import { useState } from "react";
+
 function LoginForm(){
+
+    let[name,setName]=useState("");
+    let[city,setCity]=useState("");
+    let[age,setAge]=useState("");
+    let[email,setEmail]=useState("");
+    let[password,setPassword]=useState("");
+
     return(
         <>
         <div>
            <form>
             <div>
-                Name:<input type="text" />
+                Name:<input type="text"  />
             </div>
             <div>
                 City:<input type="text" />
