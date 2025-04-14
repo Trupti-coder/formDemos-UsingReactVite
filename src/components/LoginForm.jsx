@@ -9,6 +9,14 @@ function LoginForm(){
     let[password,setPassword]=useState("");
     let[passwordError,setPasswordError]=useState("");
 
+    function validPassword(password){
+
+    }
+
+    function handlePassword(event){
+
+    }
+
     function handleSubmit(event){
         event.preventDefault();
 
@@ -31,7 +39,7 @@ function LoginForm(){
                 Email:<input type="email"  name="email" placeholder="Enter Email" onChange={(event)=>setEmail(event.target.value)}  />
             </div>
             <div>
-                Password:<input type="password" name="password" placeholder="Enter Password" onChange={(event)=>setPassword(event.target.value)} />
+                Password:<input type="password" name="password" placeholder="Enter Password" onChange={handlePassword} />
             </div>
             <button type="submit">Submit</button>
            </form>
