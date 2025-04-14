@@ -13,10 +13,10 @@ function LoginForm(){
         <div>
            <form>
             <div>
-                Name:<input type="text"  />
+                Name:<input type="text" name="name"  />
             </div>
             <div>
-                City:<input type="text" />
+                City:<input type="text" name="city" />
             </div>
             <div>
                 Age:<input type="number" />
