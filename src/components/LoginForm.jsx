@@ -19,13 +19,13 @@ function LoginForm(){
                 City:<input type="text" name="city" />
             </div>
             <div>
-                Age:<input type="number" />
+                Age:<input type="number" name="age" />
             </div>
             <div>
-                Email:<input type="email" />
+                Email:<input type="email"  name="email"/>
             </div>
             <div>
-                Password:<input type="password" />
+                Password:<input type="password" name="password" />
             </div>
             <button type="submit">Submit</button>
            </form>
