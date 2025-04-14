@@ -9,7 +9,8 @@ function LoginForm(){
     let[password,setPassword]=useState("");
 
     function handleSubmit(event){
-        
+        event.preventDefault();
+
     }
 
     return(
@@ -17,10 +18,10 @@ function LoginForm(){
         <div>
            <form onSubmit={handleSubmit}>
             <div>
-                Name:<input type="text" name="name" placeholder="Enter Name"  />
+                Name:<input type="text" name="name" placeholder="Enter Name" onChange={(event)=>setName(event.target.value)}  />
             </div>
             <div>
-                City:<input type="text" name="city" placeholder="Enter City" />
+                City:<input type="text" name="city" placeholder="Enter City" onChange={(event)=>setCity(event.target.value)} />
             </div>
             <div>
                 Age:<input type="number" name="age" placeholder="Enter Age" />
