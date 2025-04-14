@@ -1,5 +1,7 @@
 import { useState } from "react";
 
+import styles from './LoginForm.module.css';
+
 function LoginForm(){
 
     let[name,setName]=useState("");
@@ -32,7 +34,7 @@ function LoginForm(){
 
     return(
         <>
-        <div>
+        <div className={styles.container}>
            <form onSubmit={handleSubmit}>
             <div>
                 Name:<input type="text" name="name" placeholder="Enter Name" required onChange={(event)=>setName(event.target.value)}  />
