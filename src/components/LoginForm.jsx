@@ -37,6 +37,9 @@ function LoginForm(){
 
     function handlePassword(event){
 
+        setPassword(event.target.value);
+        setPasswordError(validPassword(event.target.value));
+
     }
 
     function handleSubmit(event){
