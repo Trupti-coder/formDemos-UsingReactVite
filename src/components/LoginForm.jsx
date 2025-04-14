@@ -59,6 +59,9 @@ function LoginForm(){
 
         existinguser.push(obj);
 
+        localStorage.setItem("logedUser",JSON.stringify(existinguser));
+        alert("Data saved successfuly to localstorage..!");
+
     }
 
     return(
