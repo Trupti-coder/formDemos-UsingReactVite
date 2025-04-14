@@ -11,6 +11,8 @@ function LoginForm(){
     let[password,setPassword]=useState("");
     let[passwordError,setPasswordError]=useState("");
 
+
+
     function validPassword(password){
         const minLength=8;
         const hasUppercase=/[A-Z]/.test(password);
@@ -67,6 +69,7 @@ function LoginForm(){
     return(
         <>
         <div className={styles.container}>
+            <h1 className={styles.title}>Login Form</h1>
            <form onSubmit={handleSubmit}>
             <div>
                 Name:<input type="text" name="name" placeholder="Enter Name" required onChange={(event)=>setName(event.target.value)} className={styles.formlable}  />
