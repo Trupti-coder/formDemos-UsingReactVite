@@ -13,6 +13,11 @@ function LoginForm(){
         const minLength=8;
         const hasUppercase=/[A-Z]/.test(password);
         const hasNumber=/\d/.test(password);
+        const hasSpecialChar=/[!@#$%^&*()?:''<>]/.test(password);
+
+        if(password.length<minLength){
+           return 'Password must contain atleast 8 character'
+        }
 
     }
 
