@@ -71,6 +71,12 @@ function ContactForm(){
         // You could also reset the form here
       }
 
+      let existinguser;
+
+      if(localStorage.getItem("newUser")){
+        existinguser=JSON.parse(localStorage.getItem("newUser")) || []
+      }
+
     }
     return(
         <>
