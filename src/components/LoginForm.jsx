@@ -8,10 +8,14 @@ function LoginForm(){
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
 
+    function handleSubmit(event){
+        
+    }
+
     return(
         <>
         <div>
-           <form>
+           <form onSubmit={handleSubmit}>
             <div>
                 Name:<input type="text" name="name" placeholder="Enter Name"  />
             </div>
@@ -25,7 +29,7 @@ function LoginForm(){
                 Email:<input type="email"  name="email" placeholder="Enter Email"  />
             </div>
             <div>
-                Password:<input type="password" name="password" />
+                Password:<input type="password" name="password" placeholder="Enter Password" />
             </div>
             <button type="submit">Submit</button>
            </form>
