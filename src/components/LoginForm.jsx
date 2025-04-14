@@ -44,12 +44,20 @@ function LoginForm(){
 
     function handleSubmit(event){
         event.preventDefault();
+        let obj={userName:name,userCity:city,userAge:age,userEmail:email,userPassword:password};
+        console.log(obj);
 
         let existinguser;
 
         if(localStorage.getItem("logedUser")){
             existinguser=JSON.parse(localStorage.getItem("logedUser")) || [];
         }
+
+        if(!Array.isArray(existinguser)){
+            existinguser=[];
+        }
+
+        existinguser.push(obj);
 
     }
 
