@@ -45,6 +45,12 @@ function LoginForm(){
     function handleSubmit(event){
         event.preventDefault();
 
+        let existinguser;
+
+        if(localStorage.getItem("logedUser")){
+            existinguser=JSON.parse(localStorage.getItem("logedUser")) || [];
+        }
+
     }
 
     return(
