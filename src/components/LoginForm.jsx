@@ -12,6 +12,13 @@ function LoginForm(){
             <div>
                 Age:<input type="number" />
             </div>
+            <div>
+                Email:<input type="email" />
+            </div>
+            <div>
+                Password:<input type="password" />
+            </div>
+            <button type="submit">Submit</button>
            </form>
         </div>
         </>
