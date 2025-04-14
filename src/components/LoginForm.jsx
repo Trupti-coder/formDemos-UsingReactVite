@@ -21,6 +21,14 @@ function LoginForm(){
            return 'Password must contain atleast 8 character'
         }
 
+        if(!hasUppercase){
+            return 'Password must contain atleast 1 uppercase'
+        }
+
+        if(!hasNumber){
+            return 'password must contain atleast 1 number'
+        }
+
     }
 
     function handlePassword(event){
