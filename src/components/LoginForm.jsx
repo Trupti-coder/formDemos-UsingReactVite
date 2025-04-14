@@ -27,13 +27,13 @@ function LoginForm(){
         <div>
            <form onSubmit={handleSubmit}>
             <div>
-                Name:<input type="text" name="name" placeholder="Enter Name" onChange={(event)=>setName(event.target.value)}  />
+                Name:<input type="text" name="name" placeholder="Enter Name" required onChange={(event)=>setName(event.target.value)}  />
             </div>
             <div>
-                City:<input type="text" name="city" placeholder="Enter City" onChange={(event)=>setCity(event.target.value)} />
+                City:<input type="text" name="city" placeholder="Enter City" required  onChange={(event)=>setCity(event.target.value)} />
             </div>
             <div>
-                Age:<input type="number" name="age" placeholder="Enter Age" onChange={(event)=>setAge(event.target.value)} />
+                Age:<input type="number" name="age" placeholder="Enter Age" required onChange={(event)=>setAge(event.target.value)} />
             </div>
             <div>
                 Email:<input type="email"  name="email" placeholder="Enter Email" onChange={(event)=>setEmail(event.target.value)}  />
