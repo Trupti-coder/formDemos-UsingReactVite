@@ -24,10 +24,10 @@ function LoginForm(){
                 City:<input type="text" name="city" placeholder="Enter City" onChange={(event)=>setCity(event.target.value)} />
             </div>
             <div>
-                Age:<input type="number" name="age" placeholder="Enter Age" />
+                Age:<input type="number" name="age" placeholder="Enter Age" onChange={(event)=>setAge(event.target.value)} />
             </div>
             <div>
-                Email:<input type="email"  name="email" placeholder="Enter Email"  />
+                Email:<input type="email"  name="email" placeholder="Enter Email" onChange={(event)=>setEmail(event.target.value)}  />
             </div>
             <div>
                 Password:<input type="password" name="password" placeholder="Enter Password" />
