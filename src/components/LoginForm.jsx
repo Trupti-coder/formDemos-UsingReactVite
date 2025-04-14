@@ -26,7 +26,11 @@ function LoginForm(){
         }
 
         if(!hasNumber){
-            return 'password must contain atleast 1 number'
+            return 'password must contain atleast 1 number';
+        }
+
+        if(!hasSpecialChar){
+            return 'password must contain at least 1 special character';
         }
 
     }
