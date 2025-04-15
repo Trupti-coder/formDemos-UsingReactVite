@@ -59,14 +59,14 @@ const UserForm = () => {
                 City:<input type='text' placeholder='Enter your city name' name='city' value={formData.city} onChange={handleChange} />
             </div>
             <div>
-                Age:<input type='number' placeholder='Enter your Age ' name='age' value={formData.age} />
+                Age:<input type='number' placeholder='Enter your Age ' name='age' value={formData.age} onChange={handleChange} />
             </div>
            <div>
             <fieldset>
                 <legend>Present Address</legend>
-                Division:<input type='text' name='division' placeholder='Enter your Division' value={formData.division}  />
-                District:<input type='text' name='district' placeholder='Enter your District' value={formData.district} />
-                Address:<input type='text' name='address' placeholder='Enter your Address' value={formData.address}  />
+                Division:<input type='text' name='division' placeholder='Enter your Division' value={formData.division}  onChange={handleChange} />
+                District:<input type='text' name='district' placeholder='Enter your District' value={formData.district} onChange={handleChange} />
+                Address:<input type='text' name='address' placeholder='Enter your Address' value={formData.address} onChange={handleChange} />
             </fieldset>
            </div>
             <div>
