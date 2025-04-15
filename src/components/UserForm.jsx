@@ -14,7 +14,10 @@ const UserForm = () => {
         <div>UserForm</div>
         <form onSubmit={handleSubmit}>
             <div>
-                Name:<input type='text' placeholder='Enter your name' />
+               First Name:<input type='text' placeholder='Enter your name' />
+            </div>
+            <div>
+                Last Name:<input type='text' placeholder='Enter your Last Name' />
             </div>
             <div>
                 City:<input type='text' placeholder='Enter your city name' />
@@ -22,6 +25,7 @@ const UserForm = () => {
             <div>
                 Age:<input type='number' placeholder='Enter your Age' />
             </div>
+           
             <div>
                 <input type='radio' name='gender' />Male 
                 <input type='radio' name='gender' />Female 
