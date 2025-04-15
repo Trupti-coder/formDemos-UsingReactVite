@@ -8,6 +8,10 @@ const UserForm = () => {
         lastName:"",
         city:"",
         age:"",
+        gender:"",
+        email:"",
+        password:"",
+
 
     });
 
@@ -43,10 +47,10 @@ const UserForm = () => {
                 <input type='radio' name='gender' />Other
             </div>
             <div>
-                Emai:<input type='email' placeholder='Enter your Email' />
+                Emai:<input type='email' name='email' placeholder='Enter your Email' />
             </div>
             <div>
-                Password:<input type='password' placeholder='Enter Your Password' />
+                Password:<input type='password' name='password' placeholder='Enter Your Password' />
             </div>
             <button type='submit'>Submit</button>
         </form>
