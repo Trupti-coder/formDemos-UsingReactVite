@@ -48,7 +48,10 @@ const UserForm = () => {
             </div>
            <div>
             <fieldset>
-                
+                <legend>Present Address</legend>
+                Division:<input type='text' />
+                District:<input type='text' />
+                Address:<input type='text' />
             </fieldset>
            </div>
             <div>
