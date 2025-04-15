@@ -50,13 +50,13 @@ const UserForm = () => {
         <div>UserForm</div>
         <form onSubmit={handleSubmit}>
             <div>
-               First Name:<input type='text' placeholder='Enter your name' name='firstName' value={formData.firstName} />
+               First Name:<input type='text' placeholder='Enter your name' name='firstName' value={formData.firstName} onChange={handleChange} />
             </div>
             <div>
-                Last Name:<input type='text' placeholder='Enter your Last Name' name='lastName' value={formData.lastName} />
+                Last Name:<input type='text' placeholder='Enter your Last Name' name='lastName' value={formData.lastName} onChange={handleChange} />
             </div>
             <div>
-                City:<input type='text' placeholder='Enter your city name' name='city' value={formData.city} />
+                City:<input type='text' placeholder='Enter your city name' name='city' value={formData.city} onChange={handleChange} />
             </div>
             <div>
                 Age:<input type='number' placeholder='Enter your Age ' name='age' value={formData.age} />
