@@ -1,8 +1,20 @@
 import React from 'react'
 
 const UserForm = () => {
+
+
   return (
-    <div>UserForm</div>
+   <>
+    <div>
+        <div>UserForm</div>
+        <form>
+            <div>
+                Name:<input type='text' />
+            </div>
+        </form>
+    </div>
+    
+   </>
   )
 }
 
