@@ -38,6 +38,13 @@ const UserForm = () => {
             existingUser=JSON.parse(localStorage.getItem("formData"))||[]
         }
 
+        if(!Array.isArray("formData")){
+            existingUser=[];
+        }
+
+        existingUser.push(formData);
+    
+
 
     }
 
