@@ -2,12 +2,17 @@ import React from 'react'
 
 const UserForm = () => {
 
+    function handleSubmit(event){
+        event.preventDefault();
+
+    }
+
 
   return (
    <>
     <div>
         <div>UserForm</div>
-        <form>
+        <form onSubmit={handleSubmit}>
             <div>
                 Name:<input type='text' />
             </div>
@@ -28,6 +33,7 @@ const UserForm = () => {
             <div>
                 Password:<input type='password' />
             </div>
+            <button type='submit'>Submit</button>
         </form>
     </div>
     
