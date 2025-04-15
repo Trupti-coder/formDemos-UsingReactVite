@@ -30,6 +30,12 @@ const UserForm = () => {
 
     function handleSubmit(event){
         event.preventDefault();
+        console.log(formData);
+        let existingUser;
+
+        if(localStorage.getItem("formData")){
+            existingUser=JSON.parse(localStorage.setItem("formData"))||[]
+        }
 
 
     }
