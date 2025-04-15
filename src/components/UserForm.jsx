@@ -57,9 +57,9 @@ const UserForm = () => {
            <div>
             <fieldset>
                 <legend>Present Address</legend>
-                Division:<input type='text' name='division' placeholder='Enter your Division'  />
-                District:<input type='text' name='district' placeholder='Enter your District'  />
-                Address:<input type='text' name='address' placeholder='Enter your Address'  />
+                Division:<input type='text' name='division' placeholder='Enter your Division' value={formData.division}  />
+                District:<input type='text' name='district' placeholder='Enter your District' value={formData.district} />
+                Address:<input type='text' name='address' placeholder='Enter your Address' value={formData.address}  />
             </fieldset>
            </div>
             <div>
