@@ -15,6 +15,12 @@ const UserForm = () => {
 
     });
 
+
+    function handleChange(event){
+        const{name,value,type}=event.target;
+
+    }
+
     function handleSubmit(event){
         event.preventDefault();
 
@@ -40,7 +46,11 @@ const UserForm = () => {
             <div>
                 Age:<input type='number' placeholder='Enter your Age ' name='age' />
             </div>
-           
+           <div>
+            <fieldset>
+                
+            </fieldset>
+           </div>
             <div>
                 <input type='radio' name='gender' />Male 
                 <input type='radio' name='gender' />Female 
