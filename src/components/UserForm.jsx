@@ -28,10 +28,10 @@ const UserForm = () => {
                 <input type='radio' name='gender' />Other
             </div>
             <div>
-                Emai:<input type='email' />
+                Emai:<input type='email' placeholder='Enter your Email' />
             </div>
             <div>
-                Password:<input type='password' />
+                Password:<input type='password' placeholder='Enter Your Password' />
             </div>
             <button type='submit'>Submit</button>
         </form>
