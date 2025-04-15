@@ -75,10 +75,10 @@ const UserForm = () => {
                 <input type='radio' name='gender' value="Other" checked={formData.gender==="Other"} onChange={handleChange} />Other
             </div>
             <div>
-                Emai:<input type='email' name='email' placeholder='Enter your Email' value={formData.email} />
+                Emai:<input type='email' name='email' placeholder='Enter your Email' value={formData.email} onChange={handleChange} />
             </div>
             <div>
-                Password:<input type='password' name='password' placeholder='Enter Your Password' value={formData.password} />
+                Password:<input type='password' name='password' placeholder='Enter Your Password' value={formData.password} onChange={handleChange} />
             </div>
             <button type='submit'>Submit</button>
         </form>
