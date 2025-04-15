@@ -14,10 +14,10 @@ const UserForm = () => {
         <div>UserForm</div>
         <form onSubmit={handleSubmit}>
             <div>
-                Name:<input type='text' />
+                Name:<input type='text' placeholder='Enter your name' />
             </div>
             <div>
-                City:<input type='text' />
+                City:<input type='text' placeholder='Enter your city name' />
             </div>
             <div>
                 Age:<input type='text' />
