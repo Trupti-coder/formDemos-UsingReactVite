@@ -1,11 +1,22 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const UserForm = () => {
+
+    let[formData,setFormData]=useState({
+
+        firstName:"",
+        lastName:"",
+        city:"",
+        age:"",
+
+    });
 
     function handleSubmit(event){
         event.preventDefault();
 
     }
+
+
 
 
   return (
