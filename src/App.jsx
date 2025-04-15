@@ -8,6 +8,7 @@ import JobApplication from './components/JobApplication.jsx';
 import Student from './components/Student.jsx';
 import SignIn from './components/SignIn.jsx';
 import ComunityForm from './components/ComunityForm.jsx';
+import UserForm from './components/UserForm.jsx';
 
 function App() {
   
@@ -31,6 +32,8 @@ function App() {
   <SignIn />
   <hr></hr>
   <ComunityForm />
+  <hr></hr>
+ <UserForm />
       
     </>
   )
