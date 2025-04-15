@@ -20,10 +20,11 @@ const UserForm = () => {
 
 
     function handleChange(event){
+
         const{name,value,type}=event.target;
         setFormData((prev)=>({
             ...prev,
-            [name]:type,
+            [name]:type==="checkbox"?checked:value,
         }))
 
     }
@@ -34,7 +35,7 @@ const UserForm = () => {
         let existingUser;
 
         if(localStorage.getItem("formData")){
-            existingUser=JSON.parse(localStorage.setItem("formData"))||[]
+            existingUser=JSON.parse(localStorage.getItem("formData"))||[]
         }
 
 
@@ -69,9 +70,9 @@ const UserForm = () => {
             </fieldset>
            </div>
             <div>
-                <input type='radio' name='gender'  />Male 
-                <input type='radio' name='gender' />Female 
-                <input type='radio' name='gender' />Other
+                <input type='radio' name='gender' value="Male"  />Male 
+                <input type='radio' name='gender' value="Female" />Female 
+                <input type='radio' name='gender' value="Other" />Other
             </div>
             <div>
                 Emai:<input type='email' name='email' placeholder='Enter your Email' value={formData.email} />
