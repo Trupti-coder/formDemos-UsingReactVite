@@ -43,6 +43,9 @@ const UserForm = () => {
         }
 
         existingUser.push(formData);
+
+        localStorage.setItem("formData",JSON.stringify(existingUser));
+        alert("form Submited and data successfuly saved to localstorage...!")
     
 
 
