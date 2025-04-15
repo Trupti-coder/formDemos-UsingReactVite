@@ -63,15 +63,15 @@ const UserForm = () => {
             </fieldset>
            </div>
             <div>
-                <input type='radio' name='gender' />Male 
+                <input type='radio' name='gender'  />Male 
                 <input type='radio' name='gender' />Female 
                 <input type='radio' name='gender' />Other
             </div>
             <div>
-                Emai:<input type='email' name='email' placeholder='Enter your Email' />
+                Emai:<input type='email' name='email' placeholder='Enter your Email' value={formData.email} />
             </div>
             <div>
-                Password:<input type='password' name='password' placeholder='Enter Your Password' />
+                Password:<input type='password' name='password' placeholder='Enter Your Password' value={formData.password} />
             </div>
             <button type='submit'>Submit</button>
         </form>
