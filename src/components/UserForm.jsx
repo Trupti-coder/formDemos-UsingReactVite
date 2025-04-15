@@ -21,11 +21,16 @@ const UserForm = () => {
 
     function handleChange(event){
         const{name,value,type}=event.target;
+        setFormData((prev)=>({
+            ...prev,
+            [name]:type,
+        }))
 
     }
 
     function handleSubmit(event){
         event.preventDefault();
+
 
     }
 
