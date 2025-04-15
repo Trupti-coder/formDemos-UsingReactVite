@@ -49,17 +49,17 @@ const UserForm = () => {
                 Last Name:<input type='text' placeholder='Enter your Last Name' name='lastName' value={formData.lastName} />
             </div>
             <div>
-                City:<input type='text' placeholder='Enter your city name' name='city' value={} />
+                City:<input type='text' placeholder='Enter your city name' name='city' value={formData.city} />
             </div>
             <div>
-                Age:<input type='number' placeholder='Enter your Age ' name='age' />
+                Age:<input type='number' placeholder='Enter your Age ' name='age' value={formData.age} />
             </div>
            <div>
             <fieldset>
                 <legend>Present Address</legend>
-                Division:<input type='text' name='division' placeholder='Enter your Division' />
-                District:<input type='text' name='district' placeholder='Enter your District' />
-                Address:<input type='text' name='address' placeholder='Enter your Address' />
+                Division:<input type='text' name='division' placeholder='Enter your Division'  />
+                District:<input type='text' name='district' placeholder='Enter your District'  />
+                Address:<input type='text' name='address' placeholder='Enter your Address'  />
             </fieldset>
            </div>
             <div>
