@@ -21,7 +21,7 @@ const UserForm = () => {
 
     function handleChange(event){
 
-        const{name,value,type}=event.target;
+        const{name,value,type,checked}=event.target;
         setFormData((prev)=>({
             ...prev,
             [name]:type==="checkbox"?checked:value,
@@ -38,7 +38,7 @@ const UserForm = () => {
             existingUser=JSON.parse(localStorage.getItem("formData"))||[]
         }
 
-        if(!Array.isArray("formData")){
+        if(!Array.isArray(existingUser)){
             existingUser=[];
         }
 
