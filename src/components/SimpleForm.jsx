@@ -4,6 +4,10 @@ const SimpleForm = () => {
 
     let[formData,setFormData]=useState({
 
+        studName:"",
+        studFatherName:"",
+        studMotherName:"",
+
     });
 
     function handleSubmit(){
