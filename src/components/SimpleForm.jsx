@@ -7,20 +7,20 @@ const SimpleForm = () => {
     });
 
     function handleSubmit(){
-        
+
     }
   return (
    <>
     <div>SimpleForm</div>
     <form onSubmit={handleSubmit}>
         <div>
-            Student Name:<input type='text' />
+            Student Name:<input type='text' name='studName' />
         </div>
         <div>
-            Student Father Name:<input type='text' />
+            Student Father Name:<input type='text'  name='studFatherName'/>
         </div>
         <div>
-           Student Mother Name:<input type='text' />
+           Student Mother Name:<input type='text' name='studMotherName' />
         </div>
         <div>
             Student Age:<input type='number' />
