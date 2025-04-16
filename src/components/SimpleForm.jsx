@@ -33,13 +33,13 @@ const SimpleForm = () => {
                 <legend>
                     <h3>Student Address</h3>
                     <div>
-                        District:<input type='text' onChange={handleChange} />
+                        District:<input type='text' name='district' onChange={handleChange} />
                     </div>
                     <div>
-                        Division:<input type='text' onChange={handleChange } />
+                        Division:<input type='text ' name='division' onChange={handleChange } />
                     </div>
                     <div>
-                        Address:<input type='text' onChange={handleChange} />
+                        Address:<input type='text' name="address" onChange={handleChange} />
                     </div>
                 </legend>
             </textarea>
