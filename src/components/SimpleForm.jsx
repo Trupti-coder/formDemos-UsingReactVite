@@ -41,6 +41,15 @@ const SimpleForm = () => {
         <input type='radio' />Female 
         <input type='radio' />Other
        </div>
+       <div>
+        Course:<select>
+            <option>MERN STACK</option>
+            <option>MEAN STACK </option>
+            <option>JAVA DEVELOPER</option>
+            <option>ANDROID DEVELOPER</option>
+            <option>IOS DEVELOPER</option>
+        </select>
+       </div>
     </form>
     </>
   )
