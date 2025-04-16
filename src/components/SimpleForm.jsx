@@ -14,10 +14,10 @@ const SimpleForm = () => {
     <div>SimpleForm</div>
     <form onSubmit={handleSubmit}>
         <div>
-            Student Name:<input type='text' name='studName' />
+            Student Name:<input type='text' name='studName' placeholder='Enter student name' />
         </div>
         <div>
-            Student Father Name:<input type='text'  name='studFatherName'/>
+            Student Father Name:<input type='text'  name='studFatherName ' placeholder='Enter student father name'/>
         </div>
         <div>
            Student Mother Name:<input type='text' name='studMotherName' />
