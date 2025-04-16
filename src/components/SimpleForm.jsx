@@ -20,26 +20,26 @@ const SimpleForm = () => {
             Student Father Name:<input type='text'  name='studFatherName ' placeholder='Enter student father name' onChange={handleChange}/>
         </div>
         <div>
-           Student Mother Name:<input type='text' name='studMotherName' />
+           Student Mother Name:<input type='text' name='studMotherName' onChange={handleChange} />
         </div>
         <div>
-            Student Age:<input type='number'  name='studAge' placeholder='Enter student Age'/>
+            Student Age:<input type='number'  name='studAge' placeholder='Enter student Age' onChange={handleChange}/>
         </div>
         <div>
-            City:<input type='text' name='city' placeholder='Enter student city name' />
+            City:<input type='text' name='city' placeholder='Enter student city name' onChange={handleChange} />
         </div>
         <div>
             <textarea>
                 <legend>
                     <h3>Student Address</h3>
                     <div>
-                        District:<input type='text' />
+                        District:<input type='text' onChange={handleChange} />
                     </div>
                     <div>
-                        Division:<input type='text' />
+                        Division:<input type='text' onChange={handleChange } />
                     </div>
                     <div>
-                        Address:<input type='text' />
+                        Address:<input type='text' onChange={handleChange} />
                     </div>
                 </legend>
             </textarea>
