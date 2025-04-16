@@ -68,16 +68,16 @@ const SimpleForm = () => {
        </div>
        <div>
         <h3>Highest qualification</h3>
-        <input type='radio' />10'th 
+        <input type='radio'  />10'th 
         <input type='radio' />12'th 
         <input type='radio' />Graduate 
         <input type='radio' />Post Graduate
        </div>
        <div>
-       Email:<input type='email' />
+       Email:<input type='email' name='email' />
        </div>
        <div>
-        Password:<input type='password' />
+        Password:<input type='password' name='pasword' />
        </div>
        <button type='submit'>Submit</button>
     </form>
