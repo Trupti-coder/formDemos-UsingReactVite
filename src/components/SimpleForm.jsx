@@ -74,10 +74,10 @@ const SimpleForm = () => {
         <input type='radio' />Post Graduate
        </div>
        <div>
-       Email:<input type='email' name='email' />
+       Email:<input type='email' name='email' placeholder='Enter Email' />
        </div>
        <div>
-        Password:<input type='password' name='pasword' />
+        Password:<input type='password' name='pasword' placeholder='Enter Password' />
        </div>
        <button type='submit'>Submit</button>
     </form>
