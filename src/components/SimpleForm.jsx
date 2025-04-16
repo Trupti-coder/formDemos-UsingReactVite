@@ -31,15 +31,15 @@ const SimpleForm = () => {
         <div>
             <textarea>
                 <legend>
-                    <h3>Student Address</h3>
+                    <h3>Student Permanent Address</h3>
                     <div>
-                        District:<input type='text' name='district' onChange={handleChange} />
+                        District:<input type='text' name='district' placeholder='Enter District name' onChange={handleChange} />
                     </div>
                     <div>
-                        Division:<input type='text ' name='division' onChange={handleChange } />
+                        Division:<input type='text ' name='division' placeholder='Enter Division' onChange={handleChange } />
                     </div>
                     <div>
-                        Address:<input type='text' name="address" onChange={handleChange} />
+                        Address:<input type='text' name="address" placeholder='Enter address' onChange={handleChange} />
                     </div>
                 </legend>
             </textarea>
