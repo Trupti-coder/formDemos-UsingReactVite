@@ -7,6 +7,10 @@ const SimpleForm = () => {
         studName:"",
         studFatherName:"",
         studMotherName:"",
+        studAge:"",
+        city:"",
+        district:"",
+
 
     });
 
