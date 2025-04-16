@@ -14,6 +14,23 @@ const SimpleForm = () => {
         <div>
            Student Mother Name:<input type='text' />
         </div>
+        <div>
+            Student Age:<input type='number' />
+        </div>
+        <div>
+            City:<input type='text' />
+        </div>
+        <div>
+            <textarea>
+                <legend>
+                    <h3>Student Address</h3>
+                    <div>
+                        District:<input type='text' />
+                    </div>
+                    <div></div>
+                </legend>
+            </textarea>
+        </div>
     </form>
     </>
   )
