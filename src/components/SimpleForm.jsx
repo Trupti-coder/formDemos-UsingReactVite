@@ -50,6 +50,13 @@ const SimpleForm = () => {
             <option>IOS DEVELOPER</option>
         </select>
        </div>
+       <div>
+        <h3>Highest qualification</h3>
+        <input type='radio' />10'th 
+        <input type='radio' />12'th 
+        <input type='radio' />Graduate 
+        <input type='radio' />Post Graduate
+       </div>
     </form>
     </>
   )
