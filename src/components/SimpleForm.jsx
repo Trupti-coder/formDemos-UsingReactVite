@@ -53,9 +53,9 @@ const SimpleForm = () => {
             </textarea>
         </div>
        <div>
-        <input type='radio' />Male 
-        <input type='radio' />Female 
-        <input type='radio' />Other
+        <input type='radio' name='gender' />Male 
+        <input type='radio' name='gender' />Female 
+        <input type='radio' name='gender'/>Other
        </div>
        <div>
         Course Section:<select>
