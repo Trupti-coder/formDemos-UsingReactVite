@@ -23,10 +23,10 @@ const SimpleForm = () => {
            Student Mother Name:<input type='text' name='studMotherName' />
         </div>
         <div>
-            Student Age:<input type='number' />
+            Student Age:<input type='number'  name='studAge'/>
         </div>
         <div>
-            City:<input type='text' />
+            City:<input type='text' name='city' />
         </div>
         <div>
             <textarea>
