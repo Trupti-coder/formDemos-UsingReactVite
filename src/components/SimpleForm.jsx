@@ -42,7 +42,7 @@ const SimpleForm = () => {
         <input type='radio' />Other
        </div>
        <div>
-        Course:<select>
+        Course Section:<select>
             <option>MERN STACK</option>
             <option>MEAN STACK </option>
             <option>JAVA DEVELOPER</option>
@@ -56,6 +56,12 @@ const SimpleForm = () => {
         <input type='radio' />12'th 
         <input type='radio' />Graduate 
         <input type='radio' />Post Graduate
+       </div>
+       <div>
+       Email:<input type='email' />
+       </div>
+       <div>
+        Password:<input type='password' />
        </div>
     </form>
     </>
