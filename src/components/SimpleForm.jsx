@@ -27,10 +27,20 @@ const SimpleForm = () => {
                     <div>
                         District:<input type='text' />
                     </div>
-                    <div></div>
+                    <div>
+                        Division:<input type='text' />
+                    </div>
+                    <div>
+                        Address:<input type='text' />
+                    </div>
                 </legend>
             </textarea>
         </div>
+       <div>
+        <input type='radio' />Male 
+        <input type='radio' />Female 
+        <input type='radio' />Other
+       </div>
     </form>
     </>
   )
