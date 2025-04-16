@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const SimpleForm = () => {
+
+    let[formData,setFormData]=useState({
+
+    });
+
+    function handleSubmit(){
+        
+    }
   return (
    <>
     <div>SimpleForm</div>
-    <form>
+    <form onSubmit={handleSubmit}>
         <div>
             Student Name:<input type='text' />
         </div>
@@ -63,6 +71,7 @@ const SimpleForm = () => {
        <div>
         Password:<input type='password' />
        </div>
+       <button type='submit'>Submit</button>
     </form>
     </>
   )
