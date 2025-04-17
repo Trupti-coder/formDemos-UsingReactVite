@@ -61,7 +61,8 @@ const SimpleForm = () => {
         <input type='radio' name='gender' value={Other}/>Other
        </div>
        <div>
-        Course Section:<select>
+        Course Section:<select name='courseSection' value={}>
+            <option>--Select--</option>
             <option>MERN STACK</option>
             <option>MEAN STACK </option>
             <option>JAVA DEVELOPER</option>
