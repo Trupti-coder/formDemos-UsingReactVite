@@ -63,8 +63,8 @@ const SimpleForm = () => {
             </textarea>
         </div>
        <div>
-        <input type='radio' name='gender' value="Male" />Male 
-        <input type='radio' name='gender' value="Female" />Female 
+        <input type='radio' name='gender' value="Male" onChange={handleChange} />Male 
+        <input type='radio' name='gender' value="Female" onChange={handleChange} />Female 
         <input type='radio' name='gender' value="Other" />Other
        </div>
        <div>
