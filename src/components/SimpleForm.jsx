@@ -10,6 +10,9 @@ const SimpleForm = () => {
         studAge:"",
         city:"",
         district:"",
+        division:"",
+        address:"",
+        gender:"",
 
 
     });
