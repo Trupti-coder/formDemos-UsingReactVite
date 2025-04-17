@@ -51,7 +51,7 @@ const SimpleForm = () => {
                 <legend>
                     <h3>Student Permanent Address</h3>
                     <div>
-                        District:<input type='text' name='district' placeholder='Enter District name' onChange={handleChange} />
+                        District:<input type='text' name='district' placeholder='Enter District name' value={formData.division} onChange={handleChange} />
                     </div>
                     <div>
                         Division:<input type='text ' name='division' placeholder='Enter Division' onChange={handleChange } />
@@ -65,7 +65,7 @@ const SimpleForm = () => {
        <div>
         <input type='radio' name='gender' value="Male" onChange={handleChange} />Male 
         <input type='radio' name='gender' value="Female" onChange={handleChange} />Female 
-        <input type='radio' name='gender' value="Other" />Other
+        <input type='radio' name='gender' value="Other" onChange={handleChange} />Other
        </div>
        <div>
         Course Section:<select name='courseSection' value={formData.courseSection} onChange={handleChange}>
