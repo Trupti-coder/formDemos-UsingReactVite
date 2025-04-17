@@ -63,9 +63,9 @@ const SimpleForm = () => {
        <div>
         Course Section:<select name='courseSection' value={}>
             <option>--Select--</option>
-            <option>MERN STACK</option>
-            <option>MEAN STACK </option>
-            <option>JAVA DEVELOPER</option>
+            <option value="MERN STACK">MERN STACK</option>
+            <option value="MEAN STACK">MEAN STACK </option>
+            <option value="JAVA DEVELOPER">JAVA DEVELOPER</option>
             <option>ANDROID DEVELOPER</option>
             <option>IOS DEVELOPER</option>
         </select>
