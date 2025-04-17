@@ -17,9 +17,16 @@ const SimpleForm = () => {
 
     });
 
-    function handleSubmit(){
+    function handleChange(){
 
     }
+
+    function handleSubmit(event){
+        event.preventDefault();
+
+    }
+
+
   return (
    <>
     <div>SimpleForm</div>
