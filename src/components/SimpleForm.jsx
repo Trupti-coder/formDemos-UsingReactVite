@@ -27,6 +27,8 @@ const SimpleForm = () => {
 
     function handleSubmit(event){
         event.preventDefault();
+        console.log('Form submitted:', formData);
+        let existingUser;
 
     }
 
