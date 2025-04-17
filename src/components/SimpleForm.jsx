@@ -1,4 +1,6 @@
 import React, { useState } from 'react'
+import styles from './SimpleForm.module.css';
+
 
 const SimpleForm = () => {
 
