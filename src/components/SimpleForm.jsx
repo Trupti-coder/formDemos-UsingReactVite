@@ -68,7 +68,7 @@ const SimpleForm = () => {
         <input type='radio' name='gender' value="Other" />Other
        </div>
        <div>
-        Course Section:<select name='courseSection' value={} onChange={handleChange}>
+        Course Section:<select name='courseSection' value={formData.courseSection} onChange={handleChange}>
             <option>--Select--</option>
             <option value="MERN STACK">MERN STACK</option>
             <option value="MEAN STACK">MEAN STACK </option>
