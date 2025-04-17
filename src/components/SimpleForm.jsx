@@ -85,10 +85,10 @@ const SimpleForm = () => {
         <input type='radio' name='qualification' />Post Graduate
        </div>
        <div>
-       Email:<input type='email' name='email' placeholder='Enter Email' onChange={handleChange} />
+       Email:<input type='email' name='email' placeholder='Enter Email' onChange={handleChange} value={formData.email} />
        </div>
        <div>
-        Password:<input type='password' name='pasword' placeholder='Enter Password' />
+        Password:<input type='password' name='pasword' placeholder='Enter Password' onChange={handleChange} value={formData.password} />
        </div>
        <button type='submit'>Submit</button>
     </form>
