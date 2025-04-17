@@ -28,7 +28,7 @@ const SimpleForm = () => {
             Student Name:<input type='text' name='studName' placeholder='Enter student name' onChange={handleChange} />
         </div>
         <div>
-            Student Father Name:<input type='text'  name='studFatherName ' placeholder='Enter student father name' onChange={handleChange}/>
+            Student Father Name:<input type='text'  name='studFatherName' placeholder='Enter student father name' onChange={handleChange}/>
         </div>
         <div>
            Student Mother Name:<input type='text' name='studMotherName' onChange={handleChange} />
@@ -56,7 +56,7 @@ const SimpleForm = () => {
             </textarea>
         </div>
        <div>
-        <input type='radio' name='gender' value={Male} />Male 
+        <input type='radio' name='gender' value="Male" />Male 
         <input type='radio' name='gender' value={Female} />Female 
         <input type='radio' name='gender' value={Other}/>Other
        </div>
