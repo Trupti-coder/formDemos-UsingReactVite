@@ -8,3 +8,10 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     font-family: Arial, sans-serif;
   }
+
+  .formTitle {
+    text-align: center;
+    color: #444;
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+  }
