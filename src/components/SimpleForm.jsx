@@ -66,8 +66,8 @@ const SimpleForm = () => {
             <option value="MERN STACK">MERN STACK</option>
             <option value="MEAN STACK">MEAN STACK </option>
             <option value="JAVA DEVELOPER">JAVA DEVELOPER</option>
-            <option>ANDROID DEVELOPER</option>
-            <option>IOS DEVELOPER</option>
+            <option value="ANDROID DEVELOPER">ANDROID DEVELOPER</option>
+            <option value="IOS DEVELOPER">IOS DEVELOPER</option>
         </select>
        </div>
        <div>
