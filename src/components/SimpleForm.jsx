@@ -33,6 +33,10 @@ const SimpleForm = () => {
         console.log('Form submitted:', formData);
         let existingUser;
 
+        if(localStorage.getItem("formData")){
+            existingUser=JSON.parse(localStorage.getItem("formData"))||[];
+        }
+
     }
 
 
