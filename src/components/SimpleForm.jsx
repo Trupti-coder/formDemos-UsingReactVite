@@ -41,6 +41,11 @@ const SimpleForm = () => {
             existingUser=[];
         }
 
+        existingUser.push(formData);
+
+        localStorage.setItem("formData",JSON.stringify(existingUser));
+        alert("Data successfuly Saved to localstorage...");
+
     }
 
 
