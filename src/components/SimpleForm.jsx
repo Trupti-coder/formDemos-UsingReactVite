@@ -21,7 +21,10 @@ const SimpleForm = () => {
 
     });
 
-    function handleChange(){
+    function handleChange(event){
+
+        const { name, value } = e.target;
+        setFormData(prev => ({ ...prev, [name]: value }));
 
     }
 
