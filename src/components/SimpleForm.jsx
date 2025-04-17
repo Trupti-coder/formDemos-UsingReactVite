@@ -13,6 +13,10 @@ const SimpleForm = () => {
         division:"",
         address:"",
         gender:"",
+        courseSection: '',
+        qualification: '',
+        email: '',
+        password: '',
 
 
     });
