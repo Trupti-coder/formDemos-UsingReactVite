@@ -68,7 +68,7 @@ const SimpleForm = () => {
         <input type='radio' name='gender' value="Other" />Other
        </div>
        <div>
-        Course Section:<select name='courseSection' value={}>
+        Course Section:<select name='courseSection' value={} onChange={handleChange}>
             <option>--Select--</option>
             <option value="MERN STACK">MERN STACK</option>
             <option value="MEAN STACK">MEAN STACK </option>
@@ -85,7 +85,7 @@ const SimpleForm = () => {
         <input type='radio' name='qualification' />Post Graduate
        </div>
        <div>
-       Email:<input type='email' name='email' placeholder='Enter Email' />
+       Email:<input type='email' name='email' placeholder='Enter Email' onChange={handleChange} />
        </div>
        <div>
         Password:<input type='password' name='pasword' placeholder='Enter Password' />
