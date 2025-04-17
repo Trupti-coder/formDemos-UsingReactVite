@@ -74,8 +74,8 @@ const SimpleForm = () => {
         <h3>Highest qualification</h3>
         <input type='radio' name='qualification'  />10'th 
         <input type='radio' name='qualification' />12'th 
-        <input type='radio' />Graduate 
-        <input type='radio' />Post Graduate
+        <input type='radio' name='qualification' />Graduate 
+        <input type='radio' name='qualification' />Post Graduate
        </div>
        <div>
        Email:<input type='email' name='email' placeholder='Enter Email' />
