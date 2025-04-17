@@ -56,8 +56,8 @@ const SimpleForm = () => {
             City:<input type='text' name='city' placeholder='Enter student city name' onChange={handleChange} />
         </div>
         <div>
-            <textarea>
-                <legend>
+           <fieldset>
+           <legend>
                     <h3>Student Permanent Address</h3>
                     <div>
                         District:<input type='text' name='district' placeholder='Enter District name' value={formData.district} onChange={handleChange} />
@@ -69,7 +69,7 @@ const SimpleForm = () => {
                         Address:<input type='text' name="address" placeholder='Enter address' value={formData.address} onChange={handleChange} />
                     </div>
                 </legend>
-            </textarea>
+           </fieldset>
         </div>
        <div>
         <input type='radio' name='gender' value="Male" onChange={handleChange} />Male 
