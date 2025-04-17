@@ -90,8 +90,8 @@ const SimpleForm = () => {
         <h3>Highest qualification</h3>
         <input type='radio' name='qualification' onChange={handleChange} value="10'th"  />10'th 
         <input type='radio' name='qualification' onChange={handleChange} value="12'th" />12'th 
-        <input type='radio' name='qualification' value="Graduate" />Graduate 
-        <input type='radio' name='qualification' value="Post Graduate" />Post Graduate
+        <input type='radio' name='qualification'onChange={handleChange} value="Graduate" />Graduate 
+        <input type='radio' name='qualification'onChange={handleChange} value="Post Graduate" />Post Graduate
        </div>
        <div>
        Email:<input type='email' name='email' placeholder='Enter Email' onChange={handleChange} value={formData.email} />
