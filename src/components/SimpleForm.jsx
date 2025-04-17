@@ -23,7 +23,7 @@ const SimpleForm = () => {
 
     function handleChange(event){
 
-        const { name, value } = e.target;
+        const { name, value } = event.target;
         setFormData(prev => ({ ...prev, [name]: value }));
 
     }
@@ -97,7 +97,7 @@ const SimpleForm = () => {
        Email:<input type='email' name='email' placeholder='Enter Email' onChange={handleChange} value={formData.email} />
        </div>
        <div>
-        Password:<input type='password' name='pasword' placeholder='Enter Password' onChange={handleChange} value={formData.password} />
+        Password:<input type='password' name='password' placeholder='Enter Password' onChange={handleChange} value={formData.password} />
        </div>
        <button type='submit'>Submit</button>
     </form>
