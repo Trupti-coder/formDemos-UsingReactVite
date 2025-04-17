@@ -89,7 +89,7 @@ const SimpleForm = () => {
        <div>
         <h3>Highest qualification</h3>
         <input type='radio' name='qualification' onChange={handleChange} value="10'th"  />10'th 
-        <input type='radio' name='qualification' value="12'th" />12'th 
+        <input type='radio' name='qualification' onChange={handleChange} value="12'th" />12'th 
         <input type='radio' name='qualification' value="Graduate" />Graduate 
         <input type='radio' name='qualification' value="Post Graduate" />Post Graduate
        </div>
