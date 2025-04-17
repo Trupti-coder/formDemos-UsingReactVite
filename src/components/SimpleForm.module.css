@@ -37,3 +37,12 @@
     gap: 10px;
     align-items: center;
   }
+
+
+  fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+  }
