@@ -12,7 +12,11 @@ const MyForm = () => {
         phoneNumber:"",
         email:"",
         password:"",
-    })
+    });
+
+    function handleChange(){
+        
+    }
 
     function handleSubmit(event){
 
