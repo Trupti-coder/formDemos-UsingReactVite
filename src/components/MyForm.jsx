@@ -6,7 +6,7 @@ const MyForm = () => {
   return (
     <>
     <div>MyForm</div>
-    <form>
+    <form onSubmit={handleSubmit}>
         <div>
           First Name:<input type='text' /> 
         </div>
@@ -28,6 +28,7 @@ const MyForm = () => {
         <div>
             Password:<input type='password' />
         </div>
+        <button type='submit'>Submit</button>
     </form>
     </>
   )
