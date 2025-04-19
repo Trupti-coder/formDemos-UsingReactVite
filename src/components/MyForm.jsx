@@ -41,10 +41,10 @@ const MyForm = () => {
             Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' value={setData.phoneNumber} onChange={handleChange} />
         </div>
         <div>
-            Email:<input type='email' name='email' placeholder='Enter your Email Address' value={setData.email} />
+            Email:<input type='email' name='email' placeholder='Enter your Email Address' value={setData.email} onChange={handleChange} />
         </div>
         <div>
-            Password:<input type='password' name='password' placeholder='Enter your Password' value={setData.password} />
+            Password:<input type='password' name='password' placeholder='Enter your Password' value={setData.password}  />
         </div>
         <button type='submit'>Submit</button>
     </form>
