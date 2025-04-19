@@ -29,8 +29,8 @@ const MyForm = () => {
 
   return (
     <>
-    <div>MyForm</div>
-    <form onSubmit={handleSubmit}>
+    <div  className={styles.title}>MyForm</div>
+    <form onSubmit={handleSubmit} className={styles.container}>
         <div>
           First Name:<input type='text' name='firstName' placeholder='Enter your firstName' value={setData.firstName} onChange={handleChange} /> 
         </div>
