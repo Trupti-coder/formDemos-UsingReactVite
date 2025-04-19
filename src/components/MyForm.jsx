@@ -38,13 +38,13 @@ const MyForm = () => {
             City:<input type='text' name='city' placeholder='Enter your city name' value={setData.city} />
         </div>
         <div>
-            Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' />
+            Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' value={setData.phoneNumber} />
         </div>
         <div>
-            Email:<input type='email' name='email' placeholder='Enter your Email Address' />
+            Email:<input type='email' name='email' placeholder='Enter your Email Address' value={setData.email} />
         </div>
         <div>
-            Password:<input type='password' name='password' placeholder='Enter your Password' />
+            Password:<input type='password' name='password' placeholder='Enter your Password' value={setData.password} />
         </div>
         <button type='submit'>Submit</button>
     </form>
