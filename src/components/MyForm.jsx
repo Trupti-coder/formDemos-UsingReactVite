@@ -26,10 +26,10 @@ const MyForm = () => {
     <div>MyForm</div>
     <form onSubmit={handleSubmit}>
         <div>
-          First Name:<input type='text' name='firstName' placeholder='Enter your firstName' /> 
+          First Name:<input type='text' name='firstName' placeholder='Enter your firstName' value={setData.firstName} /> 
         </div>
         <div>
-         Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' />
+         Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' value={setData.lastName} />
         </div>
         <div>
             Age:<input type='number' name='age' placeholder='Enter your age' />
