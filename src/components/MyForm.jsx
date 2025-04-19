@@ -29,7 +29,7 @@ const MyForm = () => {
           First Name:<input type='text' name='firstName' placeholder='Enter your firstName' value={setData.firstName} onChange={handleChange} /> 
         </div>
         <div>
-         Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' value={setData.lastName} />
+         Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' value={setData.lastName} onChange={handleChange} />
         </div>
         <div>
             Age:<input type='number' name='age' placeholder='Enter your age' value={setData.age} />
