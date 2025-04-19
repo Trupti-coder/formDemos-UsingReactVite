@@ -8,7 +8,10 @@ const MyForm = () => {
     <div>MyForm</div>
     <form>
         <div>
-            
+          First Name:<input type='text' /> 
+        </div>
+        <div>
+         Last Name:<input type='text' />
         </div>
     </form>
     </>
