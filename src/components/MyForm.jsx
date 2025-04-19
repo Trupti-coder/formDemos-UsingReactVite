@@ -13,6 +13,15 @@ const MyForm = () => {
         <div>
          Last Name:<input type='text' />
         </div>
+        <div>
+            Age:<input type='number' />
+        </div>
+        <div>
+            City:<input type='text' />
+        </div>
+        <div>
+            Phone Number:<input type='tel' />
+        </div>
     </form>
     </>
   )
