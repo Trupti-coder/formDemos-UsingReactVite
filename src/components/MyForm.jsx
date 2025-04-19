@@ -2,6 +2,12 @@ import React from 'react'
 
 const MyForm = () => {
 
+    function handleSubmit(event){
+
+        event.preventDefault();
+
+    }
+
 
   return (
     <>
