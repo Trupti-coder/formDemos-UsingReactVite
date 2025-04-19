@@ -26,10 +26,10 @@ const MyForm = () => {
             City:<input type='text' name='city' placeholder='Enter your city name' />
         </div>
         <div>
-            Phone Number:<input type='tel' placeholder='Enter your Phone Number' />
+            Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' />
         </div>
         <div>
-            Email:<input type='email' placeholder='Enter your Email Address' />
+            Email:<input type='email' name='email' placeholder='Enter your Email Address' />
         </div>
         <div>
             Password:<input type='password' placeholder='Enter your Password' />
