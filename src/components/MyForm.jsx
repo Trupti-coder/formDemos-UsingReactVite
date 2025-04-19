@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import styles from './MyForm.module.css';
 
 const MyForm = () => {
 
@@ -15,12 +16,13 @@ const MyForm = () => {
     });
 
     function handleChange(){
-        
+
     }
 
     function handleSubmit(event){
 
         event.preventDefault();
+
 
     }
 
