@@ -37,6 +37,7 @@ function App() {
  <UserForm />
  <hr></hr>
  <SimpleForm />
+ <hr></hr>
       
     </>
   )
