@@ -44,7 +44,7 @@ const MyForm = () => {
             Email:<input type='email' name='email' placeholder='Enter your Email Address' value={setData.email} onChange={handleChange} />
         </div>
         <div>
-            Password:<input type='password' name='password' placeholder='Enter your Password' value={setData.password}  />
+            Password:<input type='password' name='password' placeholder='Enter your Password' value={setData.password}  onChange={handleChange} />
         </div>
         <button type='submit'>Submit</button>
     </form>
