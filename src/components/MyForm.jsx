@@ -35,10 +35,10 @@ const MyForm = () => {
             Age:<input type='number' name='age' placeholder='Enter your age' value={setData.age} onChange={handleChange} />
         </div>
         <div>
-            City:<input type='text' name='city' placeholder='Enter your city name' value={setData.city} />
+            City:<input type='text' name='city' placeholder='Enter your city name' value={setData.city} onChange={handleChange} />
         </div>
         <div>
-            Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' value={setData.phoneNumber} />
+            Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' value={setData.phoneNumber} onChange={handleChange} />
         </div>
         <div>
             Email:<input type='email' name='email' placeholder='Enter your Email Address' value={setData.email} />
