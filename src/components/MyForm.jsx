@@ -32,7 +32,7 @@ const MyForm = () => {
             Email:<input type='email' name='email' placeholder='Enter your Email Address' />
         </div>
         <div>
-            Password:<input type='password' placeholder='Enter your Password' />
+            Password:<input type='password' name='password' placeholder='Enter your Password' />
         </div>
         <button type='submit'>Submit</button>
     </form>
