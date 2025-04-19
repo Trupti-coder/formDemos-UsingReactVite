@@ -20,10 +20,10 @@ const MyForm = () => {
          Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' />
         </div>
         <div>
-            Age:<input type='number' placeholder='Enter your age' />
+            Age:<input type='number' name='age' placeholder='Enter your age' />
         </div>
         <div>
-            City:<input type='text' placeholder='Enter your city name' />
+            City:<input type='text' name='city' placeholder='Enter your city name' />
         </div>
         <div>
             Phone Number:<input type='tel' placeholder='Enter your Phone Number' />
