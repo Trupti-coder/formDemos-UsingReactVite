@@ -8,6 +8,10 @@ const MyForm = () => {
         firstName:"",
         lastName:"",
         age:"",
+        city:"",
+        phoneNumber:"",
+        email:"",
+        password:"",
     })
 
     function handleSubmit(event){
