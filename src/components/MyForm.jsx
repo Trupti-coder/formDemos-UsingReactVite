@@ -22,6 +22,12 @@ const MyForm = () => {
         <div>
             Phone Number:<input type='tel' />
         </div>
+        <div>
+            Email:<input type='email' />
+        </div>
+        <div>
+            Password:<input type='password' />
+        </div>
     </form>
     </>
   )
