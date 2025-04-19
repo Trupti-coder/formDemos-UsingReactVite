@@ -14,10 +14,10 @@ const MyForm = () => {
     <div>MyForm</div>
     <form onSubmit={handleSubmit}>
         <div>
-          First Name:<input type='text' placeholder='Enter your firstName' /> 
+          First Name:<input type='text' name='firstName' placeholder='Enter your firstName' /> 
         </div>
         <div>
-         Last Name:<input type='text' placeholder='Enter your lastName' />
+         Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' />
         </div>
         <div>
             Age:<input type='number' placeholder='Enter your age' />
