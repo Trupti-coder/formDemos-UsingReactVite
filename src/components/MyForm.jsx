@@ -32,10 +32,10 @@ const MyForm = () => {
          Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' value={setData.lastName} />
         </div>
         <div>
-            Age:<input type='number' name='age' placeholder='Enter your age' />
+            Age:<input type='number' name='age' placeholder='Enter your age' value={setData.age} />
         </div>
         <div>
-            City:<input type='text' name='city' placeholder='Enter your city name' />
+            City:<input type='text' name='city' placeholder='Enter your city name' value={setData.city} />
         </div>
         <div>
             Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' />
