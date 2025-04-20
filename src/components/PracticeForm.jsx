@@ -15,7 +15,10 @@ const PracticeForm = () => {
         City:<input type='text' name='city' />
       </div>
       <div>
-        Age:<input type='text' />
+        Age:<input type='text' name='age' />
+      </div>
+      <div>
+        
       </div>
       <div>
         Select Subject:<select>
