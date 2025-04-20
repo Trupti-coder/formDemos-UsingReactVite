@@ -59,7 +59,7 @@ const MyForm = () => {
             City:<input type='text' name='city' placeholder='Enter your city name' value={data.city} onChange={handleChange} />
         </div>
         <div>
-            Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' value={setData.phoneNumber} onChange={handleChange} />
+            Phone Number:<input type='tel' name='phoneNumber' placeholder='Enter your Phone Number' value={data.phoneNumber} onChange={handleChange} />
         </div>
         <div>
             Email:<input type='email' name='email' placeholder='Enter your Email Address' value={setData.email} onChange={handleChange} />
