@@ -12,4 +12,17 @@
     padding: 20px;
     border-radius: 8px;
   }
+
+  
+.container div {
+    margin-bottom: 12px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
   
