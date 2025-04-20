@@ -53,7 +53,7 @@ const MyForm = () => {
          Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' value={data.lastName} onChange={handleChange} />
         </div>
         <div>
-            Age:<input type='number' name='age' placeholder='Enter your age' value={setData.age} onChange={handleChange} />
+            Age:<input type='number' name='age' placeholder='Enter your age' value={data.age} onChange={handleChange} />
         </div>
         <div>
             City:<input type='text' name='city' placeholder='Enter your city name' value={setData.city} onChange={handleChange} />
