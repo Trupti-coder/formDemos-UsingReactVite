@@ -1,13 +1,19 @@
 import React from 'react'
 
 const PracticeForm = () => {
+
+
+    function handleSubmit(){
+
+        
+    }
   return (
     <>
     <div>PracticeForm</div>
     <div>
         Creating a SignUp Form
     </div>
-    <form>
+    <form onSubmit={handleSubmit}>
       <div>
         Name:<input type='text' name='name' />
       </div>
@@ -18,7 +24,7 @@ const PracticeForm = () => {
         Age:<input type='text' name='age' />
       </div>
       <div>
-        
+
       </div>
       <div>
         Select Subject:<select>
