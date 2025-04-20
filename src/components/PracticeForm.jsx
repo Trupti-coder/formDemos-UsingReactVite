@@ -1,6 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const PracticeForm = () => {
+
+    let[formData,setFormData]=useState({
+
+
+        
+    })
 
 
     function handleSubmit(){
@@ -15,7 +21,7 @@ const PracticeForm = () => {
     </div>
     <form onSubmit={handleSubmit}>
       <div>
-        Name:<input type='text' name='name' onChange={handleChange} />
+        Name:<input type='text' name='name' onChange={handleChange}  />
       </div>
       <div>
         City:<input type='text' name='city' onChange={handleChange} />
