@@ -11,6 +11,8 @@ const PracticeForm = () => {
 
     function handleChange(event){
 
+      const{name,type}=event.target;
+
 
     }
 
