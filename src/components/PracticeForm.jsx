@@ -6,7 +6,11 @@ const PracticeForm = () => {
 
 
 
-    })
+    });
+
+    function handleChange(event){
+        
+    }
 
 
     function handleSubmit(event){
