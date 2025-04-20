@@ -50,7 +50,7 @@ const MyForm = () => {
           First Name:<input type='text' name='firstName' placeholder='Enter your firstName' value={data.firstName} onChange={handleChange} /> 
         </div>
         <div>
-         Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' value={setData.lastName} onChange={handleChange} />
+         Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' value={data.lastName} onChange={handleChange} />
         </div>
         <div>
             Age:<input type='number' name='age' placeholder='Enter your age' value={setData.age} onChange={handleChange} />
