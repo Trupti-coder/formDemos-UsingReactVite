@@ -8,6 +8,7 @@ const PracticeForm = () => {
       name:"",
       city:"",
       age:"",
+      subject:"",
 
 
 
@@ -69,9 +70,9 @@ const PracticeForm = () => {
 
       </div>
       <div>
-        Select Special Subject:<select>
-            <option>--Select--</option>
-            <option>Physics</option>
+        Select Special Subject:<select name='subject' >
+            <option value="">--Select--</option>
+            <option value="Physics">Physics</option>
             <option>Chemistry</option>
             <option>Biology</option>
             <option>Mathematics</option>
