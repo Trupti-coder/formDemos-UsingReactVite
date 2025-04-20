@@ -9,6 +9,9 @@ const PracticeForm = () => {
       city:"",
       age:"",
       subject:"",
+      gender:"",
+      email:"",
+      password:"",
 
 
 
