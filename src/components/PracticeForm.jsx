@@ -29,8 +29,8 @@ const PracticeForm = () => {
         event.preventDefault();
 
         let existingUser;
-        if(localStorage.setItem("formData")){
-          existingUser=JSON.parse(localStorage.setItem("formData")) ||[];
+        if(localStorage.getItem("formData")){
+          existingUser=JSON.parse(localStorage.getItem("formData")) ||[];
         }
 
 
@@ -66,7 +66,7 @@ const PracticeForm = () => {
         </select>
       </div>
       <div>
-       <input type='radio ' name='gender' onChange={handleChange} />Male 
+       <input type='radio' name='gender' onChange={handleChange} />Male 
        <input type='radio' name='gender' onChange={handleChange} />Female 
        <input type='radio' name='gender' onChange={handleChange} />Other
       </div>
