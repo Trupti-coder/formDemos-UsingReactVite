@@ -14,6 +14,14 @@ const PracticeForm = () => {
       <div>
         City:<input type='text' />
       </div>
+      <div>
+        Age:<input type='text' />
+      </div>
+      <div>
+        Select Subject:<select>
+            <option></option>
+        </select>
+      </div>
     </form>
     </>
   )
