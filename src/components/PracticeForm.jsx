@@ -76,8 +76,8 @@ const PracticeForm = () => {
             <option value="Chemistry">Chemistry</option>
             <option value="Biology">Biology</option>
             <option  value="Mathematics">Mathematics</option>
-            <option>Marathi</option>
-            <option>Hindi</option>
+            <option value="Marathi">Marathi</option>
+            <option value="Hindi">Hindi</option>
         </select>
       </div>
       <div>
