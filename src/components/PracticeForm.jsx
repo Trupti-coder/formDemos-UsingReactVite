@@ -9,7 +9,7 @@ const PracticeForm = () => {
     });
 
     function handleChange(event){
-        
+
     }
 
 
@@ -55,6 +55,7 @@ const PracticeForm = () => {
       <div>
         Password:<input type='password'  name='password'/>
       </div>
+      <button type='submit'>Submit</button>
     </form>
     </>
   )
