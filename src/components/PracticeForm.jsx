@@ -11,6 +11,7 @@ const PracticeForm = () => {
 
     function handleChange(event){
 
+
     }
 
 
@@ -22,11 +23,11 @@ const PracticeForm = () => {
     }
   return (
     <>
-    <div>PracticeForm</div>
+    <div className={styles.title}>PracticeForm</div>
     <div>
         Creating a SignUp Form
     </div>
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} >
       <div>
         Name:<input type='text' name='name' onChange={handleChange}  />
       </div>
