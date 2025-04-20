@@ -29,10 +29,10 @@ const PracticeForm = () => {
         </select>
       </div>
       <div>
-        Email:<input type='email' />
+        Email:<input type='email' name='email' />
       </div>
       <div>
-        Password:<input type='password' />
+        Password:<input type='password'  name='password'/>
       </div>
     </form>
     </>
