@@ -73,9 +73,9 @@ const PracticeForm = () => {
         Select Special Subject:<select name='subject' >
             <option value="">--Select--</option>
             <option value="Physics">Physics</option>
-            <option>Chemistry</option>
-            <option>Biology</option>
-            <option>Mathematics</option>
+            <option value="Chemistry">Chemistry</option>
+            <option value="Biology">Biology</option>
+            <option  value="Mathematics">Mathematics</option>
             <option>Marathi</option>
             <option>Hindi</option>
         </select>
