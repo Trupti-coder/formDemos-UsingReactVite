@@ -5,6 +5,10 @@ const PracticeForm = () => {
 
     let[formData,setFormData]=useState({
 
+      name:"",
+      city:"",
+      age:"",
+
 
 
     });
