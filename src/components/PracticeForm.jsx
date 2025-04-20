@@ -5,11 +5,13 @@ const PracticeForm = () => {
     let[formData,setFormData]=useState({
 
 
-        
+
     })
 
 
-    function handleSubmit(){
+    function handleSubmit(event){
+
+        event.preventDefault();
 
 
     }
