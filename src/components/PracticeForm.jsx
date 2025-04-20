@@ -19,7 +19,10 @@ const PracticeForm = () => {
       </div>
       <div>
         Select Subject:<select>
-            <option></option>
+            <option>--Select--</option>
+            <option>Physics</option>
+            <option>Chemistry</option>
+            <option>Biology</option>
         </select>
       </div>
     </form>
