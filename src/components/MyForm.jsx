@@ -25,7 +25,8 @@ const MyForm = () => {
 
         let existingUser;
 
-        if(){
+        if(localStorage.getItem("data")){
+            existingUser=JSON.parse(localStorage.getItem("data")) || [];
             
         }
 
