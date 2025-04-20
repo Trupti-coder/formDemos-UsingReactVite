@@ -5,7 +5,7 @@ const PracticeForm = () => {
 
     function handleSubmit(){
 
-        
+
     }
   return (
     <>
@@ -15,7 +15,7 @@ const PracticeForm = () => {
     </div>
     <form onSubmit={handleSubmit}>
       <div>
-        Name:<input type='text' name='name' />
+        Name:<input type='text' name='name' onChange={handleChange} />
       </div>
       <div>
         City:<input type='text' name='city' />
