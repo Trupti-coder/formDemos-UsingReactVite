@@ -13,3 +13,9 @@ form {
     padding: 20px;
     border-radius: 8px;
   }
+
+  form div {
+    margin-bottom: 15px;
+  }
+  
+  
