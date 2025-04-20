@@ -62,7 +62,8 @@ const PracticeForm = () => {
       </div>
       <div>
        <input type='radio ' />Male 
-       <input type='radio' />
+       <input type='radio' />Female 
+       <input type='radio' />Other
       </div>
       <div>
         Email:<input type='email' name='email' />
