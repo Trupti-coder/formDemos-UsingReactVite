@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import styles from './PracticeForm.module.css';
 
 const PracticeForm = () => {
 
