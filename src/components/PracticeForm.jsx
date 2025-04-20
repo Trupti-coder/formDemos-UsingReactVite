@@ -28,6 +28,11 @@ const PracticeForm = () => {
 
         event.preventDefault();
 
+        let existingUser;
+        if(localStorage.setItem("formData")){
+          existingUser=JSON.parse(localStorage.setItem("formData")) ||[];
+        }
+
 
     }
   return (
