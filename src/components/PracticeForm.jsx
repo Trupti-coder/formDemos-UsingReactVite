@@ -85,8 +85,8 @@ const PracticeForm = () => {
       </div>
       <div>
        <input type='radio' name='gender' onChange={handleChange} value="Male" checked={formData.gender==="Male"} />Male 
-       <input type='radio' name='gender' onChange={handleChange} value="Female" />Female 
-       <input type='radio' name='gender' onChange={handleChange} value="Other" />Other
+       <input type='radio' name='gender' onChange={handleChange} value="Female" checked={formData.gender==="Female"} />Female 
+       <input type='radio' name='gender' onChange={handleChange} value="Other"  />Other
       </div>
       <div>
         Email:<input type='email' name='email'  onChange={handleChange}/>
