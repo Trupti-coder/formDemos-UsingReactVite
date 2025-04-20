@@ -15,7 +15,13 @@ const MyForm = () => {
         password:"",
     });
 
-    function handleChange(){
+    function handleChange(event){
+
+        const { name, value } = event.target;
+        setData((prev) => ({
+          ...prev,
+          [name]: value,
+        }));
 
     }
 
