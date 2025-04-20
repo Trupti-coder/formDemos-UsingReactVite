@@ -47,7 +47,7 @@ const MyForm = () => {
     <div  className={styles.title}>MyForm</div>
     <form onSubmit={handleSubmit} className={styles.container}>
         <div>
-          First Name:<input type='text' name='firstName' placeholder='Enter your firstName' value={setData.firstName} onChange={handleChange} /> 
+          First Name:<input type='text' name='firstName' placeholder='Enter your firstName' value={data.firstName} onChange={handleChange} /> 
         </div>
         <div>
          Last Name:<input type='text' name='lasytName' placeholder='Enter your lastName' value={setData.lastName} onChange={handleChange} />
