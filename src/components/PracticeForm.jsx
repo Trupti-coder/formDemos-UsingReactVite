@@ -28,6 +28,12 @@ const PracticeForm = () => {
             <option>Hindi</option>
         </select>
       </div>
+      <div>
+        Email:<input type='email' />
+      </div>
+      <div>
+        Password:<input type='password' />
+      </div>
     </form>
     </>
   )
