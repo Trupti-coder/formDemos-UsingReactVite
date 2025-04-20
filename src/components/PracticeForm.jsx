@@ -11,7 +11,14 @@ const PracticeForm = () => {
 
     function handleChange(event){
 
-      const{name,type}=event.target;
+      const{name,value}=event.target;
+
+      setFormData((prev)=>({
+
+        ...prev,
+        [name]:value,
+
+      }));
 
 
     }
@@ -52,6 +59,9 @@ const PracticeForm = () => {
             <option>Marathi</option>
             <option>Hindi</option>
         </select>
+      </div>
+      <div>
+
       </div>
       <div>
         Email:<input type='email' name='email' />
