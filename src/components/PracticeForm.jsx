@@ -61,7 +61,7 @@ const PracticeForm = () => {
         </select>
       </div>
       <div>
-       <input type='radio ' />Male 
+       <input type='radio ' name='gender' />Male 
        <input type='radio' />Female 
        <input type='radio' />Other
       </div>
