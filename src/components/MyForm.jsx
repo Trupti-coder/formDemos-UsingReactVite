@@ -34,6 +34,10 @@ const MyForm = () => {
             existingUser=[];
         }
 
+        existingUser.push(data);
+        JSON.parse(localStorage.setItem(existingUser));
+        alert("Data saved successfully to localstorage...");
+
 
     }
 
