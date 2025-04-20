@@ -23,6 +23,9 @@ const PracticeForm = () => {
             <option>Physics</option>
             <option>Chemistry</option>
             <option>Biology</option>
+            <option>Mathematics</option>
+            <option>Marathi</option>
+            <option>Hindi</option>
         </select>
       </div>
     </form>
