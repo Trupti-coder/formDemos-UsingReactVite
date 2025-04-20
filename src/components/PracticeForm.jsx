@@ -18,7 +18,7 @@ const PracticeForm = () => {
         Name:<input type='text' name='name' onChange={handleChange} />
       </div>
       <div>
-        City:<input type='text' name='city' />
+        City:<input type='text' name='city' onChange={handleChange} />
       </div>
       <div>
         Age:<input type='text' name='age' />
