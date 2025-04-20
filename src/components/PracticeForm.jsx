@@ -69,7 +69,7 @@ const PracticeForm = () => {
         Email:<input type='email' name='email'  onChange={handleChange}/>
       </div>
       <div>
-        Password:<input type='password'  name='password'/>
+        Password:<input type='password'  name='password' onChange={handleChange}/>
       </div>
       <button type='submit'>Submit</button>
     </form>
