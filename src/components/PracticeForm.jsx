@@ -70,7 +70,7 @@ const PracticeForm = () => {
 
       </div>
       <div>
-        Select Special Subject:<select name='subject' >
+        Select Special Subject:<select name='subject' onChange={handleChange}  value={formData.subject}>
             <option value="">--Select--</option>
             <option value="Physics">Physics</option>
             <option value="Chemistry">Chemistry</option>
