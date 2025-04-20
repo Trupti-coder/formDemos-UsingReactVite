@@ -50,7 +50,7 @@ const PracticeForm = () => {
 
       </div>
       <div>
-        Select Subject:<select>
+        Select Special Subject:<select>
             <option>--Select--</option>
             <option>Physics</option>
             <option>Chemistry</option>
