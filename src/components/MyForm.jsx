@@ -30,6 +30,10 @@ const MyForm = () => {
             
         }
 
+        if(!Array.isArray(existingUser)){
+            existingUser=[];
+        }
+
 
     }
 
