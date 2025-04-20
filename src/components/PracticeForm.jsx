@@ -38,7 +38,10 @@ const PracticeForm = () => {
         }
 
 
+        existingUser.push(formData);
         
+      localStorage.setItem("formData",JSON.parse(existingUser));
+      alert("Data saved Successfully to localstorage...!");
 
 
     }
