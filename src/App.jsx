@@ -10,6 +10,7 @@ import SignIn from './components/SignIn.jsx';
 import ComunityForm from './components/ComunityForm.jsx';
 import UserForm from './components/UserForm.jsx';
 import SimpleForm from './components/SimpleForm.jsx';
+import MyForm from './components/MyForm.jsx';
 
 function App() {
   
@@ -38,6 +39,8 @@ function App() {
  <hr></hr>
  <SimpleForm />
  <hr></hr>
+<MyForm />
+<hr></hr>
       
     </>
   )

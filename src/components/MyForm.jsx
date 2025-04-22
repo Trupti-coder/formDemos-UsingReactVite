@@ -79,4 +79,4 @@ const MyForm = () => {
   )
 }
 
-export default MyForm
+export default MyForm;
