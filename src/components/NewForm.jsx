@@ -3,8 +3,16 @@ import React from 'react'
 const NewForm = () => {
 
 
+
+    function handleChange(event){
+
+        
+    }
+
     function handleSubmit(event){
         event.preventDefault();
+
+
 
 
 
