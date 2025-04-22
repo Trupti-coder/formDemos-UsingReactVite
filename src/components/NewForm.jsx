@@ -1,8 +1,12 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const NewForm = () => {
 
 
+let[formData,setFormData]=useState({
+
+    
+})
 
     function handleChange(event){
 
@@ -13,8 +17,6 @@ const NewForm = () => {
 
     function handleSubmit(event){
         event.preventDefault();
-
-
 
 
 
