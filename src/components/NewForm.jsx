@@ -21,7 +21,7 @@ const NewForm = () => {
         </div>
 
         <div>
-            Parent email:<input type='email' />
+            Parent email:<input type='email' placeholder='Enter Email' />
         </div>
         <div>
             Prefered Sport:<input type='text' />
