@@ -17,7 +17,7 @@ const NewForm = () => {
 
         <div>
             Parent Name:<input type='text' placeholder='First Name' />
-            <input type='text' />
+            <input type='text' placeholder='Last Name' />
         </div>
 
         <div>
