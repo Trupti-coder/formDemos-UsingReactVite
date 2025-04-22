@@ -16,10 +16,10 @@ const NewForm = () => {
      <div>School Championship Registration Form</div>
      <form onSubmit={handleSubmit}>
         <div>
-            School Name:<input type='text' placeholder='Enter School Name' />
+            School Name:<input type='text' placeholder='Enter School Name' name='schoolName' />
         </div>
         <div>
-           Schooler Name <input type='text' placeholder='First Name' />
+           Schooler Name <input type='text' placeholder='First Name'  name='studFirstName'/>
            <input type='text' placeholder='Last Name' />
         </div>
 
