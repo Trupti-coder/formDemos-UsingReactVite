@@ -11,6 +11,7 @@ import ComunityForm from './components/ComunityForm.jsx';
 import UserForm from './components/UserForm.jsx';
 import SimpleForm from './components/SimpleForm.jsx';
 import MyForm from './components/MyForm.jsx';
+import PracticeForm from './components/PracticeForm.jsx';
 
 function App() {
   
@@ -41,7 +42,7 @@ function App() {
  <hr></hr>
 <MyForm />
 <hr></hr>
-
+<PracticeForm />
       
     </>
   )

@@ -100,4 +100,4 @@ const PracticeForm = () => {
   )
 }
 
-export default PracticeForm
+export default PracticeForm;
