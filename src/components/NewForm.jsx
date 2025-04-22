@@ -20,7 +20,7 @@ const NewForm = () => {
         </div>
         <div>
            Schooler Name <input type='text' placeholder='First Name'  name='studFirstName'/>
-           <input type='text' placeholder='Last Name' />
+           <input type='text' placeholder='Last Name'  name='studLastName'/>
         </div>
 
         <div>
