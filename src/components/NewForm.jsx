@@ -5,7 +5,10 @@ const NewForm = () => {
 
 let[formData,setFormData]=useState({
 
-    
+    schoolName:"",
+    studFirstName:"",
+    studLatName:"",
+
 })
 
     function handleChange(event){
