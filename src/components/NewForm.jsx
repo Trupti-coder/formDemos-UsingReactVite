@@ -5,6 +5,10 @@ const NewForm = () => {
    <>
 
      <div>NewForm</div>
+     <div>School Championship Registration Form</div>
+     <form>
+        
+     </form>
    </>
   )
 }
