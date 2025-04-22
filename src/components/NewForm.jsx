@@ -10,6 +10,10 @@ const NewForm = () => {
         <div>
             School Name:<input type='text' />
         </div>
+        <div>
+           Schooler Name <input type='text' />
+           <input type='text' />
+        </div>
 
      </form>
    </>
