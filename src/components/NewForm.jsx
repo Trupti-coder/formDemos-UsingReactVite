@@ -23,6 +23,13 @@ const NewForm = () => {
         <div>
             Parent email:<input type='email' />
         </div>
+        <div>
+            Prefered Sport:<input type='text' />
+        </div>
+        <div>
+
+            
+        </div>
 
      </form>
    </>
