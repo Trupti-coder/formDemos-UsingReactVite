@@ -1,12 +1,19 @@
 import React from 'react'
 
 const NewForm = () => {
+
+
+    function handleSubmit(){
+
+
+        
+    }
   return (
    <>
 
      <div>NewForm</div>
      <div>School Championship Registration Form</div>
-     <form>
+     <form onSubmit={handleSubmit}>
         <div>
             School Name:<input type='text' placeholder='Enter School Name' />
         </div>
