@@ -3,10 +3,11 @@ import React from 'react'
 const NewForm = () => {
 
 
-    function handleSubmit(){
+    function handleSubmit(event){
+        event.preventDefault();
 
 
-        
+
     }
   return (
    <>
