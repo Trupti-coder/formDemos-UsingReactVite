@@ -20,6 +20,10 @@ const NewForm = () => {
             <input type='text' />
         </div>
 
+        <div>
+            Parent email:<input type='email' />
+        </div>
+
      </form>
    </>
   )
