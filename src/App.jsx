@@ -43,6 +43,7 @@ function App() {
 <MyForm />
 <hr></hr>
 <PracticeForm />
+<hr></hr>
       
     </>
   )
