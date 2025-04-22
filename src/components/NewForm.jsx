@@ -25,7 +25,7 @@ const NewForm = () => {
 
         <div>
             Parent Name:<input type='text' placeholder='First Name' onChange={handleChange} />
-            <input type='text' placeholder='Last Name' />
+            <input type='text' placeholder='Last Name' onChange={handleChange} />
         </div>
 
         <div>
