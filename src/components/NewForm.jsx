@@ -29,7 +29,7 @@ const NewForm = () => {
         </div>
 
         <div>
-            Parent email:<input type='email' placeholder='Enter Email' onChange={handleChange} />
+            Parent email:<input type='email' placeholder='Enter Email' name='email' onChange={handleChange} />
         </div>
         <div>
             Prefered Sport:<input type='text' placeholder='Enter Prefered Sport' onChange={handleChange} />
