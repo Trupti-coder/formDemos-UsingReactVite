@@ -11,7 +11,7 @@ const NewForm = () => {
             School Name:<input type='text' />
         </div>
         <div>
-           Schooler Name <input type='text' />
+           Schooler Name <input type='text' placeholder='First Name' />
            <input type='text' />
         </div>
 
