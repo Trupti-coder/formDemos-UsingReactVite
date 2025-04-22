@@ -15,6 +15,11 @@ const NewForm = () => {
            <input type='text' />
         </div>
 
+        <div>
+            Parent Name:<input type='text' />
+            <input type='text' />
+        </div>
+
      </form>
    </>
   )
