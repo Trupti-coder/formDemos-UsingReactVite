@@ -8,7 +8,7 @@ const NewForm = () => {
      <div>School Championship Registration Form</div>
      <form>
         <div>
-            School Name:<input type='text' />
+            School Name:<input type='text' placeholder='Enter School Name' />
         </div>
         <div>
            Schooler Name <input type='text' placeholder='First Name' />
