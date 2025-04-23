@@ -14,8 +14,11 @@ let[formData,setFormData]=useState({
     function handleChange(event){
 
         let{name,value}=event.target;
-        setFormData(()=>({
+        setFormData((prev)=>({
+
+            ...prev,
             
+
         }))
 
        
