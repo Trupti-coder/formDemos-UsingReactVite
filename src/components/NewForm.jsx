@@ -75,7 +75,7 @@ let[formData,setFormData]=useState({
         </div>
 
         <div>
-            Parent email:<input type='email' placeholder='Enter Email' name='email' onChange={handleChange} />
+            Parent email:<input type='email' placeholder='Enter Email' name='email' value={formData.parentEmail} onChange={handleChange} />
         </div>
         <div>
             Prefered Sport:<input type='text' placeholder='Enter Prefered Sport' name='preferedSport' onChange={handleChange} />
