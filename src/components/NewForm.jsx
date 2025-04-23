@@ -10,6 +10,8 @@ let[formData,setFormData]=useState({
     studLatName:"",
     parentFirstName:"",
     parentLastName:"",
+    email:"",
+    preferedSport:"",
 
 })
 
@@ -19,7 +21,7 @@ let[formData,setFormData]=useState({
         setFormData((prev)=>({
 
             ...prev,
-            [name]:value;
+            [name]:value,
 
 
 
