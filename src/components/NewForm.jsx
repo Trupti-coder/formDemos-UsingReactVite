@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 
+import Styles from './NewForm.module.css';
+
 const NewForm = () => {
 
 
