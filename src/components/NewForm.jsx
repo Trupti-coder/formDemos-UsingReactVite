@@ -71,7 +71,7 @@ let[formData,setFormData]=useState({
 
         <div>
             Parent Name:<input type='text' placeholder='First Name' name='parentFirstName' value={formData.parentFirstName} onChange={handleChange} />
-            <input type='text' placeholder='Last Name' name='parentLastName' onChange={handleChange} />
+            <input type='text' placeholder='Last Name' name='parentLastName' value={formData.parentLastName} onChange={handleChange} />
         </div>
 
         <div>
