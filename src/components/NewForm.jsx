@@ -34,6 +34,8 @@ let[formData,setFormData]=useState({
             existingUser=[];
         }
 
+        existingUser.push(formData);
+
 
 
     }
