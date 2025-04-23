@@ -83,7 +83,7 @@ let[formData,setFormData]=useState({
             Prefered Sport:<input type='text' placeholder='Enter Prefered Sport' name='preferedSport' value={formData.preferedSport} onChange={handleChange} />
         </div>
         <div>
-          <button type="submit">Submit</button>
+          <button type="submit" className={Styles.button}>Submit</button>
 
         </div>
 
