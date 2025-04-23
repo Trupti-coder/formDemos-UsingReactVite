@@ -62,7 +62,7 @@ let[formData,setFormData]=useState({
      <div>School Championship Registration Form</div>
      <form onSubmit={handleSubmit}>
         <div>
-            School Name:<input type='text' placeholder='Enter School Name' name='schoolName' onChange={handleChange} />
+            School Name:<input type='text' placeholder='Enter School Name' name='schoolName' value={formData.schoolName} onChange={handleChange} />
         </div>
         <div>
            Schooler Name <input type='text' placeholder='First Name'  name='studFirstName' onChange={handleChange}/>
