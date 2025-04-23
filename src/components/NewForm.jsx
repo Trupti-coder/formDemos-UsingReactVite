@@ -12,7 +12,7 @@ let[formData,setFormData]=useState({
     studLatName:"",
     parentFirstName:"",
     parentLastName:"",
-    email:"",
+    parentEmail:"",
     preferedSport:"",
 
 })
