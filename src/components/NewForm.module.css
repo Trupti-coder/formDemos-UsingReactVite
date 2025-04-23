@@ -45,3 +45,10 @@ input:focus {
   .button:hover {
     background-color: #0056b3;
   }  
+
+
+  .button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 24px;
