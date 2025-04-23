@@ -25,7 +25,9 @@ let[formData,setFormData]=useState({
 
         if(localStorage.getItem("formData")){
 
-            
+            existingUser=JSON.parse(localStorage.getItem("formData"));
+
+
         }
 
 
