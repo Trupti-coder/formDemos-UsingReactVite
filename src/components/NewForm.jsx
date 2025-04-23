@@ -17,7 +17,9 @@ let[formData,setFormData]=useState({
         setFormData((prev)=>({
 
             ...prev,
-            
+            [name]:value;
+
+
 
         }))
 
