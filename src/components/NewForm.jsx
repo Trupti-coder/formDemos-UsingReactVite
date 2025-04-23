@@ -8,6 +8,8 @@ let[formData,setFormData]=useState({
     schoolName:"",
     studFirstName:"",
     studLatName:"",
+    parentFirstName:"",
+    parentLastName:"",
 
 })
 
