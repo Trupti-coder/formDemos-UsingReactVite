@@ -68,7 +68,7 @@ let[formData,setFormData]=useState({
             School Name:<input type='text' placeholder='Enter School Name' name='schoolName' value={formData.schoolName} onChange={handleChange} />
         </div>
         <div>
-            Previous School Name:<input type='text' placeholder='Enter Previous School Name' value={formData.previousSchoolName} />
+            Previous School Name:<input type='text' placeholder='Enter Previous School Name' name='previousSchoolName' value={formData.previousSchoolName} />
         </div>
         <div>
            Schooler Name <input type='text' placeholder='First Name'  name='studFirstName' value={formData.studFirstName} onChange={handleChange}/>
@@ -97,4 +97,4 @@ let[formData,setFormData]=useState({
   )
 }
 
-export default NewForm
+export default NewForm;
