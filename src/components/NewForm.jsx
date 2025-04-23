@@ -30,6 +30,10 @@ let[formData,setFormData]=useState({
 
         }
 
+        if(!Array.isArray(existingUser)){
+            existingUser=[];
+        }
+
 
 
     }
