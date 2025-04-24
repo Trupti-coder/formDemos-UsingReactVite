@@ -52,6 +52,11 @@ function handleSubmit(event){
     }
 
     console.log(obj);
+    let existingUser;
+    
+    if(localStorage.getItem("data")){
+
+    }
 
     
 
