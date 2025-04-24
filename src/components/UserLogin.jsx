@@ -4,6 +4,7 @@ import styles from './UserLogin.module.css';
 
 
 const UserLogin = () => {
+
     let[name,setName]=useState("");
     let[age,setAge]=useState("");
     let[city,setCity]=useState("");
@@ -79,7 +80,7 @@ function handleSubmit(event){
   return (
     <>
     <div className={styles.title}>UserLogin</div>
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={styles.formStyle}>
         <div>
             Name:<input type='text' name='name' placeholder='Enter Name' onChange={nameChange} />
         </div>
