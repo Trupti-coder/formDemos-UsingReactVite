@@ -7,6 +7,10 @@ const UserLogin = () => {
     let[email,setWEmail]=useState("");
     let[password,setPassword]=useState("");
 
+function nameChange(){
+    
+}
+
   return (
     <>
     <div>UserLogin</div>
