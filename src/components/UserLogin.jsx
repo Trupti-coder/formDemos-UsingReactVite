@@ -21,7 +21,7 @@ const UserLogin = () => {
             City:<input type='text' placeholder='Enter City' onChange={cityChange}/>
         </div>
         <div>
-            Email:<input type='email' placeholder='Enter Email' />
+            Email:<input type='email' placeholder='Enter Email' onChange={emailChange} />
         </div>
         <div>
             Password:<input type='text' placeholder='Enter Password' />
