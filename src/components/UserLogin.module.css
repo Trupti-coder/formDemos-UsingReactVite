@@ -23,6 +23,9 @@
     width: 100%;
     padding: 10px 12px;
     border: 1px solid #ccc;
+    border-radius: 8px;
+  box-sizing: border-box;
+  font-size: 1rem;
 
 
 
