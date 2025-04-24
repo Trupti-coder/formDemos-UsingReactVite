@@ -4,6 +4,7 @@ const UserLogin = () => {
     let[name,setName]=useState("");
     let[age,setAge]=useState("");
     let[city,setCity]=useState("");
+    let[email,setWEmail]=useState("");
 
   return (
     <>
