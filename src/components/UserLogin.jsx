@@ -63,7 +63,7 @@ function handleSubmit(event){
         existingUser=[];
     }
 
-    existingUser.push()
+    existingUser.push(obj);
     
 
 
