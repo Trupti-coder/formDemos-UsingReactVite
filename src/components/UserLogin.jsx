@@ -9,7 +9,10 @@ const UserLogin = () => {
             Name:<input type='text' />
         </div>
         <div>
-            City:<input type='number' />
+            
+        </div>
+        <div>
+            City:<input type='text' />
         </div>
     </form>
 
