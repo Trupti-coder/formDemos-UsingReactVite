@@ -6,7 +6,7 @@ const UserLogin = () => {
     <div>UserLogin</div>
     <form>
         <div>
-            Name:<input type='text' />
+            Name:<input type='text' placeholder='Enter Name' />
         </div>
         <div>
             Age:<input type='number' />
