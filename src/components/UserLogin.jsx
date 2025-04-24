@@ -58,6 +58,10 @@ function handleSubmit(event){
        existingUser=JSON.parse(localStorage.getItem("data"));
     }
 
+
+    if(!Array.isArray(existingUser)){
+        existingUser=[];
+    }
     
 
 
