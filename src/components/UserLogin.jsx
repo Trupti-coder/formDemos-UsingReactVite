@@ -46,6 +46,7 @@ function handleSubmit(event){
     let obj={
         userName:name,
         UserAge:age
+        UserCity:city,
     }
 
     
