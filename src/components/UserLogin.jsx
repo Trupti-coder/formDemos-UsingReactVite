@@ -8,6 +8,11 @@ const UserLogin = () => {
     let[password,setPassword]=useState("");
 
 function nameChange(){
+
+}
+
+
+function ageChange(){
     
 }
 
