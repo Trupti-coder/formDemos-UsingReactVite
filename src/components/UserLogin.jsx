@@ -18,7 +18,7 @@ const UserLogin = () => {
             Age:<input type='number' placeholder='Enter Age' onChange={ageChange} />
         </div>
         <div>
-            City:<input type='text' placeholder='Enter City'/>
+            City:<input type='text' placeholder='Enter City' onChange={cityChange}/>
         </div>
         <div>
             Email:<input type='email' placeholder='Enter Email' />
