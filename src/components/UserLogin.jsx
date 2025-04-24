@@ -18,7 +18,7 @@ const UserLogin = () => {
             Email:<input type='email' placeholder='Enter Email' />
         </div>
         <div>
-            Password:<input type='text' />
+            Password:<input type='text' placeholder='Enter Password' />
         </div>
     </form>
 
