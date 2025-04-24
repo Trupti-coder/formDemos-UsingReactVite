@@ -49,7 +49,7 @@ function handleSubmit(event){
         UserAge:age,
         UserCity:city,
         UserEmail:email,
-        Userpassword:password,
+        UserPassword:password,
     }
 
     console.log(obj);
