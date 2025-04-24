@@ -18,4 +18,14 @@
   .formStyle div {
     margin-bottom: 15px;
   }
+
+  .formStyle input {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+
+
+
+  }
+  
   
