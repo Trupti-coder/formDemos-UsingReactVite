@@ -24,6 +24,12 @@ function cityChange(){
 function emailChange(){
 
 
+
+}
+
+
+function passwordChange(){
+
     
 }
 
