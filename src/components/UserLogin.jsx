@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+
 
 
 const UserLogin = () => {
@@ -76,7 +77,7 @@ function handleSubmit(event){
 
   return (
     <>
-    <div>UserLogin</div>
+    <div className={styles.title}>UserLogin</div>
     <form onSubmit={handleSubmit}>
         <div>
             Name:<input type='text' name='name' placeholder='Enter Name' onChange={nameChange} />
