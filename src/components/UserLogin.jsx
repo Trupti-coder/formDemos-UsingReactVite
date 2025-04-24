@@ -17,6 +17,9 @@ const UserLogin = () => {
         <div>
             Email:<input type='email' />
         </div>
+        <div>
+            Password:<input type='text' />
+        </div>
     </form>
 
 
