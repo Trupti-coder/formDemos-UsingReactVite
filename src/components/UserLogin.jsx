@@ -51,6 +51,8 @@ function handleSubmit(event){
         Userpassword:password,
     }
 
+    console.log(obj);
+
     
 
 
