@@ -7,7 +7,8 @@ const UserLogin = () => {
     let[email,setWEmail]=useState("");
     let[password,setPassword]=useState("");
 
-function nameChange(){
+function nameChange(event){
+    setName(event.target.value);
 
 }
 
