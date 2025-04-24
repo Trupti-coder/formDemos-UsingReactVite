@@ -93,6 +93,7 @@ function handleSubmit(event){
         <div>
             Password:<input type='text' name='password' placeholder='Enter Password' onChange={passwordChange} />
         </div>
+        <button type='submit'>Submit</button>
     </form>
 
 
