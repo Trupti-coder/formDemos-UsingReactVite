@@ -5,6 +5,7 @@ const UserLogin = () => {
     let[age,setAge]=useState("");
     let[city,setCity]=useState("");
     let[email,setWEmail]=useState("");
+    let[password,setPassword]=useState("");
 
   return (
     <>
