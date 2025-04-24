@@ -12,7 +12,7 @@ const UserLogin = () => {
     <div>UserLogin</div>
     <form>
         <div>
-            Name:<input type='text' placeholder='Enter Name' />
+            Name:<input type='text' placeholder='Enter Name' onChange={nameChange} />
         </div>
         <div>
             Age:<input type='number' placeholder='Enter Age' />
