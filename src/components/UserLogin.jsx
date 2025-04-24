@@ -13,7 +13,8 @@ function nameChange(event){
 }
 
 
-function ageChange(){
+function ageChange(event){
+    setAge(event.target.value);
 
 }
 
