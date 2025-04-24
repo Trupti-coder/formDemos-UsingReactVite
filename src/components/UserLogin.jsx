@@ -18,6 +18,12 @@ function ageChange(){
 
 function cityChange(){
 
+
+}
+
+function emailChange(){
+
+
     
 }
 
