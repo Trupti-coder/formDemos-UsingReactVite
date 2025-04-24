@@ -15,7 +15,7 @@ const UserLogin = () => {
             City:<input type='text' placeholder='Enter City'/>
         </div>
         <div>
-            Email:<input type='email' />
+            Email:<input type='email' placeholder='Enter Email' />
         </div>
         <div>
             Password:<input type='text' />
