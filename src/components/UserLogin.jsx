@@ -9,7 +9,7 @@ const UserLogin = () => {
             Name:<input type='text' />
         </div>
         <div>
-            
+            Age:<input type='number' />
         </div>
         <div>
             City:<input type='text' />
