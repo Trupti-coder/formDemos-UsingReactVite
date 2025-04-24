@@ -54,7 +54,7 @@ function handleSubmit(event){
             Age:<input type='number' name='age' placeholder='Enter Age' onChange={ageChange} />
         </div>
         <div>
-            City:<input type='text' placeholder='Enter City' onChange={cityChange}/>
+            City:<input type='text' name='city' placeholder='Enter City' onChange={cityChange}/>
         </div>
         <div>
             Email:<input type='email' placeholder='Enter Email' onChange={emailChange} />
