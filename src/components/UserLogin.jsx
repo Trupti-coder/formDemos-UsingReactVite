@@ -43,6 +43,13 @@ function handleSubmit(event){
 
     event.preventDefault();
 
+    let obj={
+        userName:name,
+        
+    }
+
+    
+
 
 
 
