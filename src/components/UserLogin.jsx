@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { data } from 'react-router-dom';
 
 const UserLogin = () => {
     let[name,setName]=useState("");
@@ -64,6 +65,8 @@ function handleSubmit(event){
     }
 
     existingUser.push(obj);
+
+    localStorage.setItem("data",JSON.stringify(existingUser));
     
 
 
