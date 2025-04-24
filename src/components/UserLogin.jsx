@@ -60,7 +60,7 @@ function handleSubmit(event){
             Email:<input type='email' name='email' placeholder='Enter Email' onChange={emailChange} />
         </div>
         <div>
-            Password:<input type='text' placeholder='Enter Password' onChange={passwordChange} />
+            Password:<input type='text' name='password' placeholder='Enter Password' onChange={passwordChange} />
         </div>
     </form>
 
