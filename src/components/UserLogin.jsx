@@ -14,6 +14,9 @@ const UserLogin = () => {
         <div>
             City:<input type='text' />
         </div>
+        <div>
+            Email:<input type='email' />
+        </div>
     </form>
 
 
