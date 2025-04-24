@@ -30,13 +30,13 @@ function emailChange(){
 
 function passwordChange(){
 
-    
+
 }
 
   return (
     <>
     <div>UserLogin</div>
-    <form>
+    <form onSubmit={handleSubmit}>
         <div>
             Name:<input type='text' placeholder='Enter Name' onChange={nameChange} />
         </div>
