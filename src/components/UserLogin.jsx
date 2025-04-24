@@ -18,7 +18,8 @@ function ageChange(event){
 
 }
 
-function cityChange(){
+function cityChange(event){
+    setCity(event.target.value);
 
 
 }
