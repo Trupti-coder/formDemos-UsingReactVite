@@ -53,9 +53,9 @@ function handleSubmit(event){
 
     console.log(obj);
     let existingUser;
-    
-    if(localStorage.getItem("data")){
 
+    if(localStorage.getItem("data")){
+       existingUser=JSON.parse(localStorage.getItem("data"));
     }
 
     
