@@ -48,7 +48,7 @@ function handleSubmit(event){
     <div>UserLogin</div>
     <form onSubmit={handleSubmit}>
         <div>
-            Name:<input type='text' placeholder='Enter Name' onChange={nameChange} />
+            Name:<input type='text' name='name' placeholder='Enter Name' onChange={nameChange} />
         </div>
         <div>
             Age:<input type='number' placeholder='Enter Age' onChange={ageChange} />
