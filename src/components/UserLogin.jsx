@@ -62,6 +62,8 @@ function handleSubmit(event){
     if(!Array.isArray(existingUser)){
         existingUser=[];
     }
+
+    existingUser.push()
     
 
 
