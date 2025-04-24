@@ -4,7 +4,7 @@ const UserLogin = () => {
     let[name,setName]=useState("");
     let[age,setAge]=useState("");
     let[city,setCity]=useState("");
-    let[email,setWEmail]=useState("");
+    let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
 
 function nameChange(event){
@@ -24,14 +24,16 @@ function cityChange(event){
 
 }
 
-function emailChange(){
+function emailChange(event){
+    setEmail(event.target.value);
 
 
 
 }
 
 
-function passwordChange(){
+function passwordChange(event){
+    setPassword(event.target.value);
 
 
 }
