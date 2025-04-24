@@ -13,6 +13,11 @@ function nameChange(){
 
 
 function ageChange(){
+
+}
+
+function cityChange(){
+
     
 }
 
