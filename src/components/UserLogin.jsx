@@ -12,7 +12,7 @@ const UserLogin = () => {
             Age:<input type='number' placeholder='Enter Age' />
         </div>
         <div>
-            City:<input type='text' />
+            City:<input type='text' placeholder='Enter City'/>
         </div>
         <div>
             Email:<input type='email' />
