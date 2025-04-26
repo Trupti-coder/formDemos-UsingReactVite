@@ -26,7 +26,8 @@ const Form = () => {
         <div>
             Standard:<select>
                 <option>--Select--</option>
-                <option></option>
+                <option>10'th</option>
+                <option>12'th</option>
            </select>
         </div>
         <div>
