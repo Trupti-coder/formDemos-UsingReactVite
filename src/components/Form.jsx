@@ -21,7 +21,7 @@ const Form = () => {
             LastName:<input type='text' placeholder='Enter LastName' />
         </div>
         <div>
-            Age:<input type='number' />
+            Age:<input type='number' placeholder='Enter Age' />
         </div>
         <div>
             City:<input type='text' />
