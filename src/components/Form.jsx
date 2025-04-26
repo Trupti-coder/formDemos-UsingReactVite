@@ -19,7 +19,8 @@ const Form = () => {
     });
 
     function handleChange(event){
-
+         
+          let{name,value}=event.target
         
         setFormData((prev)=>({
             ...prev,
