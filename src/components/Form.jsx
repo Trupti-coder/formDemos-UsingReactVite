@@ -11,6 +11,7 @@ const Form = () => {
         age:"",
         city:"",
         gender:"",
+        course:"",
         email:"",
         password:"",
 
