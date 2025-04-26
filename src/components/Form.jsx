@@ -73,7 +73,7 @@ const Form = () => {
             City:<input type='text' placeholder='Enter City' name='city' value={formData.city} />
         </div>
         <div>
-            Gender:<input type='radio' name='gender' />
+            Gender:<input type='radio' name='gender' value="Male" />
             <input type='radio' name='gender' />
             <input type='radio'  name='gender'/>
         </div>
