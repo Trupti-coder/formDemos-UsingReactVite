@@ -18,8 +18,14 @@ const Form = () => {
 
     });
 
-    function handleChange(){
+    function handleChange(event){
+
         
+        setFormData((prev)=>({
+            ...prev,
+
+        }));
+
     }
 
 
