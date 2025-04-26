@@ -91,7 +91,7 @@ const Form = () => {
            </select>
         </div>
         <div>
-            Email:<input type='email' placeholder='Enter Email'  name='email'/> 
+            Email:<input type='email' placeholder='Enter Email'  name='email' onChange={handleChange}/> 
         </div>
         <div>
             Password:<input type='password' placeholder='Enter Password' name='password'/>
