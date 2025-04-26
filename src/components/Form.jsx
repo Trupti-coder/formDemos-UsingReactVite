@@ -75,7 +75,7 @@ const Form = () => {
         <div>
             Gender:<input type='radio' name='gender' value="Male" />
             <input type='radio' name='gender' value="Female" />
-            <input type='radio'  name='gender'/>
+            <input type='radio'  name='gender' value="Other"/>
         </div>
         <div>
             Standard:<select name='course' onChange={handleChange} >
