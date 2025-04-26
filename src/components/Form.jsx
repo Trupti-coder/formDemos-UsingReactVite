@@ -64,7 +64,7 @@ const Form = () => {
         <div>
             Standard:<select >
                 <option value="">--Select--</option>
-                <option>10'th</option>
+                <option value="10'th">10'th</option>
                 <option>12'th</option>
                 <option>Graduate</option>
                 <option>Post Graduate</option>
