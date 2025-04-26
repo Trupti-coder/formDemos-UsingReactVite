@@ -26,6 +26,9 @@ const Form = () => {
         <div>
             Email:<input type='email' />
         </div>
+        <div>
+            Password:<input type='password' />
+        </div>
     </form>
     </>
   )
