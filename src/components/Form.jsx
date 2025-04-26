@@ -45,7 +45,7 @@ const Form = () => {
             Email:<input type='email' placeholder='Enter Email' />
         </div>
         <div>
-            Password:<input type='password' />
+            Password:<input type='password' placeholder='Enter Password'/>
         </div>
         <button type='submit'>Submit</button>
     </form>
