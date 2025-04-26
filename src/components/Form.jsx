@@ -62,8 +62,8 @@ const Form = () => {
             <input type='radio'  name='gender'/>
         </div>
         <div>
-            Standard:<select>
-                <option>--Select--</option>
+            Standard:<select >
+                <option value="">--Select--</option>
                 <option>10'th</option>
                 <option>12'th</option>
                 <option>Graduate</option>
