@@ -13,6 +13,7 @@ import SimpleForm from './components/SimpleForm.jsx';
 import MyForm from './components/MyForm.jsx';
 import PracticeForm from './components/PracticeForm.jsx';
 import UserLogin from './components/UserLogin.jsx';
+import Form from './components/Form.jsx';
 
 function App() {
   
@@ -47,6 +48,7 @@ function App() {
 <hr></hr>
 <UserLogin />
 <hr></hr>
+<Form />
 
 
       
