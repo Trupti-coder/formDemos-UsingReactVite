@@ -70,7 +70,7 @@ const Form = () => {
             Age:<input type='number' placeholder='Enter Age' name='age' value={formData.age} />
         </div>
         <div>
-            City:<input type='text' placeholder='Enter City' name='city' />
+            City:<input type='text' placeholder='Enter City' name='city' value={formData.city} />
         </div>
         <div>
             Gender:<input type='radio' name='gender' />
