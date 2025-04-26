@@ -74,7 +74,7 @@ const Form = () => {
         </div>
         <div>
             Gender:<input type='radio' name='gender' value="Male" />
-            <input type='radio' name='gender' />
+            <input type='radio' name='gender' value="Female" />
             <input type='radio'  name='gender'/>
         </div>
         <div>
