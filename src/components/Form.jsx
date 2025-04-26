@@ -32,7 +32,7 @@ const Form = () => {
             Age:<input type='number' placeholder='Enter Age' name='age' />
         </div>
         <div>
-            City:<input type='text' placeholder='Enter City' />
+            City:<input type='text' placeholder='Enter City' name='city' />
         </div>
         <div>
             Gender:<input type='radio' />
