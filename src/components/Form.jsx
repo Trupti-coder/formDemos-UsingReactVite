@@ -23,6 +23,9 @@ const Form = () => {
             <input type='radio' />
             <input type='radio' />
         </div>
+        <div>
+            Email:<input type='email' />
+        </div>
     </form>
     </>
   )
