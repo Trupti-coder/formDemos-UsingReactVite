@@ -78,7 +78,7 @@ const Form = () => {
             <input type='radio'  name='gender'/>
         </div>
         <div>
-            Standard:<select name='course' >
+            Standard:<select name='course' onChange={handleChange} >
                 <option value="">--Select--</option>
                 <option value="10'th">10'th</option>
                 <option value="12'th">12'th</option>
