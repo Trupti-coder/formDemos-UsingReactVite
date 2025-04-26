@@ -77,7 +77,7 @@ const Form = () => {
         </div>
         <div>
             Gender:<input type='radio' name='gender' value="Male"  checked={formData.gender==="Male"} onChange={handleChange}/>Male
-            <input type='radio' name='gender' value="Female" checked={formData.gender==="Female"} />Female
+            <input type='radio' name='gender' value="Female" checked={formData.gender==="Female"} onChange={handleChange} />Female
             <input type='radio'  name='gender' value="Other" checked={formData.gender==="Other"}/>Other
         </div>
         <div>
