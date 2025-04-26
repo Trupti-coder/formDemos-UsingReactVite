@@ -29,6 +29,7 @@ const Form = () => {
         <div>
             Password:<input type='password' />
         </div>
+        <button type='submit'>Submit</button>
     </form>
     </>
   )
