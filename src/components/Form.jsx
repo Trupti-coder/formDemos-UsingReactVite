@@ -45,6 +45,10 @@ const Form = () => {
             existingUser=[];
         }
 
+        existingUser.push(formData);
+
+        
+
     }
 
 
