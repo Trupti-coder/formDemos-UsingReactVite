@@ -9,6 +9,8 @@ const Form = () => {
         age:"",
         city:"",
         gender:"",
+        email:"",
+        password:"",
 
 
 
