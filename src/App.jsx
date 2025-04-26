@@ -46,6 +46,7 @@ function App() {
 <PracticeForm />
 <hr></hr>
 <UserLogin />
+<hr></hr>
 
       
     </>
