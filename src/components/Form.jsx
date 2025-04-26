@@ -24,6 +24,12 @@ const Form = () => {
             <input type='radio' />
         </div>
         <div>
+            Standard:<select>
+                <option>--Select--</option>
+                <option></option>
+           </select>
+        </div>
+        <div>
             Email:<input type='email' />
         </div>
         <div>
