@@ -70,7 +70,7 @@ const Form = () => {
             LastName:<input type='text' placeholder='Enter LastName' name='lastname' value={formData.lastname} onChange={handleChange} />
         </div>
         <div>
-            Age:<input type='number' placeholder='Enter Age' name='age' value={formData.age} />
+            Age:<input type='number' placeholder='Enter Age' name='age' value={formData.age} onChange={handleChange} />
         </div>
         <div>
             City:<input type='text' placeholder='Enter City' name='city' value={formData.city} />
