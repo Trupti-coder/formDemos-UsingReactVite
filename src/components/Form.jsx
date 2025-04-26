@@ -15,6 +15,9 @@ const Form = () => {
         <div>
             Age:<input type='number' />
         </div>
+        <div>
+            City:<input type='text' />
+        </div>
     </form>
     </>
   )
