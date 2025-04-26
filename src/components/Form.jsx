@@ -24,6 +24,7 @@ const Form = () => {
         
         setFormData((prev)=>({
             ...prev,
+            [name]:value,
 
         }));
 
