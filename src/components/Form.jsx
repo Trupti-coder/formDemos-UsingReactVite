@@ -18,6 +18,9 @@ const Form = () => {
         <div>
             City:<input type='text' />
         </div>
+        <div>
+            Gender:<input type='radio' />
+        </div>
     </form>
     </>
   )
