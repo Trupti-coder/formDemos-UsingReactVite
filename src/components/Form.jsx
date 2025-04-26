@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+
 
 const Form = () => {
 
@@ -58,7 +59,7 @@ const Form = () => {
   return (
     <>
     <div>Form</div>
-    <h1>Creating a normal Form</h1>
+    <h1 className={styles.title}>Creating a normal Form</h1>
     <form onSubmit={handleSubmit}>
         <div>
             FirstName:<input type='text' placeholder='Enater FirstName' name='firstname' value={formData.firstname} />
@@ -88,7 +89,7 @@ const Form = () => {
            </select>
         </div>
         <div>
-            Email:<input type='email' placeholder='Enter Email'  name='email'/>
+            Email:<input type='email' placeholder='Enter Email'  name='email'/> 
         </div>
         <div>
             Password:<input type='password' placeholder='Enter Password' name='password'/>
