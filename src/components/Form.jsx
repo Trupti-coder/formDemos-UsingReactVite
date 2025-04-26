@@ -1,12 +1,20 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const Form = () => {
+
+    let[formData,setFormData]=useState({
+
+
+        
+    })
 
 
     function handleSubmit(event){
         event.preventDefault();
 
     }
+
+
 
 
   return (
