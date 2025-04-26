@@ -50,7 +50,7 @@ const Form = () => {
            </select>
         </div>
         <div>
-            Email:<input type='email' placeholder='Enter Email' />
+            Email:<input type='email' placeholder='Enter Email'  name='email'/>
         </div>
         <div>
             Password:<input type='password' placeholder='Enter Password'/>
