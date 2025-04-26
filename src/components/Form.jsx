@@ -67,7 +67,7 @@ const Form = () => {
                 <option value="10'th">10'th</option>
                 <option value="12'th">12'th</option>
                 <option value="Graduate">Graduate</option>
-                <option>Post Graduate</option>
+                <option value="Post Graduate">Post Graduate</option>
                 <option>Deploma</option>
            </select>
         </div>
