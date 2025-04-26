@@ -34,6 +34,10 @@ const Form = () => {
     function handleSubmit(event){
         event.preventDefault();
 
+        let existingUser;
+
+        if(localStorage.getItem(""))
+
     }
 
 
