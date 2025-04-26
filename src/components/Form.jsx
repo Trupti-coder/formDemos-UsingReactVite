@@ -4,6 +4,12 @@ const Form = () => {
 
     let[formData,setFormData]=useState({
 
+        firstname:"",
+        lastname:"",
+        age:"",
+        
+
+
 
 
     })
