@@ -94,7 +94,7 @@ const Form = () => {
             Email:<input type='email' placeholder='Enter Email'  name='email' value={formData.email} onChange={handleChange}/> 
         </div>
         <div>
-            Password:<input type='password' placeholder='Enter Password' name='password' onChange={handleChange}/>
+            Password:<input type='password' placeholder='Enter Password' name='password' value={formData.password} onChange={handleChange}/>
         </div>
         <button type='submit'>Submit</button>
     </form>
