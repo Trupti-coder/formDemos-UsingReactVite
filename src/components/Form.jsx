@@ -10,7 +10,7 @@ const Form = () => {
             FirstName:<input type='text' />
         </div>
         <div>
-            
+            LastName:<input type='text' />
         </div>
     </form>
     </>
