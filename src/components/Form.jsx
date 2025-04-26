@@ -5,7 +5,7 @@ const Form = () => {
     let[formData,setFormData]=useState({
 
 
-        
+
     })
 
 
@@ -23,7 +23,7 @@ const Form = () => {
     <h1>Creating a normal Form</h1>
     <form onSubmit={handleSubmit}>
         <div>
-            FirstName:<input type='text' placeholder='Enater FirstName' />
+            FirstName:<input type='text' placeholder='Enater FirstName' name='firstname' />
         </div>
         <div>
             LastName:<input type='text' placeholder='Enter LastName' />
