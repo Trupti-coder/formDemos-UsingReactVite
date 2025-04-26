@@ -3,8 +3,9 @@ import React from 'react'
 const Form = () => {
 
 
-    function handleSubmit(){
-        
+    function handleSubmit(event){
+        event.preventDefault();
+
     }
   return (
     <>
