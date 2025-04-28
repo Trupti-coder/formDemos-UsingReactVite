@@ -46,6 +46,16 @@ font-size: 1rem;
 form input[type="radio"] {
     margin: 0 8px 0 0;
   }
+
   
+
+
+  .button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
+    color: white;
+  }
 
 
