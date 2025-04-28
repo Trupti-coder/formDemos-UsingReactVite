@@ -57,7 +57,7 @@ const Form = () => {
     <>
     <div>Form</div>
     <h1 className={styles.title}>Creating a normal Form</h1>
-    <form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit} className={styles.form}>
         <div>
             FirstName:<input type='text' placeholder='Enter FirstName' name='firstname' value={formData.firstname} onChange={handleChange} />
         </div>
