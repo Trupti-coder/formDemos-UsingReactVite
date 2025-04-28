@@ -17,8 +17,6 @@ const Form = () => {
 
 
 
-
-
     });
 
     function handleChange(event){
@@ -54,9 +52,6 @@ const Form = () => {
 
 
     }
-
-
-
 
   return (
     <>
