@@ -5,7 +5,16 @@ const AuthenticationForm = () => {
    <>
 
      <div>AuthenticationForm</div>
-     
+     <form>
+        <div>
+            FirstName:<input type='text' />
+
+        </div>
+        <div>
+            LastName:<input type='text' />
+        </div>
+     </form>
+
    </>
   )
 }
