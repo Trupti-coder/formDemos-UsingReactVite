@@ -7,7 +7,7 @@ const AuthenticationForm = () => {
      <div>AuthenticationForm</div>
      <form>
         <div>
-            FirstName:<input type='text' placeholder='Enter Firstname' />
+            FirstName:<input type='text' placeholder='Enter Firstname' name='firstName' />
 
         </div>
         <div>
