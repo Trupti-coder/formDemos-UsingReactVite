@@ -14,7 +14,7 @@ const AuthenticationForm = () => {
             LastName:<input type='text' placeholder='Enter LastName' name='lastName' />
         </div>
         <div>
-            Age:<input type='number' placeholder='Enter Age' />
+            Age:<input type='number' placeholder='Enter Age' name='age' />
         </div>
         <div>
             CityName:<input type='text'  placeholder='Enter CityName'/>
