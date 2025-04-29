@@ -13,6 +13,12 @@ const AuthenticationForm = () => {
         <div>
             LastName:<input type='text' />
         </div>
+        <div>
+            Age:<input type='number' />
+        </div>
+        <div>
+            CityName:<input type='text' />
+        </div>
      </form>
 
    </>
