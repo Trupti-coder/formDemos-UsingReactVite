@@ -19,6 +19,12 @@ const AuthenticationForm = () => {
         <div>
             CityName:<input type='text' />
         </div>
+        <div>
+            Email:<input type='email' />
+        </div>
+        <div>
+            Password:<input type='password' />
+        </div>
      </form>
 
    </>
