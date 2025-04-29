@@ -25,6 +25,7 @@ const AuthenticationForm = () => {
         <div>
             Password:<input type='password' placeholder='Enter Password' />
         </div>
+        <button type='submit'>Submit</button>
      </form>
 
    </>
