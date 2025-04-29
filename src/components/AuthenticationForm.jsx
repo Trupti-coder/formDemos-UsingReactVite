@@ -23,7 +23,7 @@ const AuthenticationForm = () => {
             Email:<input type='email' />
         </div>
         <div>
-            Password:<input type='password' />
+            Password:<input type='password' placeholder='Enter Password' />
         </div>
      </form>
 
