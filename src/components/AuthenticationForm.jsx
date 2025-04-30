@@ -2,10 +2,11 @@ import React from 'react'
 
 const AuthenticationForm = () => {
 
-    function handleSubmit(){
+    function handleSubmit(event){
+        event.preventDefault();
 
 
-        
+
     }
   return (
    <>
