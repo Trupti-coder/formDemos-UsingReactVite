@@ -7,6 +7,8 @@ const AuthenticationForm = () => {
     let[lastName,setLastName]=useState("");
     let[age,setAge]=useState("");
     let[city,setCity]=useState("");
+    let[email,setEmail]=useState("");
+    
 
     function handleSubmit(event){
         event.preventDefault();
