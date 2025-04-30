@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const AuthenticationForm = () => {
+
+
+    let[name,setName]=useState("");
+    
 
     function handleSubmit(event){
         event.preventDefault();
