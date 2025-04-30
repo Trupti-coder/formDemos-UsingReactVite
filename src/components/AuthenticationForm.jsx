@@ -3,8 +3,8 @@ import React, { useState } from 'react'
 const AuthenticationForm = () => {
 
 
-    let[name,setName]=useState("");
-    
+    let[firstName,setFirstName]=useState("");
+    let[lastName,setLastName]=useState("");
 
     function handleSubmit(event){
         event.preventDefault();
