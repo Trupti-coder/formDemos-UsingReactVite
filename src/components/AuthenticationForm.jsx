@@ -5,7 +5,7 @@ const AuthenticationForm = () => {
    <>
 
      <div>AuthenticationForm</div>
-     <form>
+     <form onSubmit={handleSubmit}>
         <div>
             FirstName:<input type='text' placeholder='Enter Firstname' name='firstName' onChange={firstNameChange} />
 
