@@ -7,11 +7,11 @@ const AuthenticationForm = () => {
      <div>AuthenticationForm</div>
      <form>
         <div>
-            FirstName:<input type='text' placeholder='Enter Firstname' name='firstName' onChange={handleChange} />
+            FirstName:<input type='text' placeholder='Enter Firstname' name='firstName' onChange={firstNameChange} />
 
         </div>
         <div>
-            LastName:<input type='text' placeholder='Enter LastName' name='lastName' />
+            LastName:<input type='text' placeholder='Enter LastName' name='lastName' onChange={lastNameChange} />
         </div>
         <div>
             Age:<input type='number' placeholder='Enter Age' name='age' />
