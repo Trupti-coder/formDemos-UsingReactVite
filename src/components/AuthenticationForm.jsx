@@ -35,7 +35,8 @@ const AuthenticationForm = () => {
 
     }
 
-    function emailChange(){
+    function emailChange(event){
+        setEmail(event.target.value)
 
 
     }
