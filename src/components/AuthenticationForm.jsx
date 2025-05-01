@@ -11,7 +11,8 @@ const AuthenticationForm = () => {
     let[password,setPassword]=useState("");
 
 
-    function firstNameChange(){
+    function firstNameChange(event){
+        setFirstName(event.target.value)
 
 
     }
