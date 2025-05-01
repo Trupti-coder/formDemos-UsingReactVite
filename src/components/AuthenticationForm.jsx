@@ -27,9 +27,13 @@ const AuthenticationForm = () => {
     }
 
     function cityNameChange(){
-        
+
     }
 
+    function emailChange(){
+
+        
+    }
 
     function handleSubmit(event){
         event.preventDefault();
