@@ -30,7 +30,8 @@ const AuthenticationForm = () => {
 
     }
 
-    function cityNameChange(){
+    function cityNameChange(event){
+        setCity(event.target.value)
 
     }
 
