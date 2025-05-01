@@ -23,6 +23,10 @@ const AuthenticationForm = () => {
 
     function ageChange(){
 
+
+    }
+
+    function cityNameChange(){
         
     }
 
