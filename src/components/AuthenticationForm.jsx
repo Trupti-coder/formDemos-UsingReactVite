@@ -13,6 +13,11 @@ const AuthenticationForm = () => {
 
     function firstNameChange(){
 
+
+    }
+
+    function lastNameChange(){
+
         
     }
 
