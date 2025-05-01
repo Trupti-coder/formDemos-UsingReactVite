@@ -36,9 +36,10 @@ const AuthenticationForm = () => {
     }
 
 
-    function passwordChange(){
+    function passwordChange(event){
+        setPassword(event.target.value)
 
-        
+
     }
 
     function handleSubmit(event){
