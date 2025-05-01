@@ -45,6 +45,12 @@ const AuthenticationForm = () => {
     function handleSubmit(event){
         event.preventDefault();
 
+        let existingUser;
+
+        if(localStorage.getItem("user")){
+            existingUser=JSON.parse(localStorage.setItem("user"))||[]
+        }
+
 
 
     }
