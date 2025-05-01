@@ -17,7 +17,8 @@ const AuthenticationForm = () => {
 
     }
 
-    function lastNameChange(){
+    function lastNameChange(event){
+        setLastName(event.target.value)
 
 
     }
