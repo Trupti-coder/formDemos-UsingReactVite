@@ -18,6 +18,11 @@ const AuthenticationForm = () => {
 
     function lastNameChange(){
 
+
+    }
+
+    function ageChange(){
+
         
     }
 
