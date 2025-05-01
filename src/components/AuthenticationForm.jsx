@@ -32,6 +32,12 @@ const AuthenticationForm = () => {
 
     function emailChange(){
 
+
+    }
+
+
+    function passwordChange(){
+
         
     }
 
