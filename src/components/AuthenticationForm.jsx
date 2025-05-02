@@ -56,6 +56,9 @@ const AuthenticationForm = () => {
             userLastName:lastName,
             userAge:age,
             userCity:city,
+            userEmail:email,
+
+            
 
         }
 
