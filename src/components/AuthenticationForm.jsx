@@ -87,7 +87,7 @@ const AuthenticationForm = () => {
   return (
    <>
 
-     <div>AuthenticationForm</div>
+     <div className={styles.title}>AuthenticationForm</div>
      <form onSubmit={handleSubmit}>
         <div>
             FirstName:<input type='text' placeholder='Enter Firstname' name='firstName' onChange={firstNameChange} />
