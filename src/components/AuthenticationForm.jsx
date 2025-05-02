@@ -78,6 +78,8 @@ const AuthenticationForm = () => {
 
         existingUser.push(obj);
 
+        localStorage.setItem("user",JSON.stringify(existingUser));
+
 
 
     }
