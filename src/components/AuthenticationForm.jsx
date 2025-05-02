@@ -54,6 +54,8 @@ const AuthenticationForm = () => {
         let obj={
             userFirstName:firstName,
             userLastName:lastName,
+            userAge:age,
+            
 
         }
 
