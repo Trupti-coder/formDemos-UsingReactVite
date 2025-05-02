@@ -51,6 +51,11 @@ const AuthenticationForm = () => {
     function handleSubmit(event){
         event.preventDefault();
 
+        let obj={
+            userFirstName:firstName,
+            
+        }
+
         let existingUser;
 
         if(localStorage.getItem("user")){
@@ -61,6 +66,8 @@ const AuthenticationForm = () => {
             existingUser=[];
 
         }
+
+        existingUser.push()
 
 
 
