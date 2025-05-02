@@ -63,6 +63,8 @@ const AuthenticationForm = () => {
 
         }
 
+        console.log(obj);
+
         let existingUser;
 
         if(localStorage.getItem("user")){
@@ -74,7 +76,7 @@ const AuthenticationForm = () => {
 
         }
 
-        existingUser.push()
+        existingUser.push(obj);
 
 
 
