@@ -57,6 +57,11 @@ const AuthenticationForm = () => {
             existingUser=JSON.parse(localStorage.setItem("user"))||[]
         }
 
+        if(!Array.isArray(existingUser)){
+            existingUser=[];
+
+        }
+
 
 
     }
