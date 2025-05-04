@@ -105,7 +105,7 @@ const AuthenticationForm = () => {
             CityName:<input type='text'  placeholder='Enter CityName' name='cityName'onChange={cityNameChange} required className={styles.input} />
         </div>
         <div>
-            Email:<input type='email' placeholder='Enter Email'  name='email' onChange={emailChange} required />
+            Email:<input type='email' placeholder='Enter Email'  name='email' onChange={emailChange} required className={styles.input} />
         </div>
         <div>
             Password:<input type='password' placeholder='Enter Password' name='password' onChange={passwordChange} required />
