@@ -92,7 +92,7 @@ const AuthenticationForm = () => {
      <div className={styles.title}>AuthenticationForm</div>
      <form onSubmit={handleSubmit} className={styles.form} >
         <div >
-            FirstName:<input type='text' placeholder='Enter Firstname' name='firstName' onChange={firstNameChange} />
+            FirstName:<input type='text' placeholder='Enter Firstname' name='firstName' onChange={firstNameChange} required />
 
         </div>
         <div>
