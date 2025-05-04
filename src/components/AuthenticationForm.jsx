@@ -102,7 +102,7 @@ const AuthenticationForm = () => {
             Age:<input type='number' placeholder='Enter Age' name='age' onChange={ageChange} required />
         </div>
         <div>
-            CityName:<input type='text'  placeholder='Enter CityName' name='cityName'onChange={cityNameChange} />
+            CityName:<input type='text'  placeholder='Enter CityName' name='cityName'onChange={cityNameChange} required />
         </div>
         <div>
             Email:<input type='email' placeholder='Enter Email'  name='email' onChange={emailChange} />
