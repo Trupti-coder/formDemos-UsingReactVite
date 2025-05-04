@@ -69,7 +69,7 @@ const AuthenticationForm = () => {
         let existingUser;
 
         if(localStorage.getItem("user")){
-            existingUser=JSON.parse(localStorage.setItem("user"))||[]
+            existingUser=JSON.parse(localStorage.getItem("user"))||[]
         }
 
         if(!Array.isArray(existingUser)){
