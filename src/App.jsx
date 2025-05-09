@@ -55,6 +55,7 @@ function App() {
 <NewForm />
 <hr></hr>
 <AuthenticationForm />
+<hr></hr>
 
 
 
