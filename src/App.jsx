@@ -15,6 +15,7 @@ import PracticeForm from './components/PracticeForm.jsx';
 import UserLogin from './components/UserLogin.jsx';
 import Form from './components/Form.jsx';
 import NewForm from './components/NewForm.jsx';
+import AuthenticationForm from './components/AuthenticationForm.jsx';
 
 function App() {
   
@@ -52,6 +53,8 @@ function App() {
 <Form />
 <hr></hr>
 <NewForm />
+<hr></hr>
+<AuthenticationForm />
 
 
 
