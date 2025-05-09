@@ -117,4 +117,4 @@ const AuthenticationForm = () => {
   )
 }
 
-export default AuthenticationForm
+export default AuthenticationForm;
