@@ -7,7 +7,7 @@ const TechForm = () => {
     <div>Creating a form </div>
     <form>
         <div>
-            Name:<input type='text' />
+            Name:<input type='text' placeholder='Enter Name' />
         </div>
         <div>
             Email:<input type='email' />
