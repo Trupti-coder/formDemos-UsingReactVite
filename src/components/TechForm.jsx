@@ -1,6 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 const TechForm = () => {
+
+    let[formData,setFormData]=useState({
+        
+    })
   return (
    <>
     <div>TechForm</div>
