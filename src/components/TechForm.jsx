@@ -21,7 +21,9 @@ const TechForm = () => {
         </div>
         City:<select>
             <option>--Select--</option>
-            
+            <option>Pune</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
 
         </select>
         <div>
