@@ -19,6 +19,11 @@ const TechForm = () => {
             <input type='radio' value="Female"/>Female
             <input type='radio' value="Other" />Other
         </div>
+        City:<select>
+            <option>--Select--</option>
+            
+
+        </select>
         <div>
             Email:<input type='email' placeholder='Enter Email' />
         </div>
