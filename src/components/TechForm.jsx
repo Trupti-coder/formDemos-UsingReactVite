@@ -10,7 +10,7 @@ const TechForm = () => {
             Name:<input type='text' placeholder='Enter Name' />
         </div>
         <div>
-    
+         Select Subject:<input type='checkbox' />
         </div>
         <div>
             Email:<input type='email' placeholder='Enter Email' />
