@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const TechForm = () => {
 
     let[formData,setFormData]=useState({
-        
+
     })
   return (
    <>
@@ -11,7 +11,7 @@ const TechForm = () => {
     <div>Creating a form </div>
     <form>
         <div>
-            Name:<input type='text' placeholder='Enter Name' />
+            Name:<input type='text' placeholder='Enter Name' name='name' />
         </div>
         <div>
          Select Subject:<input type='checkbox' value="English" />English
