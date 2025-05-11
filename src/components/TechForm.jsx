@@ -15,6 +15,12 @@ const TechForm = () => {
     });
 
 
+    function handleChange(event){
+
+        
+    }
+
+
 
 
     function handleSubmit(event){
