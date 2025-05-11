@@ -74,6 +74,8 @@ const TechForm = () => {
             Password:<input type='password' placeholder='Enter Password' name='password' />
         </div>
 
+        <button type='submit'>Submit</button>
+
     </form>
 
   </>
