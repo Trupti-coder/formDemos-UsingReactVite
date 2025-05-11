@@ -48,7 +48,7 @@ const TechForm = () => {
     <div>Creating a form </div>
     <form onSubmit={handleSubmit}>
         <div>
-            Name:<input type='text' placeholder='Enter Name' name='name' value={formData.name} />
+            Name:<input type='text' placeholder='Enter Name' name='name' value={formData.name} onChange={handleChange} />
         </div>
         <div>
          Select Subject:<input type='checkbox' value={formData.subject} name='subject' />English
@@ -60,7 +60,7 @@ const TechForm = () => {
             <input type='radio' value={formData.gender} name='gender'/>Female
             <input type='radio' value={formData.gender} name='gender' />Other
         </div>
-        City:<select name='city' value={formData.city}>
+        City:<select name='city' value={formData.city} onChange={handleChange}>
             <option>--Select--</option>
             <option>Pune</option>
             <option>Mumbai</option>
