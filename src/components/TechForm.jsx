@@ -14,8 +14,8 @@ const TechForm = () => {
             Name:<input type='text' placeholder='Enter Name' name='name' />
         </div>
         <div>
-         Select Subject:<input type='checkbox' value="English" />English
-         <input type='checkbox' value="Mathematics" />Mathematics
+         Select Subject:<input type='checkbox' value="English" name='subject' />English
+         <input type='checkbox' value="Mathematics" name='subject' />Mathematics
          <input type='checkbox' value="Social-Science" />Social-Science
         </div>
         <div>
