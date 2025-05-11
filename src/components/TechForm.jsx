@@ -4,6 +4,10 @@ const TechForm = () => {
 
     let[formData,setFormData]=useState({
 
+        name:"",
+        subject:"",
+        
+
     })
   return (
    <>
