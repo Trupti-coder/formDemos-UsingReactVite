@@ -17,7 +17,7 @@ const TechForm = () => {
    <>
     <div>TechForm</div>
     <div>Creating a form </div>
-    <form>
+    <form onSubmit={handleSubmit}>
         <div>
             Name:<input type='text' placeholder='Enter Name' name='name' />
         </div>
