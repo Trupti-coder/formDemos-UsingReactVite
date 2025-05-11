@@ -17,7 +17,7 @@ const TechForm = () => {
 
     function handleChange(event){
 
-        
+
     }
 
 
@@ -48,7 +48,7 @@ const TechForm = () => {
     <div>Creating a form </div>
     <form onSubmit={handleSubmit}>
         <div>
-            Name:<input type='text' placeholder='Enter Name' name='name' />
+            Name:<input type='text' placeholder='Enter Name' name='name' value={formData.name} />
         </div>
         <div>
          Select Subject:<input type='checkbox' value="English" name='subject' />English
