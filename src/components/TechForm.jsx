@@ -8,6 +8,8 @@ const TechForm = () => {
         subject:"",
         gender:"",
         city:"",
+        email:"",
+        password:"",
 
 
     })
