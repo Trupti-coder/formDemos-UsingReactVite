@@ -20,6 +20,12 @@ const TechForm = () => {
     function handleSubmit(event){
         event.preventDefault();
 
+        let existingUser;
+
+        if(localStorage.getItem("formData")){
+            existingUser=JSON.parse(localStorage.getItem(formData));
+        }
+
 
 
 
