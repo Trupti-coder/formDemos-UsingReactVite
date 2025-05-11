@@ -31,6 +31,9 @@ const TechForm = () => {
         }
 
 
+        localStorage.setItem("formData",JSON.stringify(existingUser));
+
+
 
     }
   return (
