@@ -23,7 +23,7 @@ const TechForm = () => {
             <input type='radio' value="Female" name='gender'/>Female
             <input type='radio' value="Other" name='gender' />Other
         </div>
-        City:<select>
+        City:<select name='city'>
             <option>--Select--</option>
             <option>Pune</option>
             <option>Mumbai</option>
