@@ -12,7 +12,11 @@ const TechForm = () => {
         password:"",
 
 
-    })
+    });
+
+    function handleSubmit(){
+        
+    }
   return (
    <>
     <div>TechForm</div>
