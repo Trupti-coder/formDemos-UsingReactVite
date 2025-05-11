@@ -53,7 +53,7 @@ const TechForm = () => {
         <div>
          Select Subject:<input type='checkbox' value={formData.subject} name='subject' />English
          <input type='checkbox' value={formData.subject} name='subject' />Mathematics
-         <input type='checkbox' value="Social-Science" name='subject' />Social-Science
+         <input type='checkbox' value={formData.subject} name='subject' />Social-Science
         </div>
         <div>
             Gender:<input type='radio' value="Male" name='gender' />Male
