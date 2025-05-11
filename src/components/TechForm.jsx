@@ -14,8 +14,15 @@ const TechForm = () => {
 
     });
 
-    function handleSubmit(){
-        
+
+
+
+    function handleSubmit(event){
+        event.preventDefault();
+
+
+
+
     }
   return (
    <>
