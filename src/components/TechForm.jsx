@@ -6,7 +6,9 @@ const TechForm = () => {
 
         name:"",
         subject:"",
-        
+        gender:"",
+        city:"",
+
 
     })
   return (
