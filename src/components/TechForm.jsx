@@ -68,7 +68,7 @@ const TechForm = () => {
 
         </select>
         <div>
-            Email:<input type='email' placeholder='Enter Email' name='email' />
+            Email:<input type='email' placeholder='Enter Email' value={formData.email} name='email' />
         </div>
         <div>
             Password:<input type='password' placeholder='Enter Password' value={formData.password} name='password' />
