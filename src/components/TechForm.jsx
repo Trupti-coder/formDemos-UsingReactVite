@@ -57,7 +57,7 @@ const TechForm = () => {
         </div>
         <div>
             Gender:<input type='radio' value={formData.gender} name='gender' onChange={handleChange} />Male
-            <input type='radio' value={formData.gender} name='gender'/>Female
+            <input type='radio' value={formData.gender} name='gender'onChange={handleChange} />Female
             <input type='radio' value={formData.gender} name='gender' />Other
         </div>
         City:<select name='city' value={formData.city} onChange={handleChange}>
