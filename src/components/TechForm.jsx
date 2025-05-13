@@ -24,7 +24,7 @@ const TechForm = () => {
             [name]:type==='checkbox'?checked:value,
 
 
-    }))
+    }));
 
 
     }
