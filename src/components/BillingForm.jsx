@@ -82,7 +82,7 @@ function BillingForm(){
             <h3>Billing Form In React</h3>
             <form onSubmit={handleSubmit} className={styles.form}>
                 <div>
-                    FirstName:<input type="text" name="firstName" required  value={formData.firstName} onChange={handleChange} className={styles.input} />
+                    FirstName:<input type="text" name="firstName" required  value={formData.firstName} onChange={handleChange} className={styles.input} placeholder="Enter Name" />
                 </div>
                 <div>
                     LastName:<input type="text" name="lastName" required  value={formData.lastName} onChange={handleChange} className={styles.input} />                
