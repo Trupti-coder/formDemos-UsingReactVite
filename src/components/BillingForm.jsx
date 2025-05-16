@@ -120,7 +120,7 @@ function BillingForm(){
                  </select>
                 </div>
                 <div>
-                    Zip-Code:<input type="text" name="zip" pattern="[0-9]{5}" maxLength={5} required value={formData.zip} onChange={handleChange} />
+                    Zip-Code:<input type="text" name="zip" pattern="[0-9]{5}" maxLength={5} required value={formData.zip} onChange={handleChange} placeholder="Enter Zip-Code" />
                 </div>
                 <div>
                     <input type="checkbox" name="shippingAdd" checked={formData.shippingAdd} />Shipping address is same as my Billing Address 
