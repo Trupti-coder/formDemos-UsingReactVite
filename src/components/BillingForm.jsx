@@ -143,7 +143,7 @@ function BillingForm(){
                     Expiration:<input type="month" name="expDate" required onChange={handleChange} className={styles.input} placeholder="Enter Expiration" />
                 </div>
                 <div>
-                    CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} onChange={handleChange} className={styles.input} />
+                    CVV:<input type="text" name="cvv" pattern="[0-9]{3,4} " maxLength={4} onChange={handleChange} className={styles.input}  placeholder="Enter CVV"/>
                 </div>
                 <div>
                     <button type="submit">Continue to checkout</button>
