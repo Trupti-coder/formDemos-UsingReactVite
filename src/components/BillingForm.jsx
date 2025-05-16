@@ -137,7 +137,7 @@ function BillingForm(){
                 </div>
                 <div>
                  Name on Card:<input type="text" name="cardName"  onChange={handleChange} placeholder="Enter Name on Card" />
-                 Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} onChange={handleChange} className={styles.input} />
+                 Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} onChange={handleChange} className={styles.input} placeholder="Enter Credit Card Number" />
                 </div>
                 <div>
                     Expiration:<input type="month" name="expDate" required onChange={handleChange} className={styles.input} />
