@@ -91,7 +91,7 @@ function BillingForm(){
                     UserName:<input type="text" name="userName" required value={formData.userName} onChange={handleChange} className={styles.input} placeholder="Enter UserName" />
                 </div>
                 <div>
-                    Email:<input type="email" name="email" required value={formData.email} onChange={handleChange} className={styles.input} />
+                    Email:<input type="email" name="email" required value={formData.email} onChange={handleChange} className={styles.input} placeholder="Enter Email" />
                 </div>
                 <div>
                    Address:<input type="text" name="address" required  value={formData.address} onChange={handleChange} className={styles.input} />
