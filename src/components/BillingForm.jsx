@@ -136,7 +136,7 @@ function BillingForm(){
                     <input type="checkbox" required name="paymentMethod" onChange={handleChange} checked={formData.paymentMethod==="PayPal"} />PayPal
                 </div>
                 <div>
-                 Name on Card:<input type="text" name="cardName"  onChange={handleChange} />
+                 Name on Card:<input type="text" name="cardName"  onChange={handleChange} placeholder="Enter Name on Card" />
                  Credit card number:<input type="text" name="credit-card" pattern="[0-9]{13,19}" maxLength={19} onChange={handleChange} className={styles.input} />
                 </div>
                 <div>
