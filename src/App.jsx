@@ -16,6 +16,7 @@ import UserLogin from './components/UserLogin.jsx';
 import Form from './components/Form.jsx';
 import NewForm from './components/NewForm.jsx';
 import AuthenticationForm from './components/AuthenticationForm.jsx';
+import TechForm from './components/TechForm.jsx';
 
 function App() {
   
@@ -56,6 +57,7 @@ function App() {
 <hr></hr>
 <AuthenticationForm />
 <hr></hr>
+<TechForm />
 
 
 
