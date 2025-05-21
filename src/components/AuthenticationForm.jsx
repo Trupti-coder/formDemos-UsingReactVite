@@ -13,7 +13,12 @@ const AuthenticationForm = () => {
     const [error, setError] = useState('');
 
     function validate() {
-        
+
+          const nameRegex = /^[a-zA-Z]+$/;
+    const cityRegex = /^[a-zA-Z\s]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    const passwordRegex = /^(?=.*\d).{6,}$/;
+
     }
 
 
