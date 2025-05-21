@@ -84,3 +84,11 @@ button {
     display: flex;
     align-items: center;
   }
+
+  .title {
+  font-size: 28px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2c3e50;
+}
