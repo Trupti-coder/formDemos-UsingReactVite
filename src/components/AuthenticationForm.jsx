@@ -12,6 +12,10 @@ const AuthenticationForm = () => {
     let[password,setPassword]=useState("");
     const [error, setError] = useState('');
 
+    function validate() {
+        
+    }
+
 
     function firstNameChange(event){
         setFirstName(event.target.value)
