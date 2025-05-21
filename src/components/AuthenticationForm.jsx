@@ -10,6 +10,7 @@ const AuthenticationForm = () => {
     let[city,setCity]=useState("");
     let[email,setEmail]=useState("");
     let[password,setPassword]=useState("");
+    const [error, setError] = useState('');
 
 
     function firstNameChange(event){
