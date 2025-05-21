@@ -91,6 +91,7 @@ const AuthenticationForm = () => {
 
      <div className={styles.title}>AuthenticationForm</div>
      <form onSubmit={handleSubmit} className={styles.form} >
+         {error && <div className={styles.error}>{error}</div>}
         <div >
             FirstName:<input type='text' placeholder='Enter Firstname' name='firstName' onChange={firstNameChange} required className={styles.input} />
 
