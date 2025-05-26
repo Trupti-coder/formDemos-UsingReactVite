@@ -59,11 +59,7 @@ function App() {
 <hr></hr>
 <TechForm />
 
-
-
-
-
-      
+ 
     </>
   )
 }
