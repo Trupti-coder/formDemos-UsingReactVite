@@ -28,7 +28,14 @@ const TechForm = () => {
                 subject:checked ? [...prev.subject,value]:prev.subject.filter((subj)=>subj!==value),
             }));
         }
+
         else{
+
+            setFormData(()=>({
+
+
+
+            }));
 
 
         }
