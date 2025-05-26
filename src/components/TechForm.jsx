@@ -19,6 +19,14 @@ const TechForm = () => {
 
         const {name,value,type,checked}=event.target;
 
+        if(type==='checkbox'){
+            setFormData((prev)=>({
+
+
+                
+            }))
+        }
+
       
 
     }
