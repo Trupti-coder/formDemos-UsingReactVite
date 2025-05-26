@@ -97,7 +97,7 @@ const TechForm = () => {
             <option value="">--Select--</option>
             <option value="Pune">Pune</option>
             <option value="Mumbai">Mumbai</option>
-            <option>Delhi</option>
+            <option value="Delhi">Delhi</option>
 
         </select>
         <div>
