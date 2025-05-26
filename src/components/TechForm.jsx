@@ -85,7 +85,7 @@ const TechForm = () => {
         </div>
         <div>
          Select Subject:<input type='checkbox' value='English' name='subject' onChange={handleChange} />English
-         <input type='checkbox' value='Mathematics'  name='subject' onChange={handleChange} />Mathematics
+         <input type='checkbox' value='Mathematics'  name='subject' onChange={handleChange} checked={formData.subjects.includes('Mathematics')} />Mathematics
          <input type='checkbox'value='Social-Science' checked={formData.subject.includes('Mathematics')} name='subject' onChange={handleChange} />Social-Science
         </div>
         <div>
