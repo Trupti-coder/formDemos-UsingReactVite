@@ -33,6 +33,9 @@ const TechForm = () => {
 
             setFormData(()=>({
 
+                ...prev,
+                [name]:value,
+
 
 
             }));
@@ -42,7 +45,7 @@ const TechForm = () => {
 
       
 
-    }
+    };
 
 
 
@@ -59,6 +62,9 @@ const TechForm = () => {
         if(!Array.isArray(existingUser)){
             existingUser=[];
         }
+
+
+        
 
 
         localStorage.setItem("formData",JSON.stringify(existingUser));
