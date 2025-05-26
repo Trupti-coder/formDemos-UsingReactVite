@@ -5,7 +5,7 @@ const TechForm = () => {
     let[formData,setFormData]=useState({
 
         name:"",
-        subject:"",
+        subject:[],
         gender:"",
         city:"",
         email:"",
@@ -23,8 +23,13 @@ const TechForm = () => {
             setFormData((prev)=>({
 
 
-                
-            }))
+                ...prev,
+
+                subject:checked ? [...prev.subject,value]
+            }));
+        }else{
+
+            
         }
 
       
