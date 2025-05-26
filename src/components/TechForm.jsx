@@ -94,7 +94,7 @@ const TechForm = () => {
             <input type='radio' value="Other"  name='gender' checked={formData.gender==='Other'} onChange={handleChange} />Other
         </div>
         City:<select name='city' value={formData.city} onChange={handleChange}>
-            <option>--Select--</option>
+            <option value="">--Select--</option>
             <option>Pune</option>
             <option>Mumbai</option>
             <option>Delhi</option>
