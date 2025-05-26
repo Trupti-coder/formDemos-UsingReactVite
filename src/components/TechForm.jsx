@@ -64,7 +64,7 @@ const TechForm = () => {
         }
 
 
-        
+        existingUser.push(formData);
 
 
         localStorage.setItem("formData",JSON.stringify(existingUser));
