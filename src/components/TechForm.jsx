@@ -25,11 +25,12 @@ const TechForm = () => {
 
                 ...prev,
 
-                subject:checked ? [...prev.subject,value]
+                subject:checked ? [...prev.subject,value]:prev.subject.filter((subj)=>subj!==value),
             }));
-        }else{
+        }
+        else{
 
-            
+
         }
 
       
