@@ -96,7 +96,7 @@ const TechForm = () => {
         City:<select name='city' value={formData.city} onChange={handleChange}>
             <option value="">--Select--</option>
             <option value="Pune">Pune</option>
-            <option>Mumbai</option>
+            <option value="Mumbai">Mumbai</option>
             <option>Delhi</option>
 
         </select>
