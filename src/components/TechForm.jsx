@@ -17,15 +17,9 @@ const TechForm = () => {
 
     function handleChange(event){
 
-        let{name,value,type,checked}=event.target;
+        const {name,value,type,checked}=event.target;
 
-        setFormData((prev)=>({
-            ...prev,
-            [name]:type==='checkbox'?checked:value,
-
-
-    }));
-
+      
 
     }
 
