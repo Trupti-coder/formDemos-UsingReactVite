@@ -5,7 +5,7 @@ const TechForm = () => {
     let[formData,setFormData]=useState({
 
         name:"",
-        subject:[],
+        subjects:[],
         gender:"",
         city:"",
         email:"",
@@ -25,7 +25,7 @@ const TechForm = () => {
 
                 ...prev,
 
-                subject:checked ? [...prev.subject,value]:prev.subject.filter((subj)=>subj!==value),
+                subject:checked ? [...prev.subjects,value]:prev.subjects.filter((subj)=>subj!==value),
             }));
         }
 
@@ -85,8 +85,8 @@ const TechForm = () => {
         </div>
         <div>
          Select Subject:<input type='checkbox' value='English' name='subject' onChange={handleChange}  checked={formData.subjects.includes('English')} />English
-         <input type='checkbox' value='Mathematics'  name='subject' onChange={handleChange} checked={formData.subject.includes('Mathematics')} />Mathematics
-         <input type='checkbox'value='Social-Science' checked={formData.subject.includes('Social-Science')} name='subject' onChange={handleChange} />Social-Science
+         <input type='checkbox' value='Mathematics'  name='subject' onChange={handleChange} checked={formData.subjects.includes('Mathematics')} />Mathematics
+         <input type='checkbox'value='Social-Science' checked={formData.subjects.includes('Social-Science')} name='subject' onChange={handleChange} />Social-Science
         </div>
         <div>
             Gender:<input type='radio' value="Male" checked={formData.gender==='Male'}  name='gender' onChange={handleChange} />Male
